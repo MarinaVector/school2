@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
   height: 100%;
@@ -552,6 +553,71 @@ background: $pink;
   text-align: left;
   color: $yellow;
 }
+
+.question {
+  //font-family: Roboto Condensed;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.7;
+  color: $dark;
+}
+
+.footer {
+  background-color: $gray;
+}
+
+.top-btn {
+  border: 3px solid $yellow;
+  background: $white;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.top-arrow {
+  color:$pink;
+  display: inline-block;
+}
+
+.top-txt {
+  //font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-transform: uppercase;
+  color:$pink;
+}
+
+.stage__stage-number {
+  font-family: Montserrat;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  text-align: center;
+  text-transform: uppercase;
+  color:$pink;
+}
+
+.stage__stage-txt {
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  opacity: 0.7;
+  color: $dark;
+}
+
 
   // Or re-brand the toggle for different applications
 
