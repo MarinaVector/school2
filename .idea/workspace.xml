@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="frontend progress img autor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <workItem from="1606222349765" duration="345000" />
       <workItem from="1606222773644" duration="12908000" />
       <workItem from="1606289766986" duration="11378000" />
-      <workItem from="1606313724804" duration="6376000" />
+      <workItem from="1606313724804" duration="10702000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1606217831025</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606319315307</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="frontend progress img autor">
+      <created>1606322555421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606322555421</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,17 +154,17 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1045" y="260" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606217704568" />
-    <state x="-992" y="260" key="RollbackChangesDialog" timestamp="1606305435409">
+    <state x="-992" y="260" key="RollbackChangesDialog" timestamp="1606375203646">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-992" y="260" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606305435409" />
+    <state x="-992" y="260" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606375203646" />
     <state x="-1383" y="328" key="SettingsEditor" timestamp="1606222703474">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1383" y="328" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606222703474" />
-    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606319443877">
+    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606322562167">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606319443877" />
+    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606322562167" />
   </component>
 </project>
