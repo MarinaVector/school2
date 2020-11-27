@@ -50,17 +50,6 @@ a {
   -o-background-size: cover;
   }
 
-.main-header2 {
-  background-image: url(../img/bruce-mars.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .main-nav,
 .main-nav__nav-links {
   display: flex;
@@ -138,15 +127,18 @@ a {
   display: inline-block;
 }
 
-.about-author {
-  background-image: url(../img/Header-logo.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  //background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+@media screen and (min-device-width: 1000px) {
+  .about-author {
+    background-image: url(../img/Header-logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    //background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 .about-author__title {
@@ -648,7 +640,105 @@ background: $pink;
   color: $dark;
 }
 
+.toggle {
+  display:inline-block;
+  cursor: pointer;
+}
 
-  // Or re-brand the toggle for different applications
+.toggle__check {
+  display: none;
+}
+
+.toggle__coaching,
+.toggle__reload  {
+  width: 400px;
+  height: 55px;
+  overflow: hidden;
+  background: $yellow;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.toggle__coaching {
+  border-radius: 100px 0 0 100px;
+  border-right: 2px solid gray;
+  box-shadow: 5px 5px 20px 0px #000000;
+  overflow: hidden;
+
+}
+
+.toggle__coaching:before,
+.toggle__reload:before {
+  //font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: $dark;
+  opacity: 0.7;
+  content:"";
+  width: 350px;
+  height:55px;
+  display: inline-block;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  //border-right: 10px solid $pink;
+}
+
+.toggle__reload {
+  border-radius: 0 100px 100px 0;
+}
+
+.toggle__coaching:before {
+   content:"Лайф-коучинг";
+   color: $gray;
+   text-transform: uppercase;
+}
+
+.toggle__reload:before {
+   content:"Тотальная перезагрузка";
+   color: $gray;
+   white-space: nowrap;
+   opacity: 0.3;
+   text-transform: uppercase;
+}
+
+input[type="checkbox"].toggle__check + .toggle__coaching:before {
+  //transform: translateX(30px);
+  opacity: 0.5;
+}
+
+input[type="checkbox"].toggle__check + .toggle__coaching + .toggle__reload:before {
+transform: translateX(10px);
+  opacity: 0.5;
+}
+
+input[type="checkbox"].toggle__check:checked + .toggle__coaching:before {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+input[type="checkbox"].toggle__check:checked + .toggle__coaching + + .toggle__reload:before {
+  transform: translateX(-70px);
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Or re-brand the toggle for different applications
 
 
