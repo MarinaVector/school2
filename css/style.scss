@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
- body {
+body {
   //width: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -48,21 +48,21 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  }
+}
 
 .main-nav,
 .main-nav__nav-links {
   display: flex;
   align-items: stretch;
   //display: grid;
- // grid-template-columns: 1fr 1fr 1fr;
+  // grid-template-columns: 1fr 1fr 1fr;
   //grid-template-rows: 1fr;
- // gap: 0px 0px;
+  // gap: 0px 0px;
   //grid-template-areas: ". . .";
 }
 
 .main-nav__nav-link {
-  font-size: 15px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
@@ -72,6 +72,12 @@ a {
   display: inline;
 }
 
+@media screen and (min-device-width: 1000px) {
+  .main-nav__nav-link {
+    font-size: 15px;
+  }
+}
+
 .main-nav__whatsapp-icon {
   color: $white;
 }
@@ -79,10 +85,13 @@ a {
 .main-nav__nav-button {
   text-transform: uppercase;
   color: $yellow;
-  border: 4px solid $yellow;
-  border-radius: 50px;
+  border: 3px solid $yellow;
+  border-radius: 100px;
   padding-left: 10px;
   padding-right: 10px;
+  box-sizing: border-box;
+  width: 171px;
+  height: 34px;
 }
 
 .info-block {
@@ -95,14 +104,20 @@ a {
 }
 
 .info-block__coach-title {
-  font-size: 64px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 89px;
   letter-spacing: 0.155em;
   text-align: center;
   color: $white;
   text-transform: uppercase;
+}
+
+@media screen and (min-device-width: 1000px) {
+  .info-block__coach-title {
+    font-size: 64px;
+    line-height: 89px;
+  }
 }
 
 .info-block__school-title {
@@ -117,7 +132,6 @@ a {
 .info-block__call-btn,
 .about-author__call-btn,
 .call-btn {
-  box-shadow: 5px 5px 20px #000000;
   text-transform: uppercase;
   background-color: $yellow;
   font-weight: bold;
@@ -127,6 +141,16 @@ a {
   display: inline-block;
 }
 
+.info-block__call-btn,
+.call-btn {
+  box-shadow: 5px 5px 20px #000000;
+}
+
+.call-btn {
+  width: 247px;
+  height: 48px;
+  text-align: center;
+}
 
 @media screen and (min-device-width: 1000px) {
   .about-author {
@@ -158,7 +182,7 @@ a {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  }
+}
 
 .about-author__list {
   color: $gray;
@@ -166,7 +190,7 @@ a {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-  }
+}
 
 .about-author__info {
   //font-family: Roboto;
@@ -176,22 +200,41 @@ a {
   line-height: 21px;
   //letter-spacing: 0em;
   text-align: left;
-  color:$dark;
+  color: $dark;
   opacity: 0.7;
 }
 
 .about-author__block {
-  white-space:nowrap;
+
+}
+
+.about-author__call-btn {
+  width: 279px;
+  height: 54px;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+@media screen and (min-device-width: 1000px) {
+  .about-author__block {
+    white-space: nowrap;
+  }
 }
 
 .pink-star {
-  color:$pink;
-  display:inline-block;
-  vertical-align:bottom;
+  color: $pink;
+  display: inline-block;
+  vertical-align: bottom;
 }
 
 .school-product {
-background: $pink;
+  background: $pink;
 }
 
 .school-product__title {
@@ -200,7 +243,7 @@ background: $pink;
   font-weight: 700;
   line-height: 59px;
   text-align: center;
-  color:$yellow;
+  color: $yellow;
   text-transform: uppercase;
 }
 
@@ -220,17 +263,29 @@ background: $pink;
     &:focus ~ label, &:hover ~ label {
       .can-toggle__switch {
         background-color: $yellow;
-        &:after { color: darken($yellow, 10%); }
+
+        &:after {
+          color: darken($yellow, 10%);
+        }
       }
     }
-    &:hover ~label { color: darken($yellow, 5%); }
+
+    &:hover ~ label {
+      color: darken($yellow, 5%);
+    }
+
     &:checked {
       ~ label {
-        &:hover { color: darken($yellow, 3%); }
+        &:hover {
+          color: darken($yellow, 3%);
+        }
 
         .can-toggle__switch {
           background-color: lighten($yellow, 5%);
-          &:after { color: darken($yellow, 5%); }
+
+          &:after {
+            color: darken($yellow, 5%);
+          }
         }
       }
 
@@ -238,7 +293,10 @@ background: $pink;
         ~ label {
           .can-toggle__switch {
             background-color: $yellow;
-            &:after { color: darken($yellow, 10%); }
+
+            &:after {
+              color: darken($yellow, 10%);
+            }
           }
         }
       }
@@ -247,12 +305,18 @@ background: $pink;
 
   label {
 
-    .can-toggle__label-text { flex: 1; }
+    .can-toggle__label-text {
+      flex: 1;
+    }
 
     .can-toggle__switch {
       transition: background-color 0.3s $can-toggle-transition;
       background: lighten($yellow, 5%);
-      &:before { color: $can-toggle-inactive-text; }
+
+      &:before {
+        color: $can-toggle-inactive-text;
+      }
+
       &:after {
         // Autoprefixer choked here, so making the prefixes explicit
         -webkit-transition: -webkit-transform 0.3s $can-toggle-transition;
@@ -264,8 +328,7 @@ background: $pink;
   }
 }
 
-@mixin can-toggle-appearance
-(
+@mixin can-toggle-appearance(
   $can-toggle-width: 472px,
   $can-toggle-height: 55px,
   $can-toggle-border-radius: 100px,
@@ -273,26 +336,35 @@ background: $pink;
   $can-toggle-label-font-size: 14px,
   $can-toggle-switch-font-size: 12px,
   $can-toggle-shadow: 0 3px 3px rgba(black, 0.4)
-){
+) {
   $can-toggle-switch-width: $can-toggle-width/2;
 
   input[type="checkbox"] {
 
     &:focus ~ label, &:hover ~ label {
       .can-toggle__switch {
-        &:after { box-shadow: $can-toggle-shadow; }
+        &:after {
+          box-shadow: $can-toggle-shadow;
+        }
       }
     }
 
     &:checked {
       ~ label {
         .can-toggle__switch {
-          &:after { transform: translate3d($can-toggle-width - ($can-toggle-switch-width + $can-toggle-offset),0,0); }
+          &:after {
+            transform: translate3d($can-toggle-width - ($can-toggle-switch-width + $can-toggle-offset), 0, 0);
+          }
         }
       }
+
       &:focus, &:hover {
         ~ label {
-          .can-toggle__switch { &:after { box-shadow: $can-toggle-shadow; } }
+          .can-toggle__switch {
+            &:after {
+              box-shadow: $can-toggle-shadow;
+            }
+          }
         }
       }
     }
@@ -316,7 +388,8 @@ background: $pink;
       }
 
       &:after {
-        top: $can-toggle-offset; left: $can-toggle-offset;
+        top: $can-toggle-offset;
+        left: $can-toggle-offset;
         border-radius: $can-toggle-border-radius/100 $can-toggle-border-radius/2 $can-toggle-border-radius/2 $can-toggle-border-radius/100;
         width: $can-toggle-switch-width - $can-toggle-offset;
         line-height: $can-toggle-height - ($can-toggle-offset*2);
@@ -332,7 +405,6 @@ background: $pink;
     }
   }
 }
-
 
 
 .can-toggle {
@@ -451,82 +523,82 @@ background: $pink;
   width: 100%;
 }
 
-  .coaching-block__title {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    text-align: left;
-    color:$yellow;
-    text-transform: uppercase;
+.coaching-block__title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color: $yellow;
+  text-transform: uppercase;
 
-  }
+}
 
-  .coaching-block__info {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    text-align: left;
-    text-transform: uppercase;
-    color:$white;
-  }
+.coaching-block__info {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  text-transform: uppercase;
+  color: $white;
+}
 
-  .lesson-txt  {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    color: $white;
-  }
+.lesson-txt {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: $white;
+}
 
-  .skill-title {
-    //font-family: Roboto Condensed;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
-    color: $yellow;
+.skill-title {
+  //font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $yellow;
 
-  }
+}
 
-  .yellow-star {
-    color: $yellow;
-  }
+.yellow-star {
+  color: $yellow;
+}
 
-  .module {
-    background: $pink-light;
-    border-radius: 40px;
-    padding: 40px;
-  }
+.module {
+  background: $pink-light;
+  border-radius: 40px;
+  padding: 40px;
+}
 
-  .module__module-number {
-    //font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    text-align: left;
-    color: $gray;
-    opacity: $opacity70;
+.module__module-number {
+  //font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: $gray;
+  opacity: $opacity70;
 
-  }
+}
 
-  .module__module-period {
-    //font-family: Roboto Condensed;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 21px;
-    //letter-spacing: 0em;
-    text-align: right;
-    color: $gray;
-    opacity: $opacity70;
-    text-transform: uppercase;
-  }
+.module__module-period {
+  //font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 21px;
+  //letter-spacing: 0em;
+  text-align: right;
+  color: $gray;
+  opacity: $opacity70;
+  text-transform: uppercase;
+}
 
 .module__module-title {
   //font-family: Roboto Condensed;
@@ -547,7 +619,7 @@ background: $pink;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-   text-align: left;
+  text-align: left;
   color: $dark;
   opacity: $opacity70;
 }
@@ -601,7 +673,7 @@ background: $pink;
 }
 
 .top-arrow {
-  color:$pink;
+  color: $pink;
   display: inline-block;
 }
 
@@ -613,7 +685,7 @@ background: $pink;
   line-height: 28px;
   text-align: left;
   text-transform: uppercase;
-  color:$pink;
+  color: $pink;
 }
 
 .stage__stage-number {
@@ -624,7 +696,7 @@ background: $pink;
   line-height: 88px;
   text-align: center;
   text-transform: uppercase;
-  color:$pink;
+  color: $pink;
 }
 
 .stage__stage-txt {
@@ -641,7 +713,7 @@ background: $pink;
 }
 
 .toggle {
-  display:inline-block;
+  display: inline-block;
   cursor: pointer;
 }
 
@@ -650,7 +722,7 @@ background: $pink;
 }
 
 .toggle__coaching,
-.toggle__reload  {
+.toggle__reload {
   width: 400px;
   height: 55px;
   overflow: hidden;
@@ -674,14 +746,13 @@ background: $pink;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px;
   letter-spacing: 0em;
   text-align: center;
   color: $dark;
   opacity: 0.7;
-  content:"";
+  content: "";
   width: 350px;
-  height:55px;
+  height: 55px;
   display: inline-block;
   background-size: 30px;
   background-repeat: no-repeat;
@@ -694,17 +765,17 @@ background: $pink;
 }
 
 .toggle__coaching:before {
-   content:"Лайф-коучинг";
-   color: $gray;
-   text-transform: uppercase;
+  content: "Лайф-коучинг";
+  color: $gray;
+  text-transform: uppercase;
 }
 
 .toggle__reload:before {
-   content:"Тотальная перезагрузка";
-   color: $gray;
-   white-space: nowrap;
-   opacity: 0.3;
-   text-transform: uppercase;
+  content: "Тотальная перезагрузка";
+  color: $gray;
+  white-space: nowrap;
+  opacity: 0.3;
+  text-transform: uppercase;
 }
 
 input[type="checkbox"].toggle__check + .toggle__coaching:before {
@@ -713,7 +784,7 @@ input[type="checkbox"].toggle__check + .toggle__coaching:before {
 }
 
 input[type="checkbox"].toggle__check + .toggle__coaching + .toggle__reload:before {
-transform: translateX(10px);
+  transform: translateX(10px);
   opacity: 0.5;
 }
 
@@ -727,16 +798,9 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + + .toggle__re
   opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
+.footer__footer-copyright {
+  color: $white;
+}
 
 
 // Or re-brand the toggle for different applications
