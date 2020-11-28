@@ -18,8 +18,9 @@ li {
   padding: 0;
 }
 
-a {
+a, i {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .main-header {

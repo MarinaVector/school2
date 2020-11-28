@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="frontend footer and btns">
+    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="frontend progress list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +71,7 @@
       <workItem from="1606289766986" duration="11378000" />
       <workItem from="1606313724804" duration="19947000" />
       <workItem from="1606396906272" duration="1036000" />
+      <workItem from="1606559850183" duration="2280000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1606217831025</created>
@@ -139,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606500957537</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="frontend progress list">
+      <created>1606503864404</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606503864404</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +178,8 @@
     <MESSAGE value="frontend table del" />
     <MESSAGE value="frontend toggle progress" />
     <MESSAGE value="frontend footer and btns" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend footer and btns" />
+    <MESSAGE value="frontend progress list" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend progress list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1369" y="160" key="#Plugins" timestamp="1606312987293">
@@ -194,9 +206,9 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1383" y="328" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606222703474" />
-    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606466186708">
+    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606503871482">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606466186708" />
+    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606503871482" />
   </component>
 </project>
