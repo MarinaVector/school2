@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
 body {
   //width: 100%;
@@ -19,6 +20,7 @@ $yellow: #FCF347;
 $dark-gray: #736970;
 $btn-radius: 45px;
 $pink: #CF79BB;
+$pink-bg: #F5E4F1;
 $pink-light: #E7BCDD;
 $gray: #4d4d4d;
 $dark: #000000;
@@ -81,6 +83,8 @@ a, i {
 
 .main-nav__whatsapp-icon {
   color: $white;
+  font-size: 38px;
+  //margin-top: 20px;
 }
 
 .main-nav__nav-button {
@@ -166,7 +170,8 @@ a, i {
   }
 }
 
-.about-author__title {
+.about-author__title,
+.about-coaching__title {
   color: $gray;
   font-style: normal;
   font-weight: bold;
@@ -176,7 +181,8 @@ a, i {
   text-align: center;
 }
 
-.about-author__name {
+.about-author__name,
+.about-coaching__name {
   color: $gray;
   font-style: normal;
   font-weight: bold;
@@ -803,7 +809,70 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + + .toggle__re
   color: $white;
 }
 
+.secondary-navigation {
+  background-color: $pink;
+}
 
+.about-coaching__question,
+.about-coaching__time,
+.life-coaching__program__module {
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.about-coaching__question,
+.life-coaching__program__module {
+  color: $dark;
+}
+
+.about-coaching__time {
+  color: $pink;
+}
+
+.life-coaching__program__title {
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  color: $dark;
+}
+
+.life-coaching__coaching-list__info,
+.life-coaching__coaching-list__date {
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.life-coaching__program__article {
+  font-family: Roboto Condensed;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.coach-module {
+  background-color: $pink-bg;
+  border-radius: 40px;
+}
 // Or re-brand the toggle for different applications
 
 

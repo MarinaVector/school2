@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="frontend progress list">
+      <change afterPath="$PROJECT_DIR$/coaching.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
@@ -34,6 +35,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -71,7 +80,7 @@
       <workItem from="1606289766986" duration="11378000" />
       <workItem from="1606313724804" duration="19947000" />
       <workItem from="1606396906272" duration="1036000" />
-      <workItem from="1606559850183" duration="2280000" />
+      <workItem from="1606559850183" duration="12076000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1606217831025</created>
@@ -150,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606503864404</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="frontend progress list">
+      <created>1606567389177</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606567389177</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,17 +214,19 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1045" y="260" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606217704568" />
-    <state x="-992" y="260" key="RollbackChangesDialog" timestamp="1606466273273">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="660" y="131" key="RollbackChangesDialog" timestamp="1606567972876">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-992" y="260" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606466273273" />
+    <state x="660" y="131" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606567972876" />
     <state x="-1383" y="328" key="SettingsEditor" timestamp="1606222703474">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1383" y="328" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606222703474" />
-    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606503871482">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2" timestamp="1606567396717">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606503871482" />
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606567396717" />
   </component>
 </project>
