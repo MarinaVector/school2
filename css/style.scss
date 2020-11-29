@@ -6,6 +6,7 @@
 
 body {
   //width: 100%;
+  font-family: Roboto Condensed;
   height: 100%;
   overflow-x: hidden;
   background-repeat: no-repeat;
@@ -815,7 +816,8 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + + .toggle__re
 
 .about-coaching__question,
 .about-coaching__time,
-.life-coaching__program__module {
+.life-coaching__program__module,
+.about-coaching__lesson {
   font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
@@ -873,6 +875,28 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + + .toggle__re
   background-color: $pink-bg;
   border-radius: 40px;
 }
+
+.video-block {
+  border-radius: 10px;
+}
+
+.adaptivny-video-rolik {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.adaptivny-video-rolik iframe,
+.adaptivny-video-rolik object,
+.adaptivny-video-rolik embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 // Or re-brand the toggle for different applications
 
 
