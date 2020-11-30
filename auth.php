@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
-<?php require "general-components/head.php"; ?>
+<?php require "head.php"; ?>
 <body>
-<?php require "general-components/nav.php"; ?>
+<header class="secondary-navigation my-0">
+    <?php require "nav.php"; ?>
+</header>
 
 <main>
     <!--login modal-->
@@ -37,6 +39,10 @@
     </div>
 </main>
 
+<<<<<<< HEAD
 <?php include "general-components/footer.php"; ?>
+=======
+<?php include "footer.php"; ?>
+>>>>>>> origin/master
 </body>
 </html>
