@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-<?php require "head.php"; ?>
+<?php require "general-components/head.php"; ?>
 <body>
 <header class="secondary-navigation my-0">
-    <?php require "nav.php"; ?>
+    <?php require "general-components/nav.php"; ?>
 </header>
 
 <main>
@@ -39,10 +39,8 @@
     </div>
 </main>
 
-<<<<<<< HEAD
+
 <?php include "general-components/footer.php"; ?>
-=======
-<?php include "footer.php"; ?>
->>>>>>> origin/master
+
 </body>
 </html>
