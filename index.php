@@ -89,7 +89,8 @@
                     основных жизненных задач человека.Иструменты подбираются индивидуально под запрос клиента.
                 </p>
 
-                <h3 class="skill-title my-5">Что нужно знать и уметь, для того чтобы <br> стать экспертом в Коучинге?</h3>
+                <h3 class="skill-title my-5">Что нужно знать и уметь, для того чтобы <br> стать экспертом в Коучинге?
+                </h3>
                 <div class="row">
                     <ul class="lesson-txt col-lg-6">
                         <li class="skill-title__list">
@@ -142,7 +143,7 @@
 
                     <h2 class="module__module-title">«Домашний Коуч»</h2>
                     <p class="module__module-period pull-right mt-n5">Длительность обучения:
-                       </p>
+                    </p>
                     <p class="module__module-period pull-right">1 месяц</p>
 
                     <ul class="module__module-paragraph">
@@ -186,9 +187,11 @@
 
                 <div class="module p-3 p-lg-5">
                     <p class="module__module-number">Второй модуль</p>
-                    <p class="module__module-period">Длительность обучения:
-                        1 месяц</p>
                     <h2 class="module__module-title">«Эксперт»</h2>
+
+                    <p class="module__module-period pull-right mt-n5">Длительность обучения:
+                    </p>
+                    <p class="module__module-period pull-right">1 месяц</p>
 
                     <ul class="module__module-paragraph">
                         <li class="module__module-list my-3">
@@ -242,7 +245,7 @@
                     <i class="fab fa-whatsapp fa-lg text-white ml-4"></i>
                 </div>
                 <div class="text-center">
-                <a class="pay-btn my-2 my-md-2 pt-md-3 px-3 py-3 mx-auto">перейти к оплате</a>
+                    <a class="pay-btn my-4 my-md-2 pt-md-3 px-3 py-3 mx-auto">перейти к оплате</a>
                 </div>
             </div>
         </div>
@@ -255,45 +258,51 @@
                     <div class="row p-lg-0">
                         <div class="col-lg-2 col-12 p-lg-0">
                             <div class="row">
-                            <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">01</div>
-                            <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-5 mt-md-0">Выбрать коучинг</div>
+                                <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">01</div>
+                                <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-5 mt-md-0">Выбрать коучинг</div>
                             </div>
                         </div>
-                        <div class="col-lg-1 p-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4" src="img/Arrow.svg"
-                                                       alt="large-arrow">
+                        <div class="col-lg-1 p-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4"
+                                                                                   src="img/Arrow.svg"
+                                                                                   alt="large-arrow">
                         </div>
                         <div class="col-lg-2 col-12 p-lg-0">
                             <div class="row">
-                            <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">02</div>
-                            <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-4 mt-md-0">Перейти к оплате
-                                <a class="stage__stage-link">по ссылке</a></div>
+                                <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">02</div>
+                                <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-4 mt-md-0">Перейти к оплате
+                                    <a class="stage__stage-link">по ссылке</a></div>
                             </div>
                         </div>
-                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4" src="img/Arrow.svg"
-                                                       alt="large-arrow">
+                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4"
+                                                                                      src="img/Arrow.svg"
+                                                                                      alt="large-arrow">
                         </div>
                         <div class="col-lg-2 col-12 p-lg-0">
                             <div class="row">
-                            <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">03</div>
-                            <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-3 mt-md-0">После оплаты вы получaeте
-                                доступ к личному кабинету
-                            </div>
+                                <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">03</div>
+                                <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-3 mt-md-0">После оплаты вы
+                                    получaeте
+                                    доступ к личному кабинету
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4 mr-n5" src="img/Arrow.svg"
-                                                       alt="large-arrow">
+                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img
+                                    class="stage__arrow mt-5 ml-n4 mr-n5" src="img/Arrow.svg"
+                                    alt="large-arrow">
                         </div>
                         <div class="col-lg-3 col-12 p-lg-0">
                             <div class="row">
-                            <div class="col-lg-12 col-4 p-0 text-center stage__stage-number ml-n4">04</div>
-                            <div class="col-lg-12 col-8 p-0 stage__stage-txt mt-3 mt-md-0">Приступаете к обучению в личном кабинете</div>
+                                <div class="col-lg-12 col-4 p-0 text-center stage__stage-number ml-md-n4">04</div>
+                                <div class="col-lg-12 col-8 p-0 stage__stage-txt mt-3 mt-md-0">Приступаете к обучению в
+                                    личном кабинете
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-12 p-0 mt-md-5 mb-md-0 mb-2 mt-5">
-                    <a class="col-lg-1 col-8 offset-2 offset-lg-0 p-0 top-btn ml-2 px-4 py-2 mt-5">
+                    <a class="col-lg-1 col-8 offset-2 offset-lg-0 p-0 top-btn ml-md-2 ml-4 px-4 py-2 mt-5">
                         <img class="top-arrow mb-2 mr-1" src="img/Vector.svg"
                              alt="top-arrow"><span class="top-txt">Вверх</span></a>
                 </div>

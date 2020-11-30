@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row p-0">
                 <div class="col-lg-4 col-12 life-coaching__program">
-                    <div class="coach-module my-md-5 p-lg-3">
+                    <div class="coach-module my-md-5 p-lg-3 p-2 mb-2">
                         <h5 class="life-coaching__program__title">Программа обучения</h5>
                         <p class="life-coaching__program__module">1 модуль «Домашний Коуч»</p>
 
@@ -164,7 +164,7 @@
                                         picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
-                        <article class="about-content mt-3 p-2 col-lg-12">
+                        <article class="about-content mt-3 p-2 col-lg-12 my-3 mx-2">
                             Важно!
                             Любое копирование, запись с экрана и передача учебного материала 3-им лицам, строго
                             отслеживается службой безопасности Онлайн Школы. Все права защищены автором, за нарушение

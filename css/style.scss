@@ -375,19 +375,26 @@ div a {
   opacity: $opacity70;
 }
 
+
+@media screen and (min-device-width: 1000px) {
+  .module__module-period {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: -10px;
+  }
+}
  .module__module-period {
   font-family: Roboto Condensed;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: bold;
-  line-height: 21px;
+  line-height: 17px;
   letter-spacing: 0em;
   text-align: right;
   color: $gray;
   opacity: $opacity70;
   text-transform: uppercase;
-   margin-top: -10px;
-}
+ }
 
 .module__module-title {
   font-family: Roboto Condensed;
@@ -608,6 +615,14 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
 
 .footer__footer-copyright {
   color: $white;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  //text-align: center;
+  opacity: 0.5;
 }
 
 .secondary-navigation {
