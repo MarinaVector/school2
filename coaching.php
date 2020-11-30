@@ -1,42 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Life coach soul</title>
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-            crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/c793505908.js" crossorigin="anonymous"></script>
-</head>
+<?php require "general-components/head.php"; ?>
 <body>
 <header class="secondary-navigation my-0">
-    <nav class="nav nav-fill container">
-        <div class="nav-link">
-            <img class="main-nav__nav-logo" src="img/Logo.png" alt="Логотип онлайн школы">
-        </div>
-        <div class="main-nav__nav-links mt-md-4 mx-auto">
-            <a class="main-nav__nav-link nav-link">Об авторе</a>
-            <a class="main-nav__nav-link nav-link" href="coaching.html">Коучинг</a>
-            <a class="main-nav__nav-link nav-link">Обучение</a>
-        </div>
-        <div class="main-nav__nav-links nav-link mt-md-3 mb-lg-0 mb-3">
-            <div class="d-inline">
-                <i class="fab fa-whatsapp main-nav__whatsapp-icon mr-4"></i>
-            </div>
-            <div class="d-inline mb-5">
-                <a class="main-nav__nav-button py-2 px-4">Личный кабинет</a>
-            </div>
-        </div>
-
-    </nav>
+    <?php require "general-components/nav.php"; ?>
 </header>
 
 <main>
@@ -212,27 +179,6 @@
     </section>
 </main>
 
-<footer class="footer container-fluid">
-    <div class="container nav nav-fill">
-        <div class="nav-link">
-            <img class="main-nav__nav-logo" src="img/Logo.png" alt="Логотип онлайн школы">
-        </div>
-        <div class="main-nav__nav-links mt-md-4 mx-auto text-white mt-4">
-            <i class="fab fa-whatsapp ml-2"></i>
-            <i class="fab fa-vk ml-2"></i>
-            <i class="fab fa-facebook-f ml-2"></i>
-            <i class="fab fa-telegram-plane ml-2"></i>
-            <i class="fab fa-odnoklassniki ml-2"></i>
-        </div>
-        <div class="main-nav__nav-links nav-link mt-4">
-
-            <a class="main-nav__nav-button py-2 px-4">Личный кабинет</a>
-        </div>
-
-        <div class="footer__footer-copyright mx-auto mt-4">
-            Все права защищены
-        </div>
-    </div>
-</footer>
+<?php include "general-components/footer.php"; ?>
 </body>
 </html>
