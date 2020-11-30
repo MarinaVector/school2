@@ -102,7 +102,7 @@
                         <div class="col-lg-12 col-12">
                             <h5 class="about-coaching__lesson">1 урок — инструмент «Диагностика по чакрам»
                                 и «Диагностика по древу рода»</h5>
-                            <div class="adaptivny-video-rolik video-block">
+                            <div class="adaptive-video video-block">
                                 <iframe width="834" height="428" src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                                         picture-in-picture" allowfullscreen></iframe>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="col-lg-12 col-12 mt-5">
                             <h5 class="about-coaching__lesson">2 урок — Инструмент «Расширение границ Сознания»</h5>
-                            <div class="adaptivny-video-rolik video-block">
+                            <div class="adaptive-video video-block">
                                 <iframe width="834" height="428" src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                                         picture-in-picture" allowfullscreen></iframe>
@@ -118,7 +118,7 @@
                         </div>
                         <div class="col-lg-12 col-12 mt-5">
                             <h5 class="about-coaching__lesson">3 урок — Инструмент «Сознание Изобилия»</h5>
-                            <div class="adaptivny-video-rolik video-block">
+                            <div class="adaptive-video video-block">
                                 <iframe width="834" height="428" src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                                         picture-in-picture" allowfullscreen></iframe>
@@ -127,7 +127,7 @@
                         <div class="col-lg-12 col-12 mt-5">
                             <h5 class="about-coaching__lesson">4 урок — Инструмент «Работа с убеждениями,
                                 границами, установками»</h5>
-                            <div class="adaptivny-video-rolik video-block">
+                            <div class="adaptive-video video-block">
                                 <iframe width="834" height="428"
                                         src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -137,7 +137,7 @@
                         <div class="col-lg-12 col-12 mt-5">
                             <h5 class="about-coaching__lesson">5 урок — Инструмент «Разборы задач в
                                 Отношениях»</h5>
-                            <div class="adaptivny-video-rolik video-block">
+                            <div class="adaptive-video video-block">
                                 <iframe width="834" height="428"
                                         src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -147,7 +147,7 @@
                         <div class="col-lg-12 col-12 mt-5">
                             <h5 class="about-coaching__lesson">6 урок — Инструмент «Денежный потолок
                                 и возможности человека»</h5>
-                            <div class="adaptivny-video-rolik video-block">
+                            <div class="adaptive-video video-block">
                                 <iframe width="834" height="428"
                                         src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -157,7 +157,7 @@
                         <div class="col-lg-12 col-12 mt-5">
                             <h5 class="about-coaching__lesson">7 урок — Инструмент «Любовь к
                                 себе»</h5>
-                            <div class="adaptivny-video-rolik video-block">
+                            <div class="adaptive-video video-block">
                                 <iframe width="834" height="428"
                                         src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;

@@ -41,7 +41,7 @@ div a {
   text-decoration: none;
   cursor: pointer;
   &:hover {
-   color: $yellow;
+   color: $pink;
    text-decoration: none;
   }
 }
@@ -152,7 +152,8 @@ div a {
 
 .info-block__call-btn,
 .about-author__call-btn,
-.call-btn {
+.call-btn,
+.auth-btn {
   font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
@@ -231,12 +232,12 @@ div a {
 }
 
 .about-author__info {
-  //font-family: Roboto;
+  font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  //letter-spacing: 0em;
+  letter-spacing: 0em;
   text-align: left;
   color: $dark;
   opacity: 0.7;
@@ -287,283 +288,13 @@ div a {
   text-transform: uppercase;
 }
 
-@mixin can-toggle-branding(
-  $can-toggle-off-color: $yellow,
-  $can-toggle-on-color: $yellow,
-  $can-toggle-inactive-text: $gray,
-   $can-toggle-transition: cubic-bezier(0,1,0.5,1)
-) {
-
-  input[type="checkbox"] {
-
-    &[disabled] ~ label {
-      color: rgba($can-toggle-off-color, 0.5);
-    }
-
-    &:focus ~ label, &:hover ~ label {
-      .can-toggle__switch {
-        background-color: $yellow;
-
-        &:after {
-          color: darken($yellow, 10%);
-        }
-      }
-    }
-
-    &:hover ~ label {
-      color: darken($yellow, 5%);
-    }
-
-    &:checked {
-      ~ label {
-        &:hover {
-          color: darken($yellow, 3%);
-        }
-
-        .can-toggle__switch {
-          background-color: lighten($yellow, 5%);
-
-          &:after {
-            color: darken($yellow, 5%);
-          }
-        }
-      }
-
-      &:focus, &:hover {
-        ~ label {
-          .can-toggle__switch {
-            background-color: $yellow;
-
-            &:after {
-              color: darken($yellow, 10%);
-            }
-          }
-        }
-      }
-    }
-  }
-
-  label {
-
-    .can-toggle__label-text {
-      flex: 1;
-    }
-
-    .can-toggle__switch {
-      transition: background-color 0.3s $can-toggle-transition;
-      background: lighten($yellow, 5%);
-
-      &:before {
-        color: $can-toggle-inactive-text;
-      }
-
-      &:after {
-        // Autoprefixer choked here, so making the prefixes explicit
-        -webkit-transition: -webkit-transform 0.3s $can-toggle-transition;
-        transition: transform 0.3s $can-toggle-transition;
-        color: $gray;
-      }
-    }
-
-  }
-}
-
-@mixin can-toggle-appearance(
-  $can-toggle-width: 472px,
-  $can-toggle-height: 55px,
-  $can-toggle-border-radius: 100px,
-  $can-toggle-offset: 2px,
-  $can-toggle-label-font-size: 14px,
-  $can-toggle-switch-font-size: 12px,
-  $can-toggle-shadow: 0 3px 3px rgba(black, 0.4)
-) {
-  $can-toggle-switch-width: $can-toggle-width/2;
-
-  input[type="checkbox"] {
-
-    &:focus ~ label, &:hover ~ label {
-      .can-toggle__switch {
-        &:after {
-          box-shadow: $can-toggle-shadow;
-        }
-      }
-    }
-
-    &:checked {
-      ~ label {
-        .can-toggle__switch {
-          &:after {
-            transform: translate3d($can-toggle-width - ($can-toggle-switch-width + $can-toggle-offset), 0, 0);
-          }
-        }
-      }
-
-      &:focus, &:hover {
-        ~ label {
-          .can-toggle__switch {
-            &:after {
-              box-shadow: $can-toggle-shadow;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  label {
-    font-size: $can-toggle-label-font-size;
-
-    .can-toggle__switch {
-      height: $can-toggle-height;
-      flex: 0 0 $can-toggle-width;
-      border-radius: $can-toggle-border-radius;
-
-      &:before {
-        left: $can-toggle-width/2;
-        border-radius: $can-toggle-border-radius/2 $can-toggle-border-radius/100 $can-toggle-border-radius/100 $can-toggle-border-radius/2;
-        font-size: $can-toggle-switch-font-size;
-        line-height: $can-toggle-height;
-        width: $can-toggle-width/2;
-        padding: 0 12px;
-      }
-
-      &:after {
-        top: $can-toggle-offset;
-        left: $can-toggle-offset;
-        border-radius: $can-toggle-border-radius/100 $can-toggle-border-radius/2 $can-toggle-border-radius/2 $can-toggle-border-radius/100;
-        width: $can-toggle-switch-width - $can-toggle-offset;
-        line-height: $can-toggle-height - ($can-toggle-offset*2);
-        font-size: $can-toggle-switch-font-size;
-      }
-
-      &:hover {
-        &:after {
-          box-shadow: $can-toggle-shadow;
-          border-radius: $can-toggle-border-radius/2 $can-toggle-border-radius/100 $can-toggle-border-radius/100 $can-toggle-border-radius/2;
-        }
-      }
-    }
-  }
-}
-
-
-.can-toggle {
-  position: relative;
-
-  *, *:before, *:after {
-    box-sizing: border-box;
-  }
-
-  //overflow: hidden;
-
-  input[type="checkbox"] {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    &[disabled] ~ label {
-      pointer-events: none;
-
-      .can-toggle__switch {
-        opacity: 0.4;
-      }
-    }
-
-    &:checked {
-      ~ label {
-
-        .can-toggle__switch {
-
-          &:before {
-            content: attr(data-unchecked);
-            left: 0;
-          }
-
-          &:after {
-            content: attr(data-checked);
-          }
-        }
-      }
-
-      &:focus, &:hover {
-        ~ label {
-        }
-      }
-    }
-  }
-
-  label {
-    user-select: none;
-    position: relative;
-    display: flex;
-    align-items: center;
-
-    .can-toggle__label-text {
-      flex: 1;
-      padding-left: 32px;
-    }
-
-    .can-toggle__switch {
-      position: relative;
-
-      &:before {
-        content: attr(data-checked);
-        position: absolute;
-        top: 0;
-        text-transform: uppercase;
-        text-align: center;
-      }
-
-      &:after {
-        content: attr(data-unchecked);
-        position: absolute;
-        z-index: 5;
-        text-transform: uppercase;
-        text-align: center;
-        //background: $yellow;
-        transform: translate3d(0, 0, 0);
-      }
-
-    }
-
-  }
-
-  // Default values for .can-toggle class
-  @include can-toggle-branding;
-  @include can-toggle-appearance;
-
-  // Create toggles of different sizes by overriding the can-toggle-appearance mixin defaults
-  &.can-toggle--size-small {
-    @include can-toggle-appearance(
-                    90px, // Toggle width
-                    28px, // Toggle height
-                    2px, // Toggle border radius
-                    1px, // Offset (distance btw switch and box)
-                    13px, // Label font size
-                    10px, // Switch font size
-                    0 2px 2px rgba(black, 0.4) // Switch shadow on hover/focus
-    );
-  }
-
-  &.can-toggle--size-large {
-    @include can-toggle-appearance(
-                    160px, // Toggle width
-                    50px, // Toggle height
-                    4px, // Toggle border radius
-                    2px, // Offset (distance btw switch and box)
-                    14px, // Label font size
-                    14px, // Switch font size
-                    0 4px 4px rgba(black, 0.4) // Switch shadow on hover/focus
-    );
-  }
-}
-
 .coaching-block {
   width: 100%;
 }
 
 .coaching-block__title {
+  font-family: Roboto Condensed;
+  letter-spacing: 0em;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -575,6 +306,8 @@ div a {
 }
 
 .coaching-block__info {
+  font-family: Roboto Condensed;
+  letter-spacing: 0em;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -585,6 +318,8 @@ div a {
 }
 
 .lesson-txt {
+  font-family: Roboto;
+  letter-spacing: 0em;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -615,6 +350,14 @@ div a {
   padding: 40px;
 }
 
+.module__left {
+  text-align: left;
+}
+
+.module__righr {
+  text-align: right;
+}
+
 .module__module-number {
   font-family: Roboto;
   font-size: 15px;
@@ -624,10 +367,9 @@ div a {
   text-align: left;
   color: $gray;
   opacity: $opacity70;
-
 }
 
-.module__module-period {
+ .module__module-period {
   font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
@@ -638,6 +380,7 @@ div a {
   color: $gray;
   opacity: $opacity70;
   text-transform: uppercase;
+   margin-top: -10px;
 }
 
 .module__module-title {
@@ -712,12 +455,17 @@ div a {
   border-radius: 10px;
 }
 
-.top-arrow {
+.top-arrow,
+.fa-user,
+.fa-lock,
+.social {
   color: $pink;
   display: inline-block;
 }
 
-.top-txt {
+.top-txt,
+.register,
+.omb_authTitle {
   font-family: Roboto Condensed;
   font-size: 24px;
   font-style: normal;
@@ -725,7 +473,15 @@ div a {
   line-height: 28px;
   text-align: left;
   text-transform: uppercase;
-  color: $pink;
+  }
+
+.top-txt,
+.register {
+    color: $pink;
+}
+
+.omb_authTitle {
+   color: $gray;
 }
 
 .stage__stage-number {
@@ -776,7 +532,7 @@ div a {
 .toggle__coaching {
   border-radius: 100px 0 0 100px;
   border-right: 2px solid gray;
-  box-shadow: 5px 5px 20px 0px #000000;
+  //box-shadow: 5px 5px 20px 0px #000000;
   overflow: hidden;
 
 }
@@ -821,12 +577,17 @@ div a {
 
 input[type="checkbox"].toggle__check + .toggle__coaching:before {
   //transform: translateX(30px);
-  opacity: 0.5;
+  opacity: 1;
 }
 
 input[type="checkbox"].toggle__check + .toggle__coaching + .toggle__reload:before {
   transform: translateX(10px);
-  opacity: 0.5;
+  opacity: 0.7;
+}
+
+input[type="checkbox"].toggle__check:checked + .toggle__reload + .toggle__coaching:before {
+  transform: translateX(10px);
+  opacity: 0.7;
 }
 
 input[type="checkbox"].toggle__check:checked + .toggle__coaching:before {
@@ -834,7 +595,7 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching:before {
   opacity: 1;
 }
 
-input[type="checkbox"].toggle__check:checked + .toggle__coaching + + .toggle__reload:before {
+input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__reload:before {
   transform: translateX(-70px);
   opacity: 1;
 }
@@ -913,16 +674,16 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + + .toggle__re
   border-radius: 10px;
 }
 
-.adaptivny-video-rolik {
+.adaptive-video {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
 }
-.adaptivny-video-rolik iframe,
-.adaptivny-video-rolik object,
-.adaptivny-video-rolik embed {
+.adaptive-video iframe,
+.adaptive-video object,
+.adaptive-video embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -936,11 +697,76 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + + .toggle__re
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   border: 3px solid $yellow;
 }
 
+@media (min-width: 768px) {
+  .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+    margin-left: 25%;
+  }
+}
+
+.omb_login .omb_authTitle {
+  text-align: center;
+  line-height: 300%;
+}
+
+.omb_login .omb_socialButtons a {
+  color: white; // In yourUse @body-bg
+  opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+  color: white;
+  opacity:1;
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+
+.omb_login .omb_loginOr {
+  position: relative;
+  font-size: 1.5em;
+  color: $dark;
+  opacity: 0.7;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+  background-color: #cdcdcd;
+  height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -0.6em;
+  margin-left: -1.5em;
+  background-color: white;
+  width: 3em;
+  text-align: center;
+}
+
+.omb_login .omb_loginForm .input-group.i {
+  width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+  color: red;
+}
+
+
+@media (min-width: 768px) {
+  .omb_login .omb_forgotPwd {
+    text-align: right;
+    margin-top:10px;
+  }
+}
 // Or re-brand the toggle for different applications
 
 

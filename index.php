@@ -8,8 +8,8 @@
     <div class="info-block">
         <img class="info-block__info-logo mt-md-5" src="img/image-07-10-20-02-28-2%201.png" alt="">
         <h1 class="info-block__coach-title">Life coach soul</h1>
-        <h3 class="info-block__school-title mb-md-5">Онлайн школа</h3>
-        <a class="info-block__call-btn  my-3 mt-md-5 px-3 py-3">приступить к обучению</a>
+        <h3 class="info-block__school-title mb-md-3">Онлайн школа</h3>
+        <a class="info-block__call-btn  my-3 my-md-5 pt-md-3 px-3 py-3">приступить к обучению</a>
     </div>
 </header>
 
@@ -24,7 +24,7 @@
                     <img class="mt-n3" src="img/Photo.png"
                          alt="Lilit Vag photo">
                 </div>
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-12 mb-md-1">
                     <h5 class="about-author__name my-md-5">Лилит Ваг —</h5>
                     <ul class="about-author__list">
                         <li class="about-author__block  my-3">
@@ -45,8 +45,7 @@
                             <span class="about-author__info">Продюсер Он-лайн проектов</span>
                         </li>
                     </ul>
-                    <a class="about-author__call-btn mt-md-5 my-4">приступить к обучению</a>
-
+                    <a class="about-author__call-btn my-4 my-md-5 pt-md-3 px-3 py-3">приступить к обучению</a>
                 </div>
             </div>
         </div>
@@ -57,17 +56,7 @@
         <div class="container my-md-5 mx-auto">
             <h3 class="school-product__title mb-5">Курсы и продукты школы</h3>
             <div class="can-toggle text-center">
-                <input id="a" type="checkbox">
-                <!--  <label for="a">
-                      <span class="can-toggle__switch mx-auto d-sm-none d-none d-md-block" data-checked="Лайф-Коучинг"
-                            data-unchecked="Тотальная перезагрузка"></span>
 
-                  </label>
-                  <label for="a">
-                      <span class="can-toggle__switch__small-device mx-auto d-block d-sm-none" data-checked="Лайф-Коучинг"
-                            data-unchecked="Тотальная перезагрузка"></span>
-                  </label>
-                  -->
                 <label class="toggle mx-auto d-sm-none d-none d-md-block">
                     <input type="checkbox" class="toggle__check" checked/>
                     <span class="toggle__coaching"></span>
@@ -97,11 +86,10 @@
                 </div>
                 <p class="lesson-txt">
                     Программа курса , Разработана автором школы , для глубинных, экологичных и точечных решений ,
-                    основных
-                    жизненных задач человека.Иструменты подбираются индивидуально под запрос клиента.
+                    основных жизненных задач человека.Иструменты подбираются индивидуально под запрос клиента.
                 </p>
 
-                <h3 class="skill-title my-5">Что нужно знать и уметь, для того чтобы стать экспертом в Коучинге?</h3>
+                <h3 class="skill-title my-5">Что нужно знать и уметь, для того чтобы <br> стать экспертом в Коучинге?</h3>
                 <div class="row">
                     <ul class="lesson-txt col-lg-6">
                         <li class="skill-title__list">
@@ -148,12 +136,16 @@
                     </ul>
                 </div>
                 <div class="module my-md-5 p-3 p-lg-5 mb-3">
-                    <p class="module__module-number">Первый модуль</p>
-                    <p class="module__module-period">Длительность обучения:
-                        1 месяц</p>
-                    <h2 class="module__module-title">«Домашний Коуч»</h2>
 
-                    <ul class="">
+
+                    <p class="module__module-number">Первый модуль</p>
+
+                    <h2 class="module__module-title">«Домашний Коуч»</h2>
+                    <p class="module__module-period pull-right mt-n5">Длительность обучения:
+                       </p>
+                    <p class="module__module-period pull-right">1 месяц</p>
+
+                    <ul class="module__module-paragraph">
                         <li class="module__module-list my-3">
                             <i class="far fa-star pink-star mr-3"></i>
                             <span class="about-author__info">Развитие личных качеств по расширению границ сознания</span>
@@ -198,7 +190,7 @@
                         1 месяц</p>
                     <h2 class="module__module-title">«Эксперт»</h2>
 
-                    <ul class="">
+                    <ul class="module__module-paragraph">
                         <li class="module__module-list my-3">
                             <i class="far fa-star pink-star mr-3"></i>
                             <span class="about-author__info">Все уроки и инструменты от первого модуля</span>
