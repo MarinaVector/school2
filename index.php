@@ -249,7 +249,7 @@
     </section>
     <h3 class="question my-5">Как приступить к обучению?</h3>
     <section class="stage p-lg-0">
-        <div class="container p-lg-0">
+        <div class="container p-lg-0 mb-md-5 mb-2">
             <div class="row p-lg-0">
                 <div class="col-lg-10 col-12 p-lg-0">
                     <div class="row p-lg-0">
@@ -259,7 +259,7 @@
                             <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-5 mt-md-0">Выбрать коучинг</div>
                             </div>
                         </div>
-                        <div class="col-lg-1 p-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 mx-n5" src="img/Arrow.svg"
+                        <div class="col-lg-1 p-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4" src="img/Arrow.svg"
                                                        alt="large-arrow">
                         </div>
                         <div class="col-lg-2 col-12 p-lg-0">
@@ -269,7 +269,7 @@
                                 <a class="stage__stage-link">по ссылке</a></div>
                             </div>
                         </div>
-                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 mx-n5" src="img/Arrow.svg"
+                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4" src="img/Arrow.svg"
                                                        alt="large-arrow">
                         </div>
                         <div class="col-lg-2 col-12 p-lg-0">
@@ -280,19 +280,19 @@
                             </div>
                             </div>
                         </div>
-                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 mx-n5" src="img/Arrow.svg"
+                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4 mr-n5" src="img/Arrow.svg"
                                                        alt="large-arrow">
                         </div>
                         <div class="col-lg-3 col-12 p-lg-0">
                             <div class="row">
-                            <div class="col-lg-12 col-4 p-0 text-center stage__stage-number">04</div>
+                            <div class="col-lg-12 col-4 p-0 text-center stage__stage-number ml-n4">04</div>
                             <div class="col-lg-12 col-8 p-0 stage__stage-txt mt-3 mt-md-0">Приступаете к обучению в личном кабинете</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-12 p-0 mt-md-5 my-4">
+                <div class="col-lg-2 col-12 p-0 mt-md-5 mb-md-0 mb-2 mt-5">
                     <a class="col-lg-1 col-8 offset-2 offset-lg-0 p-0 top-btn ml-2 px-4 py-2 mt-5">
                         <img class="top-arrow mb-2 mr-1" src="img/Vector.svg"
                              alt="top-arrow"><span class="top-txt">Вверх</span></a>
