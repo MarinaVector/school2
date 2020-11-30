@@ -704,18 +704,6 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
   opacity: 1;
 }
 
-.omb_login .omb_socialButtons .omb_btn-facebook {
-  background: #3b5998;
-}
-
-.omb_login .omb_socialButtons .omb_btn-twitter {
-  background: #00aced;
-}
-
-.omb_login .omb_socialButtons .omb_btn-google {
-  background: #c32f10;
-}
-
 .omb_login .omb_loginOr {
   position: relative;
   font-size: 1.5em;
