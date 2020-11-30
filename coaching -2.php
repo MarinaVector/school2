@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-<?php require "general-components/head.php"; ?>
+<?php require "head.php"; ?>
 <body>
 <header class="secondary-navigation my-0">
-    <?php require "general-components/nav.php"; ?>
+    <?php require "nav.php"; ?>
 </header>
 
 <main>
@@ -12,7 +12,7 @@
             <div class="row p-0">
                 <div class="col-lg-12 col-12">
                     <p class="about-coaching__title my-md-1 mt-md-4 pl-0">Лайф-Коучинг 4.0</p>
-                    <h5 class="about-coaching__name my-md-1 text-center">1 модуль «Домашний Коуч»</h5>
+                    <h5 class="about-coaching__name my-md-1 text-center">2 модуль «Эксперт» (тренерский модуль)</h5>
 
                 </div>
             </div>
@@ -24,58 +24,43 @@
         <div class="container">
             <div class="row p-0">
                 <div class="col-lg-4 col-12 life-coaching__program">
-                    <div class="coach-module my-md-5 p-lg-3 p-2 mb-2">
+                    <div class="coach-module my-md-5 p-lg-3">
                         <h5 class="life-coaching__program__title">Программа обучения</h5>
-                        <p class="life-coaching__program__module">1 модуль «Домашний Коуч»</p>
+                        <p class="life-coaching__program__module">2 модуль «Эксперт» (тренерский модуль)</p>
 
 
                         <ul class="life-coaching__group">
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
-                                <span class="life-coaching__coaching-list__info">1 урок — Инструмент
-                                    «Диагностика по чакрам» и «Диагностика по древу рода» (готовые видео уроки)</span>
-                                <div class="life-coaching__coaching-list__date">1 декабря 2020 г.</div>
+                                <span class="life-coaching__coaching-list__info">1 занятие —Как продавать не продавая.
+                                    План продаж с помощью Диагностики. (Доп. инструмент в подарок)</span>
+                                <div class="life-coaching__coaching-list__date">13 января 2021 г. в 19:00</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
-                                <span class="life-coaching__coaching-list__info mt-4">2 урок — Инструмент «Расширение границ Сознания»</span>
-                                <div class="life-coaching__coaching-list__date">7 декабря 2020 г.</div>
+                                <span class="life-coaching__coaching-list__info mt-4">2 занятие — Инструмент «Расширение границ Сознания» (1 часть)</span>
+                                <div class="life-coaching__coaching-list__date">18 января 2021 г. в 19:00</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
-                                <span class="life-coaching__coaching-list__info">3 урок — Инструмент «Сознание Изобилия»</span>
-                                <div class="life-coaching__coaching-list__date">14 декабря 2020 г.</div>
+                                <span class="life-coaching__coaching-list__info">3 занятие — Техника продаж индивидуальных сессий и мастер групп (2 часть)</span>
+                                <div class="life-coaching__coaching-list__date">18 января 2021 г. в 19:00</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
-                                <span class="life-coaching__coaching-list__info">4 урок — Инструмент «Работа с убеждениями, границами, установками»</span>
-                                <div class="life-coaching__coaching-list__date">21 декабря 2020 г.</div>
+                                <span class="life-coaching__coaching-list__info">4 занятие — Как выбрать тему вебинара, составить план вебинара и сделать продажи с открытых вебинаров</span>
+                                <div class="life-coaching__coaching-list__date">24 января 2021 г. в 19:00</div>
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
-                                <span class="life-coaching__coaching-list__info">5 урок — Инструмент «Разборы задач в Отношениях»</span>
-                                <div class="life-coaching__coaching-list__date">28 декабря 2020 г.</div>
+                                <span class="life-coaching__coaching-list__info">5 занятие — Инструмент «Разборы задач в Отношениях»</span>
+                                <div class="life-coaching__coaching-list__date">29 января 2021 г. в 19:00</div>
 
                             </li>
-                            <li class="life-coaching__coaching-list my-2">
-                                <i class="far fa-star pink-star mr-1"></i>
-                                <span class="life-coaching__coaching-list__info"> 6 урок — Инструмент «Денежный потолок
-                            и возможности человека»</span>
-                                <div class="life-coaching__coaching-list__date">4 января 2021 г.</div>
-
-                            </li>
-                            <li class="life-coaching__coaching-list my-2">
-                                <i class="far fa-star pink-star mr-1"></i>
-                                <span class="life-coaching__coaching-list__info">7 урок — Инструмент «Любовь к себе»</span>
-                                <div class="life-coaching__coaching-list__date">10 января 2021 г.</div>
-
-                            </li>
-                            <a class="life-coaching__program__module" href="coaching-2.php">перейти ко 2 модулю
-                                «Эксперт» (тренерский
-                                модуль)</a>
+                            <a class="life-coaching__program__module" href="">перейти к 1 модулю «Домашний Коуч»</a>
 
                             <article class="life-coaching__program__article">
                                 С 3 февраля 2021 г. Принимаются Экзамены на Диплом тренера, который выдаётся по факту
@@ -101,34 +86,36 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12 col-12">
-                            <h5 class="about-coaching__lesson">1 урок — инструмент «Диагностика по чакрам»
-                                и «Диагностика по древу рода»</h5>
-                            <div class="adaptive-video video-block">
+                            <h5 class="about-coaching__lesson">1 занятие —Как продавать не продавая. План продаж
+                                с помощью Диагностики. (Доп. инструмент в подарок)</h5>
+                            <div class="adaptivny-video-rolik video-block">
                                 <iframe width="834" height="428" src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                                         picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col-lg-12 col-12 mt-5">
-                            <h5 class="about-coaching__lesson">2 урок — Инструмент «Расширение границ Сознания»</h5>
-                            <div class="adaptive-video video-block">
+                            <h5 class="about-coaching__lesson">2 занятие — Инструмент «Расширение границ Сознания»
+                                (1 часть)</h5>
+                            <div class="adaptivny-video-rolik video-block">
                                 <iframe width="834" height="428" src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                                         picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col-lg-12 col-12 mt-5">
-                            <h5 class="about-coaching__lesson">3 урок — Инструмент «Сознание Изобилия»</h5>
-                            <div class="adaptive-video video-block">
+                            <h5 class="about-coaching__lesson">3 занятие — Техника продаж индивидуальных сессий и мастер
+                                групп (2 часть)</h5>
+                            <div class="adaptivny-video-rolik video-block">
                                 <iframe width="834" height="428" src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                                         picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col-lg-12 col-12 mt-5">
-                            <h5 class="about-coaching__lesson">4 урок — Инструмент «Работа с убеждениями,
-                                границами, установками»</h5>
-                            <div class="adaptive-video video-block">
+                            <h5 class="about-coaching__lesson">4 занятие — Как выбрать тему вебинара, составить план
+                                вебинара и сделать продажи с открытых вебинаров</h5>
+                            <div class="adaptivny-video-rolik video-block">
                                 <iframe width="834" height="428"
                                         src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -136,36 +123,17 @@
                             </div>
                         </div>
                         <div class="col-lg-12 col-12 mt-5">
-                            <h5 class="about-coaching__lesson">5 урок — Инструмент «Разборы задач в
-                                Отношениях»</h5>
-                            <div class="adaptive-video video-block">
+                            <h5 class="about-coaching__lesson">5 занятие — Инструмент «Разборы задач в Отношениях»</h5>
+                            <div class="adaptivny-video-rolik video-block">
                                 <iframe width="834" height="428"
                                         src="https://www.youtube.com/embed/aO62IcEfA7o"
                                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
                                         picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
-                            <h5 class="about-coaching__lesson">6 урок — Инструмент «Денежный потолок
-                                и возможности человека»</h5>
-                            <div class="adaptive-video video-block">
-                                <iframe width="834" height="428"
-                                        src="https://www.youtube.com/embed/aO62IcEfA7o"
-                                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-                                        picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-12 mt-5">
-                            <h5 class="about-coaching__lesson">7 урок — Инструмент «Любовь к
-                                себе»</h5>
-                            <div class="adaptive-video video-block">
-                                <iframe width="834" height="428"
-                                        src="https://www.youtube.com/embed/aO62IcEfA7o"
-                                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-                                        picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <article class="about-content mt-3 p-2 col-lg-12 my-3 mx-2">
+
+
+                        <article class="about-content mt-3 p-2 col-lg-12">
                             Важно!
                             Любое копирование, запись с экрана и передача учебного материала 3-им лицам, строго
                             отслеживается службой безопасности Онлайн Школы. Все права защищены автором, за нарушение
@@ -180,6 +148,6 @@
     </section>
 </main>
 
-<?php include "general-components/footer.php"; ?>
+<?php include "footer.php"; ?>
 </body>
 </html>
