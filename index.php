@@ -9,7 +9,7 @@
         <img class="info-block__info-logo mt-md-5" src="img/image-07-10-20-02-28-2%201.png" alt="">
         <h1 class="info-block__coach-title">Life coach soul</h1>
         <h3 class="info-block__school-title mb-md-3">Онлайн школа</h3>
-        <a class="info-block__call-btn  my-3 my-md-5 pt-md-3 px-3 py-3">приступить к обучению</a>
+        <a class="info-block__call-btn my-3 my-md-5 pt-md-3 px-3 py-3">приступить к обучению</a>
     </div>
 </header>
 
@@ -181,7 +181,7 @@
                             <span class="about-author__info">И многое многое другое</span>
                         </li>
                     </ul>
-                    <p class="module__module-info">Чат с участниками доступен для Вас Бессрочно!</p>
+                    <p class="module__module-info mt-4">Чат с участниками доступен для Вас Бессрочно!</p>
                 </div>
 
                 <div class="module p-3 p-lg-5">
@@ -235,13 +235,15 @@
                             <span class="about-author__info">Диплом Лайф-Коуча</span>
                         </li>
                     </ul>
-                    <p class="module__module-info">Чат с участниками доступен для Вас Бессрочно!</p>
+                    <p class="module__module-info mt-4">Чат с участниками доступен для Вас Бессрочно!</p>
                 </div>
                 <div class="my-md-5 my-3 text-center">
                     <span class="question-txt">Остались вопросы? через ватсапп можете задать любой вопрос</span>
-                    <i class="fab fa-whatsapp fa-lg text-white ml-2"></i>
+                    <i class="fab fa-whatsapp fa-lg text-white ml-4"></i>
                 </div>
-                <a class="call-btn mb-4">перейти к оплате</a>
+                <div class="text-center">
+                <a class="pay-btn my-2 my-md-2 pt-md-3 px-3 py-3 mx-auto">перейти к оплате</a>
+                </div>
             </div>
         </div>
     </section>

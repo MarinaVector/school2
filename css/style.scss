@@ -153,14 +153,15 @@ div a {
 .info-block__call-btn,
 .about-author__call-btn,
 .call-btn,
-.auth-btn {
+.auth-btn,
+.pay-btn {
   font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   background-color: $yellow;
   color: $gray;
@@ -170,8 +171,13 @@ div a {
 }
 
 .info-block__call-btn,
-.call-btn {
+.call-btn,
+.pay-btn {
   box-shadow: 5px 5px 20px #000000;
+}
+
+.pay-btn {
+  justify-content: center;
 }
 
 .call-btn {
