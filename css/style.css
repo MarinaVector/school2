@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 body {
   font-family: Roboto Condensed;
   height: 100%;
@@ -20,9 +21,13 @@ li {
   padding: 0;
 }
 
-a, i {
+div a {
   text-decoration: none;
   cursor: pointer;
+}
+div a:hover {
+  color: #FCF347;
+  text-decoration: none;
 }
 
 .main-header {
@@ -44,10 +49,12 @@ a, i {
 }
 
 .main-nav__nav-link {
+  font-family: Roboto Condensed;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
+  letter-spacing: 0em;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -74,6 +81,13 @@ a, i {
   box-sizing: border-box;
   width: 171px;
   height: 34px;
+  font-family: Roboto Condensed;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .info-block {
@@ -86,6 +100,7 @@ a, i {
 }
 
 .info-block__coach-title {
+  font-family: Roboto Condensed;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -102,10 +117,13 @@ a, i {
   }
 }
 .info-block__school-title {
+  font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
   color: #FFFFFF;
   text-transform: uppercase;
 }
@@ -113,9 +131,15 @@ a, i {
 .info-block__call-btn,
 .about-author__call-btn,
 .call-btn {
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
   text-transform: uppercase;
   background-color: #FCF347;
-  font-weight: bold;
   color: #4d4d4d;
   padding: 10px;
   border-radius: 45px;
@@ -146,31 +170,39 @@ a, i {
 }
 .about-author__title,
 .about-coaching__title {
-  color: #4d4d4d;
-  font-style: normal;
-  font-weight: bold;
+  font-family: Roboto Condensed;
   font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
   line-height: 59px;
+  letter-spacing: 0em;
+  color: #4d4d4d;
   text-transform: uppercase;
   text-align: center;
 }
 
 .about-author__name,
 .about-coaching__name {
-  color: #4d4d4d;
-  font-style: normal;
-  font-weight: bold;
+  font-family: Roboto Condensed;
   font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
   line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4d4d4d;
   text-transform: uppercase;
 }
 
 .about-author__list {
-  color: #4d4d4d;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Roboto;
   font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4d4d4d;
 }
 
 .about-author__info {
@@ -211,10 +243,12 @@ a, i {
 }
 
 .school-product__title {
+  font-family: Roboto Condensed;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 59px;
+  letter-spacing: 0em;
   text-align: center;
   color: #FCF347;
   text-transform: uppercase;
@@ -461,6 +495,7 @@ a, i {
 }
 
 .skill-title {
+  font-family: Roboto Condensed;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -481,6 +516,7 @@ a, i {
 }
 
 .module__module-number {
+  font-family: Roboto;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -491,10 +527,12 @@ a, i {
 }
 
 .module__module-period {
+  font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
   line-height: 21px;
+  letter-spacing: 0em;
   text-align: right;
   color: #4d4d4d;
   opacity: opacity 0.7;
@@ -502,10 +540,12 @@ a, i {
 }
 
 .module__module-title {
+  font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
   line-height: 21px;
+  letter-spacing: 0em;
   text-align: left;
   color: #4d4d4d;
   opacity: opacity 0.7;
@@ -513,6 +553,7 @@ a, i {
 }
 
 .module__module-list {
+  font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -523,10 +564,12 @@ a, i {
 }
 
 .module__module-info {
+  font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
+  letter-spacing: 0em;
   text-align: left;
   color: #000000;
   opacity: 0.7;
@@ -534,6 +577,7 @@ a, i {
 }
 
 .question-txt {
+  font-family: Roboto Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -544,6 +588,7 @@ a, i {
 }
 
 .question {
+  font-family: Roboto Condensed;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
@@ -572,6 +617,7 @@ a, i {
 }
 
 .top-txt {
+  font-family: Roboto Condensed;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -587,6 +633,7 @@ a, i {
   font-style: normal;
   font-weight: 700;
   line-height: 88px;
+  letter-spacing: 0em;
   text-align: center;
   text-transform: uppercase;
   color: #CF79BB;
@@ -634,6 +681,7 @@ a, i {
 
 .toggle__coaching:before,
 .toggle__reload:before {
+  font-family: Roboto Condensed;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -777,6 +825,17 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.about-content {
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 3px solid #FCF347;
 }
 
 /*# sourceMappingURL=style.css.map */
