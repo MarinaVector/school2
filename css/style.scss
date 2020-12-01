@@ -102,13 +102,10 @@ body {
 
  }
 
-
 .main-nav__nav-logo,
 .fab-icon {
   cursor: pointer;
   }
-
-
 
 ul,
 li {
@@ -121,7 +118,7 @@ div a {
   text-decoration: none;
   cursor: pointer;
   &:hover {
-   color: $pink;
+   color: $yellow;
    text-decoration: none;
   }
 }
@@ -882,6 +879,83 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
     text-align: right;
     margin-top:10px;
   }
+}
+
+//video
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  //background-color: #000000;
+}
+
+.video__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video__media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.video__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  display: none;
+  padding: 0;
+  width: 68px;
+  height: 48px;
+  border: none;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.video__button-shape {
+  fill: #212121;
+  fill-opacity: 0.8;
+}
+
+.video__button-icon {
+  fill: #ffffff;
+}
+
+.video__button:focus {
+  outline: none;
+}
+
+.video:hover .video__button-shape,
+.video__button:focus .video__button-shape {
+  fill: $pink;
+  fill-opacity: 1;
+}
+
+/* Enabled */
+
+.video--enabled {
+  cursor: pointer;
+}
+
+.video--enabled .video__button {
+  display: block;
+}
+
+.page {
+  margin: 0;
+
 }
 // Or re-brand the toggle for different applications
 
