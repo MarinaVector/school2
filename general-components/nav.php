@@ -9,7 +9,7 @@
     </div>
     <div class="main-nav__nav-links nav-link mt-md-3 mb-md-0 mb-4">
         <div class="d-inline">
-            <i class="fab fa-whatsapp main-nav__whatsapp-icon mr-4"></i>
+            <i class="fab fa-whatsapp main-nav__whatsapp-icon mr-2 mr-md-4"></i>
         </div>
         <div class="d-inline mb-5">
             <a class="main-nav__nav-button py-2 px-4" href="auth.php">Личный кабинет</a>

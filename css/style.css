@@ -13,6 +13,62 @@ body {
   margin: 0;
 }
 
+.middle {
+  width: 100%;
+  text-align: center;
+}
+.middle input[type=radio] {
+  display: none;
+}
+.middle input[type=radio]:checked + .box span {
+  color: #CF79BB;
+  text-transform: uppercase;
+  text-align: left;
+}
+.middle input[type=radio]:checked + .box span:before {
+  opacity: 1;
+}
+.middle .box {
+  width: 146px;
+  height: 55px;
+  background-color: #FCF347;
+  will-change: transition;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-family: Roboto Condensed;
+  font-weight: 700;
+}
+.middle .box span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  user-select: none;
+  text-transform: uppercase;
+}
+.middle .box span:before {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: FontAwesome;
+  display: block;
+  opacity: 0;
+  font-weight: normal;
+  color: white;
+}
+.middle .front-end {
+  border-radius: 100px 0 0 100px;
+}
+.middle .front-end span:before {
+  display: inline-block;
+}
+.middle .back-end {
+  border-radius: 0 100px 100px 0;
+}
+.middle .back-end span:before {
+  display: inline-block;
+}
+
 .main-nav__nav-logo,
 .fab-icon {
   cursor: pointer;

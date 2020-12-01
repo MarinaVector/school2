@@ -68,6 +68,25 @@
 
             </div>
 
+
+            <div class="middle d-lg-none">
+                <label>
+                    <input type="radio" name="radio" checked/>
+                    <div class="front-end box">
+                        <span class="pl-3 pt-3">Лайф-коучинг</span>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="radio"/>
+                    <div class="back-end box">
+                        <span class="ml-2 pt-1">Тотальная перезагрузка</span>
+                    </div>
+                </label>
+
+            </div>
+
+
             <div class="coaching-block my-md-5 px-0 container">
                 <div class="row">
                     <div class="col-lg-3 col-12">
