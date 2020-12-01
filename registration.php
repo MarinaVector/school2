@@ -9,7 +9,6 @@
 <main class="my-md-5 main-content">
     <div class="container auth-form bootdey my-md-3">
 
-
         <div class="omb_login">
             <h3 class="omb_authTitle">Регистрация</h3>
             <div class="row omb_row-sm-offset-3">
