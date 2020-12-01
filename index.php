@@ -57,10 +57,13 @@
             <h3 class="school-product__title mb-5">Курсы и продукты школы</h3>
             <div class="can-toggle text-center">
 
-                <label class="toggle mx-auto d-sm-none d-none d-md-block">
-                    <input type="checkbox" class="toggle__check" checked/>
-                    <span class="toggle__coaching"></span>
-                    <span class="toggle__reload"></span>
+                <label class="toggle__coaching">
+                    <input class="first-radio" type="radio" checked name="color" value="indigo">
+                    <span class="first-block">Лайф-коучинг</span>
+                </label>
+                <label class="toggle__reload ml-n1">
+                    <input class="second-radio" type="radio" name="color" value="indigo">
+                    <span class="second-block">Тотальная перезагрузка</span>
                 </label>
 
             </div>

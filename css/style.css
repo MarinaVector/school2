@@ -509,45 +509,63 @@ div a:hover {
 
 .toggle__coaching {
   border-radius: 100px 0 0 100px;
-  border-right: 2px solid gray;
+  box-shadow: 15px 0 25px -5px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 }
 
-.toggle__coaching:before,
-.toggle__reload:before {
+.toggle__coaching,
+.toggle__reload {
   font-family: Roboto Condensed;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0em;
   text-align: center;
-  color: #000000;
-  opacity: 0.7;
-  content: "";
   width: 350px;
   height: 55px;
   display: inline-block;
   background-size: 30px;
   background-repeat: no-repeat;
   transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  color: #4d4d4d;
+  text-transform: uppercase;
 }
 
 .toggle__reload {
   border-radius: 0 100px 100px 0;
+  box-shadow: -10px 0 20px 0px rgba(0, 0, 0, 0.4);
 }
 
-.toggle__coaching:before {
+.toggle__coaching {
   content: "Лайф-коучинг";
-  color: #4d4d4d;
+  color: #A6A6A6;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-.toggle__reload:before {
+.toggle__reload {
   content: "Тотальная перезагрузка";
-  color: #4d4d4d;
+  text-align: center;
+  color: #A6A6A6;
   white-space: nowrap;
-  opacity: 0.3;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.first-radio, .second-radio {
+  opacity: 0;
+  z-index: -1;
+  position: relative;
+}
+
+.toggle__coaching > input:checked + span {
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+.toggle__reload > input:checked + span {
+  color: #4d4d4d;
+  cursor: pointer;
 }
 
 input[type=checkbox].toggle__check + .toggle__coaching:before {
