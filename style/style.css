@@ -134,7 +134,7 @@ div a .main-nav__nav-link:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -166,7 +166,7 @@ div a .main-nav__nav-link:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -202,7 +202,7 @@ div a .main-nav__nav-link:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -213,7 +213,7 @@ div a .main-nav__nav-link:hover {
 .call-btn,
 .auth-btn,
 .pay-btn {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -272,7 +272,7 @@ div a .main-nav__nav-link:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 59px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   color: #4d4d4d;
   text-transform: uppercase;
   text-align: center;
@@ -285,30 +285,30 @@ div a .main-nav__nav-link:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #4d4d4d;
   text-transform: uppercase;
 }
 
 .about-author__list {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #4d4d4d;
 }
 
 .about-author__info {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #000000;
   opacity: 0.7;
@@ -322,7 +322,7 @@ div a .main-nav__nav-link:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -342,12 +342,12 @@ div a .main-nav__nav-link:hover {
 }
 
 .school-product__title {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 59px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #FCF347;
   text-transform: uppercase;
@@ -358,8 +358,8 @@ div a .main-nav__nav-link:hover {
 }
 
 .coaching-block__title {
-  font-family: Roboto Condensed;
-  letter-spacing: 0em;
+  font-family: Roboto Condensed, sans-serif;
+  letter-spacing: 0;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -370,8 +370,8 @@ div a .main-nav__nav-link:hover {
 }
 
 .coaching-block__info {
-  font-family: Roboto Condensed;
-  letter-spacing: 0em;
+  font-family: Roboto Condensed, sans-serif;
+  letter-spacing: 0;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -382,8 +382,8 @@ div a .main-nav__nav-link:hover {
 }
 
 .lesson-txt {
-  font-family: Roboto;
-  letter-spacing: 0em;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -393,7 +393,7 @@ div a .main-nav__nav-link:hover {
 }
 
 .skill-title {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -422,7 +422,7 @@ div a .main-nav__nav-link:hover {
 }
 
 .module__module-number {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -440,12 +440,12 @@ div a .main-nav__nav-link:hover {
   }
 }
 .module__module-period {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: bold;
   line-height: 17px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: right;
   color: #4d4d4d;
   opacity: 0.7;
@@ -453,12 +453,12 @@ div a .main-nav__nav-link:hover {
 }
 
 .module__module-title {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #4d4d4d;
   opacity: 0.7;
@@ -466,7 +466,7 @@ div a .main-nav__nav-link:hover {
 }
 
 .module__module-list {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -477,12 +477,12 @@ div a .main-nav__nav-link:hover {
 }
 
 .module__module-info {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #000000;
   opacity: 0.7;
@@ -490,7 +490,7 @@ div a .main-nav__nav-link:hover {
 }
 
 .question-txt {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -501,12 +501,12 @@ div a .main-nav__nav-link:hover {
 }
 
 .question {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 59px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
   opacity: 0.7;
@@ -536,7 +536,7 @@ div a .main-nav__nav-link:hover {
 .top-txt,
 .register,
 .omb_authTitle {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -555,24 +555,24 @@ div a .main-nav__nav-link:hover {
 }
 
 .stage__stage-number {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: 88px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
   color: #CF79BB;
 }
 
 .stage__stage-txt {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   text-transform: uppercase;
   opacity: 0.7;
@@ -607,11 +607,11 @@ div a .main-nav__nav-link:hover {
 
 .toggle__coaching,
 .toggle__reload {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   width: 350px;
   height: 55px;
@@ -625,7 +625,7 @@ div a .main-nav__nav-link:hover {
 
 .toggle__reload {
   border-radius: 0 100px 100px 0;
-  box-shadow: -10px 0 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: -10px 0 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 .toggle__coaching {
@@ -686,12 +686,12 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
 
 .footer__footer-copyright {
   color: #FFFFFF;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   opacity: 0.5;
 }
 
@@ -703,12 +703,12 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
 .about-coaching__time,
 .life-coaching__program__module,
 .about-coaching__lesson {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   text-transform: uppercase;
 }
@@ -723,12 +723,12 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
 }
 
 .life-coaching__program__title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -736,22 +736,22 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
 
 .life-coaching__coaching-list__info,
 .life-coaching__coaching-list__date {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
 .life-coaching__program__article {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   text-transform: uppercase;
 }
@@ -784,7 +784,7 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
 }
 
 .about-content {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -828,8 +828,8 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
 .omb_login .omb_loginOr .omb_hrOr {
   background-color: #cdcdcd;
   height: 1px;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .omb_login .omb_loginOr .omb_spanOr {

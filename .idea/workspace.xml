@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="diff">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-components/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
       <workItem from="1606313724804" duration="19947000" />
       <workItem from="1606396906272" duration="1036000" />
       <workItem from="1606559850183" duration="26476000" />
-      <workItem from="1606819609294" duration="25010000" />
+      <workItem from="1606819609294" duration="25342000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1606217831025</created>
@@ -236,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606849516598</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="diff">
+      <created>1606850658379</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606850658379</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,10 +307,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1383" y="328" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606222703474" />
-    <state x="489" y="176" key="Vcs.Push.Dialog.v2" timestamp="1606849523240">
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2" timestamp="1606850666838">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606833066019" />
-    <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606849523240" />
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606850666838" />
   </component>
 </project>
