@@ -899,4 +899,8 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
   margin: 0;
 }
 
+input .stage__stage-txt {
+  border-radius: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */

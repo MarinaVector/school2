@@ -956,7 +956,10 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
 
 .page {
   margin: 0;
+}
 
+input .stage__stage-txt {
+  border-radius: 100px;
 }
 // Or re-brand the toggle for different applications
 

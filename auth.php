@@ -12,13 +12,6 @@
 
         <div class="omb_login">
             <h3 class="omb_authTitle">Войдите или <a class="register" href="registration.php">Зарегистрируйтесь</a></h3>
-            <div class="row omb_row-sm-offset-3 omb_socialButtons">
-                <div class="main-nav__nav-links mt-md-4 mx-auto mt-1">
-                    <i class="fab fa-vk social ml-2"></i>
-                    <i class="fab fa-facebook-f social ml-2"></i>
-                    <i class="fab fa-odnoklassniki social ml-2"></i>
-                </div>
-            </div>
 
             <div class="row omb_row-sm-offset-3 omb_loginOr">
                 <div class="col-xs-12 col-sm-6">
