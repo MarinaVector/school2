@@ -71,7 +71,6 @@
                 </label>
             </div>
 
-
             <div class="middle d-lg-none">
                 <label>
                     <input type="radio" name="radio" checked/>
@@ -86,9 +85,7 @@
                         <span class="ml-2 pt-1">Тотальная перезагрузка</span>
                     </div>
                 </label>
-
             </div>
-
 
             <div class="coaching-block my-md-5 px-0 container">
                 <div class="row">
