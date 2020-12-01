@@ -1,124 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-$color: #E7BCDD;
-$white: #FFFFFF;
-$yellow: #FCF347;
-$dark-gray: #736970;
-$btn-radius: 45px;
-$pink: #CF79BB;
-$pink-bg: #F5E4F1;
-$pink-light: #E7BCDD;
-$gray: #4d4d4d;
-$dark: #000000;
-$opacity70: opacity 0.7;
-$opacity50: opacity 0.5;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 body {
-  //width: 100%;
-  //font-family: Roboto Condensed;
   height: 100%;
   overflow-x: hidden;
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
-  }
+}
 
 .wrapper {
-  padding-bottom : 128px;
+  padding-bottom: 128px;
 }
 
 footer {
   position: fixed;
   height: auto;
-  bottom : 0;
+  bottom: 0;
   z-index: 1000;
-  }
-
+}
 
 .middle {
   width: 100%;
   text-align: center;
-
-  input[type="radio"] {
-    display: none;
-    &:checked {
-      + .box {
-
-        span {
-          color: $pink;
-          text-transform: uppercase;
-          text-align: left;
-                    &:before {
-
-            opacity: 1;
-          }
-        }
-      }
-    }
-  }
-
-  .box {
-    width: 146px;
-    height: 55px;
-    background-color: $yellow;
-    will-change: transition;
-    text-align: center;
-    cursor: pointer;
-    position: relative;
-    font-family: Roboto Condensed;
-    font-weight: 700;
-    &:active {
-      //transform: translateY(10px);
-    }
-    span {
-      position: absolute;
-      left: 0;
-      right: 0;
-      font-size: 16px;
-      user-select: none;
-      text-transform: uppercase;
-
-      &:before {
-        font-size: 18px;
-        text-transform: uppercase;
-        font-family: FontAwesome;
-        display: block;
-        opacity: 0;
-        font-weight: normal;
-        color: white;
-      }
-    }
-  }
-  .front-end {
-    border-radius: 100px 0 0 100px;
-
-    span {
-      &:before {
-        display:inline-block;
-      }
-    }
-  }
-  .back-end {
-    border-radius: 0 100px 100px 0;
-    span {
-      &:before {
-
-        display:inline-block;
-      }
-    }
-  }
-
- }
+}
+.middle input[type=radio] {
+  display: none;
+}
+.middle input[type=radio]:checked + .box span {
+  color: #CF79BB;
+  text-transform: uppercase;
+  text-align: left;
+}
+.middle input[type=radio]:checked + .box span:before {
+  opacity: 1;
+}
+.middle .box {
+  width: 146px;
+  height: 55px;
+  background-color: #FCF347;
+  will-change: transition;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-family: Roboto Condensed, serif;
+  font-weight: 700;
+}
+.middle .box span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  user-select: none;
+  text-transform: uppercase;
+}
+.middle .box span:before {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: FontAwesome, sans-serif;
+  display: block;
+  opacity: 0;
+  font-weight: normal;
+  color: white;
+}
+.middle .front-end {
+  border-radius: 100px 0 0 100px;
+}
+.middle .front-end span:before {
+  display: inline-block;
+}
+.middle .back-end {
+  border-radius: 0 100px 100px 0;
+}
+.middle .back-end span:before {
+  display: inline-block;
+}
 
 .main-nav__nav-logo,
 .fab-icon {
   cursor: pointer;
-  }
+}
 
 ul,
 li {
@@ -130,18 +96,27 @@ li {
 div a {
   text-decoration: none;
   cursor: pointer;
-  &:hover {
-   color: $yellow;
-   text-decoration: none;
-  }
+}
+div a .main-nav__nav-link:hover {
+  color: #FCF347;
+  text-decoration: none;
 }
 
+ .info-block__call-btn:hover {
+  color: #CF79BB;
+  text-decoration: none;
+}
+
+ .main-nav__nav-button:hover {
+   color: #FFFFFF;
+   text-decoration: none;
+ }
+
 .main-header {
+    background-image: url(../img/Bg-top.png);
   height: 612px;
   width: auto;
-  background-image: url(../img/Bg-top.png);
   background-size: cover;
-  //background-blend-mode: multiply;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -154,16 +129,15 @@ div a {
 }
 
 .main-nav__nav-link {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 0em;
   text-align: center;
-
   text-transform: uppercase;
-  color: $white;
+  color: #FFFFFF;
   display: inline;
 }
 
@@ -172,31 +146,28 @@ div a {
     font-size: 15px;
   }
 }
-
 .main-nav__whatsapp-icon {
-  color: $white;
+  color: #FFFFFF;
   font-size: 38px;
-  //margin-top: 20px;
 }
 
 .main-nav__nav-button {
   text-transform: uppercase;
-  color: $yellow;
-  border: 3px solid $yellow;
+  color: #FCF347;
+  border: 3px solid #FCF347;
   border-radius: 100px;
   padding-left: 10px;
   padding-right: 10px;
   box-sizing: border-box;
   width: 171px;
   height: 34px;
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 0em;
   text-align: center;
-
 }
 
 .info-block {
@@ -209,13 +180,13 @@ div a {
 }
 
 .info-block__coach-title {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.155em;
   text-align: center;
-  color: $white;
+  color: #FFFFFF;
   text-transform: uppercase;
 }
 
@@ -225,16 +196,15 @@ div a {
     line-height: 89px;
   }
 }
-
 .info-block__school-title {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: center;
-  color: $white;
+  color: #FFFFFF;
   text-transform: uppercase;
 }
 
@@ -248,11 +218,11 @@ div a {
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
-  background-color: $yellow;
-  color: $gray;
+  background-color: #FCF347;
+  color: #4d4d4d;
   padding: 10px;
   border-radius: 45px;
   display: inline-block;
@@ -279,19 +249,17 @@ div a {
     background-image: url(../img/Header-logo.png);
     background-repeat: no-repeat;
     background-position: center center;
-    //background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
 }
-
 .small-bg {
   background-image: url(../img/smal-star.png);
   background-repeat: no-repeat;
   background-position: center center;
-    -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -299,27 +267,27 @@ div a {
 
 .about-author__title,
 .about-coaching__title {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 59px;
   letter-spacing: 0em;
-  color: $gray;
+  color: #4d4d4d;
   text-transform: uppercase;
   text-align: center;
 }
 
 .about-author__name,
 .about-coaching__name {
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  color: $gray;
+  color: #4d4d4d;
   text-transform: uppercase;
 }
 
@@ -331,8 +299,7 @@ div a {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: $gray;
-
+  color: #4d4d4d;
 }
 
 .about-author__info {
@@ -343,25 +310,20 @@ div a {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: $dark;
+  color: #000000;
   opacity: 0.7;
-}
-
-.about-author__block {
-
 }
 
 .about-author__call-btn {
   width: 279px;
   height: 54px;
-  font-family: Roboto Condensed;
+  font-family: Roboto Condensed, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: center;
-
 }
 
 @media screen and (min-device-width: 1000px) {
@@ -369,15 +331,14 @@ div a {
     white-space: nowrap;
   }
 }
-
 .pink-star {
-  color: $pink;
+  color: #CF79BB;
   display: inline-block;
   vertical-align: bottom;
 }
 
 .school-product {
-  background: $pink;
+  background: #CF79BB;
 }
 
 .school-product__title {
@@ -388,7 +349,7 @@ div a {
   line-height: 59px;
   letter-spacing: 0em;
   text-align: center;
-  color: $yellow;
+  color: #FCF347;
   text-transform: uppercase;
 }
 
@@ -404,9 +365,8 @@ div a {
   font-weight: 700;
   line-height: 21px;
   text-align: left;
-  color: $yellow;
+  color: #FCF347;
   text-transform: uppercase;
-
 }
 
 .coaching-block__info {
@@ -418,7 +378,7 @@ div a {
   line-height: 21px;
   text-align: left;
   text-transform: uppercase;
-  color: $white;
+  color: #FFFFFF;
 }
 
 .lesson-txt {
@@ -429,7 +389,7 @@ div a {
   font-weight: 400;
   line-height: 21px;
   text-align: left;
-  color: $white;
+  color: #FFFFFF;
 }
 
 .skill-title {
@@ -440,16 +400,15 @@ div a {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  color: $yellow;
-
+  color: #FCF347;
 }
 
 .yellow-star {
-  color: $yellow;
+  color: #FCF347;
 }
 
 .module {
-  background: $pink-light;
+  background: #E7BCDD;
   border-radius: 40px;
   padding: 40px;
 }
@@ -469,10 +428,9 @@ div a {
   font-weight: 400;
   line-height: 18px;
   text-align: left;
-  color: $gray;
-  opacity: $opacity70;
+  color: #4d4d4d;
+  opacity: 0.7;
 }
-
 
 @media screen and (min-device-width: 1000px) {
   .module__module-period {
@@ -481,7 +439,7 @@ div a {
     margin-top: -10px;
   }
 }
- .module__module-period {
+.module__module-period {
   font-family: Roboto Condensed;
   font-size: 15px;
   font-style: normal;
@@ -489,10 +447,10 @@ div a {
   line-height: 17px;
   letter-spacing: 0em;
   text-align: right;
-  color: $gray;
-  opacity: $opacity70;
+  color: #4d4d4d;
+  opacity: 0.7;
   text-transform: uppercase;
- }
+}
 
 .module__module-title {
   font-family: Roboto Condensed;
@@ -502,8 +460,8 @@ div a {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: $gray;
-  opacity: $opacity70;
+  color: #4d4d4d;
+  opacity: 0.7;
   text-transform: uppercase;
 }
 
@@ -514,8 +472,8 @@ div a {
   font-weight: 400;
   line-height: 21px;
   text-align: left;
-  color: $dark;
-  opacity: $opacity70;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .module__module-info {
@@ -526,7 +484,7 @@ div a {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: $dark;
+  color: #000000;
   opacity: 0.7;
   text-transform: uppercase;
 }
@@ -539,7 +497,7 @@ div a {
   line-height: 21px;
   text-transform: uppercase;
   text-align: left;
-  color: $yellow;
+  color: #FCF347;
 }
 
 .question {
@@ -552,16 +510,16 @@ div a {
   text-align: center;
   text-transform: uppercase;
   opacity: 0.7;
-  color: $dark;
+  color: #000000;
 }
 
 .footer {
-  background-color: $gray;
+  background-color: #4d4d4d;
 }
 
 .top-btn {
-  border: 3px solid $yellow;
-  background: $white;
+  border: 3px solid #FCF347;
+  background: #FFFFFF;
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -571,7 +529,7 @@ div a {
 .fa-lock,
 .fa-envelope,
 .social {
-  color: $pink;
+  color: #CF79BB;
   display: inline-block;
 }
 
@@ -585,15 +543,15 @@ div a {
   line-height: 28px;
   text-align: left;
   text-transform: uppercase;
-  }
+}
 
 .top-txt,
 .register {
-    color: $pink;
+  color: #CF79BB;
 }
 
 .omb_authTitle {
-   color: $gray;
+  color: #4d4d4d;
 }
 
 .stage__stage-number {
@@ -605,7 +563,7 @@ div a {
   letter-spacing: 0em;
   text-align: center;
   text-transform: uppercase;
-  color: $pink;
+  color: #CF79BB;
 }
 
 .stage__stage-txt {
@@ -618,13 +576,13 @@ div a {
   text-align: left;
   text-transform: uppercase;
   opacity: 0.7;
-  color: $dark;
+  color: #000000;
 }
 
 .toggle {
   display: inline-block;
   cursor: pointer;
-  }
+}
 
 .toggle__check {
   display: none;
@@ -635,7 +593,7 @@ div a {
   width: 400px;
   height: 55px;
   overflow: hidden;
-  background: $yellow;
+  background: #FCF347;
   padding: 10px;
   display: inline-block;
   position: relative;
@@ -643,11 +601,8 @@ div a {
 
 .toggle__coaching {
   border-radius: 100px 0 0 100px;
-  //border-right: 1px solid gray;
-  //box-shadow: 5px 5px 20px 0px #000000;
-  box-shadow: 15px 0 25px -5px rgba(0, 0, 0, .4);
+  box-shadow: 15px 0 25px -5px rgba(0, 0, 0, 0.4);
   overflow: hidden;
-
 }
 
 .toggle__coaching,
@@ -658,21 +613,19 @@ div a {
   font-weight: 700;
   letter-spacing: 0em;
   text-align: center;
-  //opacity: 0.7;
   width: 350px;
   height: 55px;
   display: inline-block;
   background-size: 30px;
   background-repeat: no-repeat;
   transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  color: $gray;
+  color: #4d4d4d;
   text-transform: uppercase;
-  //border-right: 10px solid $pink;
 }
 
 .toggle__reload {
   border-radius: 0 100px 100px 0;
-  box-shadow: -10px 0 20px 0px rgba(0, 0, 0, .4);
+  box-shadow: -10px 0 20px 0px rgba(0, 0, 0, 0.4);
 }
 
 .toggle__coaching {
@@ -687,7 +640,6 @@ div a {
   text-align: center;
   color: #A6A6A6;
   white-space: nowrap;
-  //opacity: 0.5;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -697,55 +649,54 @@ div a {
   z-index: -1;
   position: relative;
 }
-.toggle__coaching>input:checked+span {
-  color: $gray;
+
+.toggle__coaching > input:checked + span {
+  color: #4d4d4d;
   cursor: pointer;
 }
 
-.toggle__reload>input:checked+span {
-  color: $gray;
+.toggle__reload > input:checked + span {
+  color: #4d4d4d;
   cursor: pointer;
 }
 
-input[type="checkbox"].toggle__check + .toggle__coaching:before {
-  //transform: translateX(30px);
+input[type=checkbox].toggle__check + .toggle__coaching:before {
   opacity: 1;
 }
 
-input[type="checkbox"].toggle__check + .toggle__coaching + .toggle__reload:before {
+input[type=checkbox].toggle__check + .toggle__coaching + .toggle__reload:before {
   transform: translateX(10px);
   opacity: 0.7;
 }
 
-input[type="checkbox"].toggle__check:checked + .toggle__reload + .toggle__coaching:before {
+input[type=checkbox].toggle__check:checked + .toggle__reload + .toggle__coaching:before {
   transform: translateX(10px);
   opacity: 0.7;
 }
 
-input[type="checkbox"].toggle__check:checked + .toggle__coaching:before {
+input[type=checkbox].toggle__check:checked + .toggle__coaching:before {
   transform: translateX(0px);
   opacity: 1;
 }
 
-input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__reload:before {
+input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__reload:before {
   transform: translateX(-70px);
   opacity: 1;
 }
 
 .footer__footer-copyright {
-  color: $white;
+  color: #FFFFFF;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0em;
-  //text-align: center;
   opacity: 0.5;
 }
 
 .secondary-navigation {
-  background-color: $pink;
+  background-color: #CF79BB;
 }
 
 .about-coaching__question,
@@ -764,11 +715,11 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
 
 .about-coaching__question,
 .life-coaching__program__module {
-  color: $dark;
+  color: #000000;
 }
 
 .about-coaching__time {
-  color: $pink;
+  color: #CF79BB;
 }
 
 .life-coaching__program__title {
@@ -780,7 +731,7 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
   letter-spacing: 0em;
   text-align: center;
   text-transform: uppercase;
-  color: $dark;
+  color: #000000;
 }
 
 .life-coaching__coaching-list__info,
@@ -806,7 +757,7 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
 }
 
 .coach-module {
-  background-color: $pink-bg;
+  background-color: #F5E4F1;
   border-radius: 40px;
 }
 
@@ -821,6 +772,7 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
   height: 0;
   overflow: hidden;
 }
+
 .adaptive-video iframe,
 .adaptive-video object,
 .adaptive-video embed {
@@ -839,45 +791,47 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
   line-height: 21px;
   letter-spacing: 0;
   text-align: left;
-  border: 3px solid $yellow;
+  border: 3px solid #FCF347;
 }
 
 @media (min-width: 768px) {
-  .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+  .omb_row-sm-offset-3 div:first-child[class*=col-] {
     margin-left: 25%;
   }
 }
-
 .omb_login .omb_authTitle {
   text-align: center;
   line-height: 300%;
 }
 
 .omb_login .omb_socialButtons a {
-  color: white; // In yourUse @body-bg
-  opacity:0.9;
+  color: white;
+  opacity: 0.9;
 }
+
 .omb_login .omb_socialButtons a:hover {
   color: white;
-  opacity:1;
+  opacity: 1;
 }
 
 .omb_login .omb_loginOr {
   position: relative;
   font-size: 1.5em;
-  color: $dark;
+  color: #000000;
   opacity: 0.7;
   margin-top: 1em;
   margin-bottom: 1em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
 .omb_login .omb_loginOr .omb_hrOr {
   background-color: #cdcdcd;
   height: 1px;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
+
 .omb_login .omb_loginOr .omb_spanOr {
   display: block;
   position: absolute;
@@ -892,26 +846,22 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
 .omb_login .omb_loginForm .input-group.i {
   width: 2em;
 }
-.omb_login .omb_loginForm  .help-block {
+
+.omb_login .omb_loginForm .help-block {
   color: red;
 }
-
 
 @media (min-width: 768px) {
   .omb_login .omb_forgotPwd {
     text-align: right;
-    margin-top:10px;
+    margin-top: 10px;
   }
 }
-
-//video
-
 .video {
   position: relative;
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
-  //background-color: #000000;
 }
 
 .video__link {
@@ -965,12 +915,11 @@ input[type="checkbox"].toggle__check:checked + .toggle__coaching + +  .toggle__r
 
 .video:hover .video__button-shape,
 .video__button:focus .video__button-shape {
-  fill: $pink;
+  fill: #CF79BB;
   fill-opacity: 1;
 }
 
 /* Enabled */
-
 .video--enabled {
   cursor: pointer;
 }
@@ -995,7 +944,4 @@ div label .checkbox {
   padding-right: 8px !important;
 }
 
-
-// Or re-brand the toggle for different applications
-
-
+/*# sourceMappingURL=style.css.map */
