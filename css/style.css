@@ -13,6 +13,17 @@ body {
   margin: 0;
 }
 
+.wrapper {
+  padding-bottom: 128px;
+}
+
+footer {
+  position: fixed;
+  height: auto;
+  bottom: 0;
+  z-index: 1000;
+}
+
 .middle {
   width: 100%;
   text-align: center;
@@ -93,10 +104,8 @@ div a:hover {
 .main-header {
   height: 612px;
   width: auto;
-  background-image: url(../img/bruce-mars.jpg);
+  background-image: url(../img/Bg-top.png);
   background-size: cover;
-  background-color: rgba(207, 121, 187, 0.5);
-  background-blend-mode: multiply;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -235,6 +244,16 @@ div a:hover {
     background-size: cover;
   }
 }
+.small-bg {
+  background-image: url(../img/smal-star.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .about-author__title,
 .about-coaching__title {
   font-family: Roboto Condensed;
@@ -868,12 +887,15 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
 }
 
 .video__button-shape {
-  fill: #212121;
-  fill-opacity: 0.8;
+  fill: #ffffff;
+  fill-opacity: 0.3;
+  width: 130px;
+  height: 130px;
 }
 
 .video__button-icon {
   fill: #ffffff;
+  border-radius: 4px;
 }
 
 .video__button:focus {
@@ -901,6 +923,14 @@ input[type=checkbox].toggle__check:checked + .toggle__coaching + + .toggle__relo
 
 input .stage__stage-txt {
   border-radius: 100px;
+}
+
+.main-content {
+  margin-bottom: 158px;
+}
+
+div label .checkbox {
+  padding-right: 8px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

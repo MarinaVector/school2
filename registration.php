@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php require "general-components/head.php"; ?>
-<body>
+<body class="wrapper">
 <header class="secondary-navigation my-0">
     <?php require "general-components/nav.php"; ?>
 </header>
 
-<main class="my-5">
-    <div class="container auth-form bootdey my-3">
+<main class="my-md-5 main-content">
+    <div class="container auth-form bootdey my-md-3">
 
 
         <div class="omb_login">
@@ -36,7 +36,7 @@
                             <input type="password" class="form-control stage__stage-txt" name="password"
                                    placeholder="Повтор пароля">
                         </div>
-                        <div class="mx-auto">
+                        <div class="text-center">
                             <button class="auth-btn border-0 my-3" type="submit">Зарегистрироваться</button>
                         </div>
                     </form>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php require "general-components/head.php"; ?>
-<body class="container-fluid p-0">
+<body class="container-fluid wrapper p-0">
 
 <header class="main-header pb-5">
     <?php require "general-components/nav.php"; ?>
@@ -13,7 +13,7 @@
     </div>
 </header>
 
-<main>
+<main class="main-content">
     <section class="about-author container-fluid px-0">
         <div class="container">
             <div class="row p-o">
@@ -22,6 +22,10 @@
                 </div>
                 <div class="col-lg-6 col-12 d-sm-none d-none d-md-block">
                     <img class="mt-n3" src="img/Photo.png"
+                         alt="Lilit Vag photo">
+                </div>
+                <div class="col-12 mx-auto d-block d-md-none small-bg">
+                    <img class="mt-n3" src="img/sm-autor.png"
                          alt="Lilit Vag photo">
                 </div>
                 <div class="col-lg-6 col-12 mb-md-1">
@@ -65,7 +69,6 @@
                     <input class="second-radio" type="radio" name="color" value="indigo">
                     <span class="second-block">Тотальная перезагрузка</span>
                 </label>
-
             </div>
 
 
@@ -281,7 +284,9 @@
                         <div class="col-lg-2 col-12 p-lg-0">
                             <div class="row">
                                 <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">01</div>
-                                <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-5 mt-md-0 ml-lg-4">Выбрать коучинг</div>
+                                <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-5 mt-md-0 ml-lg-4">Выбрать
+                                    коучинг
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-1 p-0 d-sm-none d-none d-xl-block"><img class="stage__arrow mt-5 ml-n4"
@@ -319,15 +324,15 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="col-lg-1 p-0 d-sm-none d-none d-xl-block"><img class="stage__arrow mt-5 ml-n4"
-                                                                               src="img/Arrow.svg"
-                                                                               alt="large-arrow">
-                    </div>
-                    <div class="col-lg-1 p-0 d-sm-none d-none d-xl-none d-lg-block"><img
-                                class="stage__arrow mt-5 ml-n4"
-                                src="img/arrow-sm.png"
-                                alt="small-arrow">
-                    </div>
+                        <div class="col-lg-1 p-0 d-sm-none d-none d-xl-block"><img class="stage__arrow mt-5 ml-n4"
+                                                                                   src="img/Arrow.svg"
+                                                                                   alt="large-arrow">
+                        </div>
+                        <div class="col-lg-1 p-0 d-sm-none d-none d-xl-none d-lg-block"><img
+                                    class="stage__arrow mt-5 ml-n4"
+                                    src="img/arrow-sm.png"
+                                    alt="small-arrow">
+                        </div>
                         <div class="col-lg-3 col-12 p-lg-0">
                             <div class="row">
                                 <div class="col-lg-12 col-4 p-0 text-center stage__stage-number ml-lg-n4">04</div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php require "general-components/head.php"; ?>
-<body>
+<body class="wrapper">
 <header class="secondary-navigation my-0">
     <?php require "general-components/nav.php"; ?>
 </header>
@@ -32,34 +32,34 @@
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info">1 занятие —Как продавать не продавая.
                                     План продаж с помощью Диагностики. (Доп. инструмент в подарок)</span>
-                                <div class="life-coaching__coaching-list__date">13 января 2021 г. в 19:00</div>
+                                <div class="life-coaching__coaching-list__date text-danger">13 января 2021 г. в 19:00</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info mt-4">2 занятие — Инструмент «Расширение
                                     границ Сознания» (1 часть)</span>
-                                <div class="life-coaching__coaching-list__date">18 января 2021 г. в 19:00</div>
+                                <div class="life-coaching__coaching-list__date text-danger">18 января 2021 г. в 19:00</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info">3 занятие — Техника продаж
                                     индивидуальных сессий и мастер групп (2 часть)</span>
-                                <div class="life-coaching__coaching-list__date">18 января 2021 г. в 19:00</div>
+                                <div class="life-coaching__coaching-list__date text-danger">18 января 2021 г. в 19:00</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info">4 занятие — Как выбрать тему вебинара,
                                     составить план вебинара и сделать продажи с открытых вебинаров</span>
-                                <div class="life-coaching__coaching-list__date">24 января 2021 г. в 19:00</div>
+                                <div class="life-coaching__coaching-list__date text-danger">24 января 2021 г. в 19:00</div>
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info">5 занятие — Инструмент «Разборы задач
                                     в Отношениях»</span>
-                                <div class="life-coaching__coaching-list__date">29 января 2021 г. в 19:00</div>
+                                <div class="life-coaching__coaching-list__date text-danger">29 января 2021 г. в 19:00</div>
 
                             </li>
                             <a class="life-coaching__program__module" href="">перейти к 1 модулю «Домашний Коуч»</a>

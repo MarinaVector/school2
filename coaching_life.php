@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php require "general-components/head.php"; ?>
-<body class="page">
+<body class="page wrapper">
 <header class="secondary-navigation my-0">
     <?php require "general-components/nav.php"; ?>
 </header>
@@ -34,43 +34,43 @@
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info">1 урок — Инструмент
                                     «Диагностика по чакрам» и «Диагностика по древу рода» (готовые видео уроки)</span>
-                                <div class="life-coaching__coaching-list__date">1 декабря 2020 г.</div>
+                                <div class="life-coaching__coaching-list__date text-danger">1 декабря 2020 г.</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info mt-4">2 урок — Инструмент «Расширение границ Сознания»</span>
-                                <div class="life-coaching__coaching-list__date">7 декабря 2020 г.</div>
+                                <div class="life-coaching__coaching-list__date text-danger">7 декабря 2020 г.</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info">3 урок — Инструмент «Сознание Изобилия»</span>
-                                <div class="life-coaching__coaching-list__date">14 декабря 2020 г.</div>
+                                <div class="life-coaching__coaching-list__date text-danger">14 декабря 2020 г.</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info">4 урок — Инструмент «Работа с убеждениями, границами, установками»</span>
-                                <div class="life-coaching__coaching-list__date">21 декабря 2020 г.</div>
+                                <div class="life-coaching__coaching-list__date text-danger">21 декабря 2020 г.</div>
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info">5 урок — Инструмент «Разборы задач в Отношениях»</span>
-                                <div class="life-coaching__coaching-list__date">28 декабря 2020 г.</div>
+                                <div class="life-coaching__coaching-list__date text-danger">28 декабря 2020 г.</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info"> 6 урок — Инструмент «Денежный потолок
                             и возможности человека»</span>
-                                <div class="life-coaching__coaching-list__date">4 января 2021 г.</div>
+                                <div class="life-coaching__coaching-list__date text-danger">4 января 2021 г.</div>
 
                             </li>
                             <li class="life-coaching__coaching-list my-2">
                                 <i class="far fa-star pink-star mr-1"></i>
                                 <span class="life-coaching__coaching-list__info">7 урок — Инструмент «Любовь к себе»</span>
-                                <div class="life-coaching__coaching-list__date">10 января 2021 г.</div>
+                                <div class="life-coaching__coaching-list__date text-danger">10 января 2021 г.</div>
 
                             </li>
                             <a class="life-coaching__program__module" href="coaching_expert.php">перейти ко 2 модулю
