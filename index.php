@@ -301,8 +301,8 @@
                         <div class="col-lg-2 col-12 p-lg-0">
                             <div class="row">
                                 <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">02</div>
-                                <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-4 mt-md-0">Перейти к оплате
-                                    <a class="stage__stage-link">по ссылке</a></div>
+                                <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-4 mt-md-0">Перейти к оплате по
+                                    <a class="stage__stage-link">ссылке</a></div>
                             </div>
                         </div>
                         <div class="col-lg-1 p-0 d-sm-none d-none d-xl-block"><img class="stage__arrow mt-5 ml-n4"
@@ -345,7 +345,7 @@
                 </div>
 
                 <div class="col-lg-2 col-12 p-0 mt-md-5 mb-md-0 mb-2 mt-5">
-                    <a class="col-lg-1 col-8 offset-2 offset-lg-0 p-0 top-btn ml-md-2 ml-4 px-4 py-2 mt-5">
+                    <a class="top-btn col-lg-1 col-8 offset-2 offset-lg-0 p-0 top-btn ml-md-2 ml-4 px-4 py-2 mt-5">
                         <img class="top-arrow mb-2 mr-1" src="img/Vector.svg"
                              alt="top-arrow"><span class="top-txt">Вверх</span></a>
                 </div>

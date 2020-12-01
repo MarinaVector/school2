@@ -65,7 +65,7 @@
                             <a class="life-coaching__program__module" href="">перейти к 1 модулю «Домашний Коуч»</a>
 
                             <article class="life-coaching__program__article">
-                                С 3 февраля 2021 г. Принимаются Экзамены на Диплом тренера, который выдаётся по факту
+                                <p class="text-danger">С 3 февраля 2021 г.</p> Принимаются Экзамены на Диплом тренера, который выдаётся по факту
                                 успеваемости Коуча (готовность соцсети, готовые отзывы, личный план на первый вебинар,
                                 выступление на вебинаре)
                             </article>
@@ -110,7 +110,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">2 занятие — Инструмент «Расширение границ Сознания»
                                 (1 часть)</h5>
                             <div class="video">
@@ -133,7 +133,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">3 занятие — Техника продаж индивидуальных сессий и мастер
                                 групп (2 часть)</h5>
                             <div class="video">
@@ -156,7 +156,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">4 занятие — Как выбрать тему вебинара, составить план
                                 вебинара и сделать продажи с открытых вебинаров</h5>
                             <div class="video">
@@ -179,7 +179,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">5 занятие — Инструмент «Разборы задач в Отношениях»</h5>
                             <div class="video">
                                 <a class="video__link" href="https://youtu.be/neHA4MJwpnY">

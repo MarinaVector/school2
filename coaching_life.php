@@ -78,7 +78,7 @@
                                 модуль)</a>
 
                             <article class="life-coaching__program__article">
-                                С 3 февраля 2021 г. Принимаются Экзамены на Диплом тренера, который выдаётся по факту
+                                <p class="text-danger">С 3 февраля 2021 г.</p> Принимаются Экзамены на Диплом тренера, который выдаётся по факту
                                 успеваемости Коуча (готовность соцсети, готовые отзывы, личный план на первый вебинар,
                                 выступление на вебинаре)
                             </article>
@@ -123,7 +123,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">2 урок — Инструмент «Расширение границ Сознания»</h5>
                             <div class="video">
                                 <a class="video__link" href="https://youtu.be/neHA4MJwpnY">
@@ -144,7 +144,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">3 урок — Инструмент «Сознание Изобилия»</h5>
                             <div class="video">
                                 <a class="video__link" href="https://youtu.be/neHA4MJwpnY">
@@ -165,7 +165,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">4 урок — Инструмент «Работа с убеждениями,
                                 границами, установками»</h5>
                             <div class="video">
@@ -188,7 +188,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">5 урок — Инструмент «Разборы задач в
                                 Отношениях»</h5>
                             <div class="video">
@@ -211,7 +211,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">6 урок — Инструмент «Денежный потолок
                                 и возможности человека»</h5>
                             <div class="video">
@@ -234,7 +234,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-12 mt-5">
+                        <div class="col-lg-12 col-12 mt-md-5">
                             <h5 class="about-coaching__lesson">7 урок — Инструмент «Любовь к
                                 себе»</h5>
                             <div class="video">
