@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="frontend progress coaching-2 page">
+    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="shadow">
+      <change afterPath="$PROJECT_DIR$/img/arrow-sm.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +82,7 @@
       <workItem from="1606313724804" duration="19947000" />
       <workItem from="1606396906272" duration="1036000" />
       <workItem from="1606559850183" duration="26476000" />
+      <workItem from="1606819609294" duration="2260000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1606217831025</created>
@@ -179,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606660995310</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="shadow">
+      <created>1606809261212</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606809261212</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +220,8 @@
     <MESSAGE value="frontend progress list" />
     <MESSAGE value="frontend progress coaching page" />
     <MESSAGE value="frontend progress coaching page and video" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend progress coaching page and video" />
+    <MESSAGE value="shadow" />
+    <option name="LAST_COMMIT_MESSAGE" value="shadow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1369" y="160" key="#Plugins" timestamp="1606312987293">
@@ -229,19 +240,19 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1045" y="260" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606648710454" />
-    <state x="-992" y="260" key="RollbackChangesDialog" timestamp="1606661499869">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="660" y="131" key="RollbackChangesDialog" timestamp="1606820360490">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-992" y="260" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606661499869" />
-    <state x="660" y="131" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606567972876" />
+    <state x="660" y="131" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606820360490" />
     <state x="-1383" y="328" key="SettingsEditor" timestamp="1606222703474">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1383" y="328" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606222703474" />
-    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606640004878">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2" timestamp="1606809266185">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606640004878" />
-    <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606567396717" />
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606809266185" />
   </component>
 </project>

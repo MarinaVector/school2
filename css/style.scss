@@ -13,7 +13,12 @@ body {
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
-}
+  }
+
+.main-nav__nav-logo,
+.fab-icon {
+  cursor: pointer;
+  }
 
 
 $color: #E7BCDD;

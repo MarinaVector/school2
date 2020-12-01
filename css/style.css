@@ -13,6 +13,11 @@ body {
   margin: 0;
 }
 
+.main-nav__nav-logo,
+.fab-icon {
+  cursor: pointer;
+}
+
 ul,
 li {
   list-style: none;

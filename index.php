@@ -28,20 +28,20 @@
                     <h5 class="about-author__name my-md-5">Лилит Ваг —</h5>
                     <ul class="about-author__list">
                         <li class="about-author__block  my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Основатель Онлайн Школы "Life Coach Soul"</span>
                         </li>
                         <li class="about-author__block  my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Ведущий тренер института Люди Без Границ</span>
                         </li>
                         <li class="about-author__block my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Создатель авторских курсов и практик
                         для <br> личностного и духовного роста</span>
                         </li>
-                        <li class="about-author__block my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                        <li class="about-author__block my-2">
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Продюсер Он-лайн проектов</span>
                         </li>
                     </ul>
@@ -55,7 +55,7 @@
     <section class="school-product container-fluid py-md-5 px-md-5">
         <div class="container my-md-5 mx-auto">
             <h3 class="school-product__title mb-5">Курсы и продукты школы</h3>
-            <div class="can-toggle text-center">
+            <div class="can-toggle text-center d-none d-lg-block d-xl-block">
 
                 <label class="toggle__coaching">
                     <input class="first-radio" type="radio" checked name="color" value="indigo">
@@ -151,37 +151,37 @@
 
                     <ul class="module__module-paragraph">
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Развитие личных качеств по расширению границ сознания</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Прокачиваем мышление и сознание изобилия во всех сферах</span>
                         </li>
-                        <li class="module__module-list my-3">
+                        <li class="module__module-list my-2">
                             <i class="far fa-star pink-star mr-3"></i>
                             <span class="about-author__info">Избавление от внутренних границ</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Проработка программ долга, жертвы, детские травмы и многое другое</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Инструменты проработки конкретных задач у человека и дальнейшее
                         кураторство в рамках курса</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Чат Коучей всех потоков , возможность работы в парах, для
                         проработки личных целей</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Развить у себя сознание изобилия</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">И многое многое другое</span>
                         </li>
                     </ul>
@@ -198,46 +198,46 @@
 
                     <ul class="module__module-paragraph">
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Все уроки и инструменты от первого модуля</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Обучение Навыкам онлайн продаж</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Обучение продаж с вебинаров</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">План составления продающих вебинаров и помощь в выборе и разборе тем</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Навыки качественного позиционирования себя и своих услуг в
                         социальных сетях (Инстаграм)</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Навыки По Личным и индивидуальным продажам</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Навыки продаж на групповые Коучинговые услуги</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Чат Коучей всех потоков , возможность работы в парах, для проработки
                         личных целей</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Предоставление моей аудитории, Ваших первых клиентов и первых
                         доходов</span>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <i class="far fa-star pink-star mr-2"></i>
                             <span class="about-author__info">Диплом Лайф-Коуча</span>
                         </li>
                     </ul>
@@ -262,12 +262,17 @@
                         <div class="col-lg-2 col-12 p-lg-0">
                             <div class="row">
                                 <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">01</div>
-                                <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-5 mt-md-0">Выбрать коучинг</div>
+                                <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-5 mt-md-0 ml-lg-4">Выбрать коучинг</div>
                             </div>
                         </div>
-                        <div class="col-lg-1 p-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4"
+                        <div class="col-lg-1 p-0 d-sm-none d-none d-xl-block"><img class="stage__arrow mt-5 ml-n4"
                                                                                    src="img/Arrow.svg"
                                                                                    alt="large-arrow">
+                        </div>
+                        <div class="col-lg-1 p-0 d-sm-none d-none d-xl-none d-lg-block"><img
+                                    class="stage__arrow mt-5 ml-n4"
+                                    src="img/arrow-sm.png"
+                                    alt="small-arrow">
                         </div>
                         <div class="col-lg-2 col-12 p-lg-0">
                             <div class="row">
@@ -276,10 +281,16 @@
                                     <a class="stage__stage-link">по ссылке</a></div>
                             </div>
                         </div>
-                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img class="stage__arrow mt-5 ml-n4"
-                                                                                      src="img/Arrow.svg"
-                                                                                      alt="large-arrow">
+                        <div class="col-lg-1 p-0 d-sm-none d-none d-xl-block"><img class="stage__arrow mt-5 ml-n4"
+                                                                                   src="img/Arrow.svg"
+                                                                                   alt="large-arrow">
                         </div>
+                        <div class="col-lg-1 p-0 d-sm-none d-none d-xl-none d-lg-block"><img
+                                    class="stage__arrow mt-5 ml-n4"
+                                    src="img/arrow-sm.png"
+                                    alt="small-arrow">
+                        </div>
+
                         <div class="col-lg-2 col-12 p-lg-0">
                             <div class="row">
                                 <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">03</div>
@@ -289,13 +300,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-1 p-lg-0 d-sm-none d-none d-md-block"><img
-                                    class="stage__arrow mt-5 ml-n4 mr-n5" src="img/Arrow.svg"
-                                    alt="large-arrow">
-                        </div>
+                    <div class="col-lg-1 p-0 d-sm-none d-none d-xl-block"><img class="stage__arrow mt-5 ml-n4"
+                                                                               src="img/Arrow.svg"
+                                                                               alt="large-arrow">
+                    </div>
+                    <div class="col-lg-1 p-0 d-sm-none d-none d-xl-none d-lg-block"><img
+                                class="stage__arrow mt-5 ml-n4"
+                                src="img/arrow-sm.png"
+                                alt="small-arrow">
+                    </div>
                         <div class="col-lg-3 col-12 p-lg-0">
                             <div class="row">
-                                <div class="col-lg-12 col-4 p-0 text-center stage__stage-number ml-md-n4">04</div>
+                                <div class="col-lg-12 col-4 p-0 text-center stage__stage-number ml-lg-n4">04</div>
                                 <div class="col-lg-12 col-8 p-0 stage__stage-txt mt-3 mt-md-0">Приступаете к обучению в
                                     личном кабинете
                                 </div>
