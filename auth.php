@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php require "general-components/head.php"; ?>
-<body class="wrapper">
+<body class="">
+<div class="wrapper">
+    <section class="fullscreen">
+        <div class="fullscreen__body">
 <header class="secondary-navigation my-0">
     <?php require "general-components/nav.php"; ?>
 </header>
@@ -51,9 +54,11 @@
         </div>
     </div>
 </main>
-
+        </div>
+    </section>
 
 <?php include "general-components/footer.php"; ?>
-
+        </div>
 </body>
+
 </html>

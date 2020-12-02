@@ -20,7 +20,13 @@ a:active {
 }
 
 .wrapper {
-  padding-bottom: 128px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.fullscreen {
+  min-height: 100vh;
 }
 
 footer {
