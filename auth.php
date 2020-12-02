@@ -30,7 +30,7 @@
                                    placeholder="Пароль">
                         </div>
                         <div class="text-center mb-2">
-                            <button class="auth-btn border-0 my-3 px-5" type="submit">Войти</button>
+                            <a class="auth-btn border-0 my-3 px-5" href="">Войти</a>
                         </div>
                     </form>
                 </div>

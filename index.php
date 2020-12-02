@@ -2,7 +2,7 @@
 <html lang="ru">
 <?php require "general-components/head.php"; ?>
 <body class="container-fluid wrapper p-0">
-
+<div class="wrapper">
 <header class="main-header pb-5">
     <?php require "general-components/nav.php"; ?>
     <div class="info-block">
@@ -31,23 +31,41 @@
                 <div class="col-lg-6 col-12 mb-md-1">
                     <h5 class="about-author__name my-md-5">Лилит Ваг —</h5>
                     <ul class="about-author__list">
-                        <li class="about-author__block  my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
-                            <span class="about-author__info">Основатель Онлайн Школы "Life Coach Soul"</span>
-                        </li>
-                        <li class="about-author__block  my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
-                            <span class="about-author__info">Ведущий тренер института Люди Без Границ</span>
+                        <li class="about-author__block my-3">
+                            <div class="row">
+                            <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                            </div>
+                            <div class="about-author__info col-10">Основатель Онлайн Школы "Life Coach Soul"</div>
+                            </div>
                         </li>
                         <li class="about-author__block my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
-                            <span class="about-author__info">Создатель авторских курсов и практик
-                        для <br> личностного и духовного роста</span>
+                            <div class="row">
+                            <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                                </div>
+                            <span class="about-author__info d-inline col-10">Ведущий тренер института Люди Без Границ</span>
+                            </div>
                         </li>
+                        <li class="about-author__block my-3">
+                            <div class="row">
+                            <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                            </div>
+                            <div class="about-author__info d-inline col-4">Создатель авторских курсов и практик
+                        для личностного и духовного роста</div>
+                            </div>
+                        </li>
+
                         <li class="about-author__block my-2">
-                            <i class="far fa-star pink-star mr-2"></i>
-                            <span class="about-author__info">Продюсер Он-лайн проектов</span>
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                                </div>
+                            <span class="about-author__info col-6">Продюсер Он-лайн проектов</span>
+                            </div>
                         </li>
+
                     </ul>
                     <a class="about-author__call-btn my-4 my-md-5 pt-md-3 px-3 py-3">приступить к обучению</a>
                 </div>
@@ -115,24 +133,40 @@
                 </h3>
                 <div class="row">
                     <ul class="lesson-txt col-lg-6">
-                        <li class="skill-title__list">
-                            <i class="far fa-star yellow-star mr-2"></i>
-                            <span class="skill-title__info py-2">В первую очередь , прокачать себя и свои собственные навыки в
+                        <li class="skill-title__list mb-3">
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star yellow-star"></i>
+                                </div>
+                            <span class="skill-title__info col-11">В первую очередь , прокачать себя и свои собственные навыки в
                             решении жизненно важных задач</span>
+                            </div>
                         </li>
-                        <li class="skill-title__list">
-                            <i class="far fa-star yellow-star mr-2 pt-4"></i>
-                            <span class="skill-title__info">Найти у себя причины развития неконструктивных событий и решить
+                        <li class="skill-title__list mb-3">
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star yellow-star"></i>
+                                </div>
+                            <span class="skill-title__info col-11">Найти у себя причины развития неконструктивных событий и решить
                             их, с помощью специальных инструментов по расширению сознания</span>
+                            </div>
                         </li>
-                        <li class="skill-title__list">
-                            <i class="far fa-star yellow-star mr-2 pt-4"></i>
-                            <span class="skill-title__info py-2">Развить у себя сознание изобилия</span>
+                        <li class="skill-title__list mb-3">
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star yellow-star"></i>
+                                </div>
+                            <span class="skill-title__info col-11">Развить у себя сознание изобилия</span>
+                            </div>
                         </li>
-                        <li class="skill-title__list">
-                            <i class="far fa-star yellow-star mr-2 pt-4"></i>
-                            <span class="skill-title__info py-2">Пройти опыт индивидуальных сессий с участниками курса,
+                        <li class="skill-title__list mb-3">
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star yellow-star"></i>
+                                </div>
+                            <span class="skill-title__info col-11">Пройти опыт индивидуальных сессий с участниками курса,
                             заработать навык экологичного взаимодействия с будущими клиентами</span>
+                            </div>
                         </li>
                     </ul>
                     <ul class="lesson-txt col-lg-6">
@@ -170,38 +204,79 @@
 
                     <ul class="module__module-paragraph">
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                                </div>
                             <span class="about-author__info">Развитие личных качеств по расширению границ сознания</span>
+                            </div>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star "></i>
+                                </div>
                             <span class="about-author__info">Прокачиваем мышление и сознание изобилия во всех сферах</span>
+                            </div>
                         </li>
                         <li class="module__module-list my-2">
-                            <i class="far fa-star pink-star mr-3"></i>
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                                </div>
                             <span class="about-author__info">Избавление от внутренних границ</span>
+                            </div>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
-                            <span class="about-author__info">Проработка программ долга, жертвы, детские травмы и многое другое</span>
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                                </div>
+                            <span class="about-author__info col-10">Проработка программ долга, жертвы, детские травмы и многое другое</span>
+                            </div>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
-                            <span class="about-author__info">Инструменты проработки конкретных задач у человека и дальнейшее
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                                </div>
+                            <span class="about-author__info col-10">Найти у себя причины развития неконструктивных событий и
+                                решить их, с помощью специальных инструментов по расширению сознания.</span>
+                            </div>
+                        </li>
+                        <li class="module__module-list my-3">
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                                </div>
+                            <span class="about-author__info col-10">Инструменты проработки конкретных задач у человека и дальнейшее
                         кураторство в рамках курса</span>
+                            </div>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                                </div>
                             <span class="about-author__info">Чат Коучей всех потоков , возможность работы в парах, для
                         проработки личных целей</span>
+                            </div>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
-                            <span class="about-author__info">Развить у себя сознание изобилия</span>
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                        </div>
+                            <span class="about-author__info col-6 col-10">Развить у себя сознание изобилия</span>
+                                   </div>
                         </li>
                         <li class="module__module-list my-3">
-                            <i class="far fa-star pink-star mr-2"></i>
-                            <span class="about-author__info">И многое многое другое</span>
+                            <div class="row">
+                                <div class="col-1">
+                            <i class="far fa-star pink-star"></i>
+                                </div>
+                            <span class="about-author__info col-10">И многое многое другое</span>
+                            </div>
                         </li>
                     </ul>
                     <p class="module__module-info mt-4">Чат с участниками доступен для Вас Бессрочно!</p>
@@ -342,7 +417,7 @@
                 </div>
 
                 <div class="col-lg-2 col-12 p-0 mt-md-5 mb-md-0 mb-2 mt-5">
-                    <a class="top-btn col-lg-1 col-8 offset-2 offset-lg-0 p-0 top-btn ml-md-2 ml-4 px-4 py-2 mt-5">
+                    <a href="#top" class="top-btn col-lg-1 col-8 offset-2 offset-lg-0 p-0 top-btn ml-md-2 ml-4 px-4 py-2 mt-5">
                         <img class="top-arrow mb-2 mr-1" src="img/Vector.svg"
                              alt="top-arrow"><span class="top-txt">Вверх</span></a>
                 </div>
@@ -352,5 +427,6 @@
 </main>
 
 <?php include "general-components/footer.php"; ?>
+</div>
 </body>
 </html>
