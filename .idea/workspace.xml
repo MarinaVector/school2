@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="diff" />
+    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="delete 2 empty folders">
+      <change afterPath="$PROJECT_DIR$/img/Bg-top.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Bg-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Header-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Header-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/autor-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image-07-10-20-02-28-2 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image-07-10-20-02-28-2 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sm-autor.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sm-autor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/smal-star.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/smal-star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/small-autor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +87,8 @@
       <workItem from="1606313724804" duration="19947000" />
       <workItem from="1606396906272" duration="1036000" />
       <workItem from="1606559850183" duration="26476000" />
-      <workItem from="1606819609294" duration="28855000" />
+      <workItem from="1606819609294" duration="29204000" />
+      <workItem from="1606909568930" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1606217831025</created>
@@ -258,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606854255980</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="diff">
+      <created>1606854374185</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606854374185</updated>
+    </task>
+    <task id="LOCAL-00028" summary="delete 2 empty folders">
+      <created>1606854694565</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606854694565</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +322,8 @@
     <MESSAGE value="Video" />
     <MESSAGE value="Registration" />
     <MESSAGE value="diff" />
-    <option name="LAST_COMMIT_MESSAGE" value="diff" />
+    <MESSAGE value="delete 2 empty folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete 2 empty folders" />
   </component>
   <component name="WindowStateProjectService">
     <state x="308" y="41" key="#Inspections" timestamp="1606851180367">
@@ -330,10 +359,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1383" y="328" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606222703474" />
-    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606853407392">
+    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606854707065">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606853407392" />
+    <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606854707065" />
     <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606851106138" />
   </component>
 </project>

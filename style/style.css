@@ -130,7 +130,6 @@ div a {
  }
 
 .main-header {
-    background-image: url(../img/Bg-top.png);
   height: 612px;
   width: auto;
   background-size: cover;
@@ -138,6 +137,19 @@ div a {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
+@media screen and (min-device-width: 1025px) {
+  .main-header {
+    background-image: url(../img/Bg-top.jpg);
+      }
+}
+
+@media screen and (max-device-width: 1024px) {
+  .main-header {
+    background-image: url(../img/Bg-top-md.jpg);
+  }
+}
+
 
 .main-nav,
 .main-nav__nav-links {
@@ -933,7 +945,5 @@ div label .checkbox {
   }
 }
 
-@media screen and (max-device-width: 350px) {
 
-}
 
