@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="img right">
-      <change afterPath="$PROJECT_DIR$/ajax.php" afterDir="false" />
+    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="btn progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-components/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/head.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
@@ -82,7 +80,7 @@
       <workItem from="1606559850183" duration="26476000" />
       <workItem from="1606819609294" duration="29204000" />
       <workItem from="1606909568930" duration="18696000" />
-      <workItem from="1606964260751" duration="10794000" />
+      <workItem from="1606964260751" duration="16472000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1606217831025</created>
@@ -301,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606937479330</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="btn progress">
+      <created>1606980450350</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1606980450352</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +344,8 @@
     <MESSAGE value="diff" />
     <MESSAGE value="delete 2 empty folders" />
     <MESSAGE value="img right" />
-    <option name="LAST_COMMIT_MESSAGE" value="img right" />
+    <MESSAGE value="btn progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="btn progress" />
   </component>
   <component name="WindowStateProjectService">
     <state x="308" y="41" key="#Inspections" timestamp="1606851180367">
