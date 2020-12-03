@@ -468,8 +468,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </section>
@@ -479,26 +477,10 @@
     </section>
     <?php include "general-components/footer.php"; ?>
 </div>
-<a href="#top" id="top-btn"
-   class="top-btn px-4 py-2">
-    <img class="top-arrow mb-2 mr-1 d-inline" src="img/Vector.svg"
-         alt="top-arrow"><span class="top-txt d-none d-lg-block d-inline">Вверх</span></a>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript">
-    $(".ajax-form").click(function (e) {
-        let form = {};
-        form[$(this).attr('name')] = 1;
-        $.ajax({
-            url: '/ajax.php',
-            type: "POST",
-            data: $.param(form),
-            success: function (data) {
-                $('#ajax-content').html(data);
-            }
-        });
-        return false;
-        // e.preventDefault(); - либо так
-    });
-</script>
+<a href="#top" class="top-btn px-2 py-2" id="top-btn">
+    <img class="top-arrow mb-2 mr-1" src="img/Vector.svg" alt="top-arrow" style="vertical-align:middle">
+    <span class="top-txt">Вверх</span>
+</a>
+
 </body>
 </html>
