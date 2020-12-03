@@ -22,11 +22,11 @@
                             <div class="col-lg-12 col-12">
                                 <p class="about-author__title my-md-5 my-4">Об авторе</p>
                             </div>
-                            <div class="col-lg-6 col-12 d-sm-none d-none d-md-block">
+                            <div class="col-lg-6 col-12 d-sm-none d-none d-lg-block">
                                 <img class="mt-n3" src="img/Photo.png"
                                      alt="Lilit Vag photo">
                             </div>
-                            <div class="col-12 mx-auto d-block d-md-none small-bg">
+                            <div class="col-12 mx-auto d-block d-lg-none small-bg">
                                 <img class="mt-1" src="img/sm-autor.png"
                                      alt="Lilit Vag photo">
                             </div>
