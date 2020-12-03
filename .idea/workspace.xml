@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="img right">
+      <change afterPath="$PROJECT_DIR$/ajax.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-components/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-components/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/head.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,8 @@
       <workItem from="1606396906272" duration="1036000" />
       <workItem from="1606559850183" duration="26476000" />
       <workItem from="1606819609294" duration="29204000" />
-      <workItem from="1606909568930" duration="16653000" />
+      <workItem from="1606909568930" duration="18696000" />
+      <workItem from="1606964260751" duration="10794000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1606217831025</created>
@@ -294,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606935282253</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="img right">
+      <created>1606937479330</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1606937479330</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,23 +362,24 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1045" y="260" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606648710454" />
-    <state x="-1127" y="442" key="NewPhpFileDialog" timestamp="1606832069746">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1127" y="442" key="NewPhpFileDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606832069746" />
-    <state x="660" y="131" key="RollbackChangesDialog" timestamp="1606926371104">
+    <state x="564" y="309" key="NewPhpFileDialog" timestamp="1606974815395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-992" y="260" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606661499869" />
-    <state x="660" y="131" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606926371104" />
+    <state x="-1127" y="442" key="NewPhpFileDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606832069746" />
+    <state x="564" y="309" key="NewPhpFileDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606974815395" />
+    <state x="-992" y="260" key="RollbackChangesDialog" timestamp="1606964856119">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-992" y="260" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606964856119" />
+    <state x="660" y="131" key="RollbackChangesDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606964614366" />
     <state x="-1383" y="328" key="SettingsEditor" timestamp="1606222703474">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1383" y="328" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606222703474" />
-    <state x="489" y="176" key="Vcs.Push.Dialog.v2" timestamp="1606935287151">
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2" timestamp="1606937483773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606912196638" />
-    <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606935287151" />
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606937483773" />
   </component>
 </project>

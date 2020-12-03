@@ -6,236 +6,242 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 body {
-  height: 100%;
-  overflow-x: hidden;
-  background-repeat: no-repeat;
-  padding: 0;
-  margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
 }
 
 a:focus,
 a:active {
-  border: none;
-  text-decoration: none;
+    border: none;
+    text-decoration: none;
 }
 
 .wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .fullscreen {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 footer {
-  height: auto;
-  bottom: 0;
-  z-index: 1000;
+    height: auto;
+    bottom: 0;
+    z-index: 1000;
 }
 
 .middle {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 .middle input[type=radio] {
-  display: none;
+    display: none;
 }
 
 .middle input[type=radio]:checked + .box span {
-  color: #CF79BB;
-  text-transform: uppercase;
-  text-align: left;
+    color: #CF79BB;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 .middle input[type=radio]:checked + .box span:before {
-  opacity: 1;
+    opacity: 1;
 }
 
 .middle .box {
-  width: 146px;
-  height: 55px;
-  background-color: #FCF347;
-  will-change: transition;
-  text-align: center;
-  cursor: pointer;
-  position: relative;
-  font-family: Roboto Condensed, serif;
-  font-weight: 700;
+    width: 146px;
+    height: 55px;
+    background-color: #FCF347;
+    will-change: transition;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    font-family: Roboto Condensed, serif;
+    font-weight: 700;
 }
 
 .middle .box span {
-  position: absolute;
-  left: 0;
-  right: 0;
-  font-size: 16px;
-  user-select: none;
-  text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    user-select: none;
+    text-transform: uppercase;
 }
 
 .middle .box span:before {
-  font-size: 18px;
-  text-transform: uppercase;
-  font-family: FontAwesome, sans-serif;
-  display: block;
-  opacity: 0;
-  font-weight: normal;
-  color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: FontAwesome, sans-serif;
+    display: block;
+    opacity: 0;
+    font-weight: normal;
+    color: white;
 }
+
 .middle .front-end {
-  border-radius: 100px 0 0 100px;
+    border-radius: 100px 0 0 100px;
 }
+
 .middle .front-end span:before {
-  display: inline-block;
+    display: inline-block;
 }
+
 .middle .back-end {
-  border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
 }
+
 .middle .back-end span:before {
-  display: inline-block;
+    display: inline-block;
 }
 
 .main-nav__nav-logo,
 .fab-icon {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 ul,
 li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 div a {
-  text-decoration: none;
-  cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .main-nav__nav-link:hover {
-  color: #FCF347;
-  text-decoration: none;
+    color: #FCF347;
+    text-decoration: none;
 }
 
- .info-block__call-btn:hover,
- .about-author__call-btn:hover,
- .pay-btn:hover,
- .top-btn:hover,
- .life-coaching__program__module:hover,
- .register:hover,
- .stage__stage-link:hover {
-  color: #CF79BB;
-  text-decoration: none;
+.info-block__call-btn:hover,
+.about-author__call-btn:hover,
+.pay-btn:hover,
+.top-btn:hover,
+.life-coaching__program__module:hover,
+.register:hover,
+.stage__stage-link:hover {
+    color: #CF79BB;
+    text-decoration: none;
 }
 
 .stage__stage-link {
-  color: #a468db;
-  text-decoration: underline;
+    color: #a468db;
+    text-decoration: underline;
 }
 
- .main-nav__nav-button:hover {
-   color: #FFFFFF;
-   text-decoration: none;
- }
+.main-nav__nav-button:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 .main-header {
-  height: 612px;
-  width: 100%;
-  background: url('../img/Bg-top.jpg') center center/cover no-repeat;
+    height: 612px;
+    width: 100%;
+    background: url('../img/Bg-top.jpg') center center/cover no-repeat;
 }
 
 @media screen and (max-device-width: 1000px) {
-  .main-header {
-    background: url('../img/Bg-top-md.jpg') center center/cover no-repeat;
-      }
+    .main-header {
+        background: url('../img/Bg-top-md.jpg') center center/cover no-repeat;
+    }
 }
 
 .main-nav,
 .main-nav__nav-links {
-  display: flex;
-  align-items: stretch;
+    display: flex;
+    align-items: stretch;
 }
 
 .main-nav__nav-link {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 18px;
-  letter-spacing: 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  display: inline;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline;
 }
 
 @media screen and (min-device-width: 1000px) {
-  .main-nav__nav-link {
-    font-size: 15px;
-  }
+    .main-nav__nav-link {
+        font-size: 15px;
+    }
 }
+
 .main-nav__whatsapp-icon {
-  color: #FFFFFF;
-  font-size: 38px;
+    color: #FFFFFF;
+    font-size: 38px;
 }
 
 .main-nav__nav-button {
-  text-transform: uppercase;
-  color: #FCF347;
-  border: 3px solid #FCF347;
-  border-radius: 100px;
-  padding-left: 10px;
-  padding-right: 10px;
-  box-sizing: border-box;
-  width: 171px;
-  height: 34px;
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 18px;
-  letter-spacing: 0;
-  text-align: center;
+    text-transform: uppercase;
+    color: #FCF347;
+    border: 3px solid #FCF347;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    width: 171px;
+    height: 34px;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: center;
 }
 
 .info-block {
-  text-align: center;
+    text-align: center;
 }
 
 .info-block__info-logo {
-  height: 50%;
-  width: auto;
+    height: 50%;
+    width: auto;
 }
 
 .info-block__coach-title {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.155em;
-  text-align: center;
-  color: #FFFFFF;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.155em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 @media screen and (min-device-width: 1000px) {
-  .info-block__coach-title {
-    font-size: 64px;
-    line-height: 89px;
-  }
+    .info-block__coach-title {
+        font-size: 64px;
+        line-height: 89px;
+    }
 }
+
 .info-block__school-title {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: center;
-  color: #FFFFFF;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 .info-block__call-btn,
@@ -243,315 +249,318 @@ div a {
 .call-btn,
 .auth-btn,
 .pay-btn {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #FCF347;
-  color: #4d4d4d;
-  padding: 10px;
-  border-radius: 45px;
-  display: inline-block;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #FCF347;
+    color: #4d4d4d;
+    padding: 10px;
+    border-radius: 45px;
+    display: inline-block;
 }
 
 .info-block__call-btn,
 .call-btn,
 .pay-btn {
-  box-shadow: 5px 5px 20px #000000;
+    box-shadow: 5px 5px 20px #000000;
 }
 
 .pay-btn {
-  justify-content: center;
+    justify-content: center;
 }
 
 .call-btn {
-  width: 247px;
-  height: 48px;
-  text-align: center;
+    width: 247px;
+    height: 48px;
+    text-align: center;
 }
 
 @media screen and (min-device-width: 1000px) {
-  .about-author {
-    background-image: url(../img/Header-logo.png);
+    .about-author {
+        background-image: url(../img/Header-logo.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+.small-bg {
+    background-image: url(../img/smal-star.png);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
-}
-.small-bg {
-  background-image: url(../img/smal-star.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .about-author__title,
 .about-coaching__title {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 59px;
-  letter-spacing: 0;
-  color: #4d4d4d;
-  text-transform: uppercase;
-  text-align: center;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .about-author__name,
 .about-coaching__name {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #4d4d4d;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #4d4d4d;
+    text-transform: uppercase;
 }
 
 .about-author__list {
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #4d4d4d;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #4d4d4d;
 }
 
 .about-author__info {
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #000000;
-  opacity: 0.7;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #000000;
+    opacity: 0.7;
 }
 
 .about-author__call-btn {
-  width: 279px;
-  height: 54px;
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: center;
+    width: 279px;
+    height: 54px;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: center;
 }
 
 @media screen and (min-device-width: 1000px) {
-  .about-author__block {
-    white-space: nowrap;
-  }
+    .about-author__block {
+        white-space: nowrap;
+    }
 }
+
 .pink-star {
-  color: #CF79BB;
-  display: inline-block;
-  vertical-align: bottom;
+    color: #CF79BB;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 .school-product {
-  background: #CF79BB;
+    background: #CF79BB;
 }
 
 .school-product__title {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 59px;
-  letter-spacing: 0;
-  text-align: center;
-  color: #FCF347;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FCF347;
+    text-transform: uppercase;
 }
 
 .coaching-block {
-  width: 100%;
+    width: 100%;
 }
 
 .coaching-block__title {
-  font-family: Roboto Condensed, sans-serif;
-  letter-spacing: 0;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  text-align: left;
-  color: #FCF347;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    letter-spacing: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #FCF347;
+    text-transform: uppercase;
 }
 
 .coaching-block__info {
-  font-family: Roboto Condensed, sans-serif;
-  letter-spacing: 0;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  text-align: left;
-  text-transform: uppercase;
-  color: #FFFFFF;
+    font-family: Roboto Condensed, sans-serif;
+    letter-spacing: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .lesson-txt {
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  text-align: left;
-  color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
 }
 
 .skill-title {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FCF347;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FCF347;
 }
 
 .yellow-star {
-  color: #FCF347;
+    color: #FCF347;
 }
 
 .module {
-  background: #E7BCDD;
-  border-radius: 40px;
-  padding: 40px;
+    background: #E7BCDD;
+    border-radius: 40px;
+    padding: 40px;
 }
 
 .module__left {
-  text-align: left;
+    text-align: left;
 }
 
 .module__righr {
-  text-align: right;
+    text-align: right;
 }
 
 .module__module-number {
-  font-family: Roboto, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  text-align: left;
-  color: #4d4d4d;
-  opacity: 0.7;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #4d4d4d;
+    opacity: 0.7;
 }
 
 @media screen and (min-device-width: 1000px) {
-  .module__module-period {
-    font-size: 18px;
-    line-height: 21px;
-    margin-top: -10px;
-  }
+    .module__module-period {
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: -10px;
+    }
 }
+
 .module__module-period {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 17px;
-  letter-spacing: 0;
-  text-align: right;
-  color: #4d4d4d;
-  opacity: 0.7;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    letter-spacing: 0;
+    text-align: right;
+    color: #4d4d4d;
+    opacity: 0.7;
+    text-transform: uppercase;
 }
 
 .module__module-title {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #4d4d4d;
-  opacity: 0.7;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #4d4d4d;
+    opacity: 0.7;
+    text-transform: uppercase;
 }
 
 .module__module-list {
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 21px;
-  text-align: left;
-  color: #000000;
-  opacity: 0.7;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.7;
 }
 
 .module__module-info {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #000000;
-  opacity: 0.7;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #000000;
+    opacity: 0.7;
+    text-transform: uppercase;
 }
 
 .question-txt {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  text-transform: uppercase;
-  text-align: left;
-  color: #FCF347;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #FCF347;
 }
 
 .question {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 59px;
-  letter-spacing: 0;
-  text-align: center;
-  text-transform: uppercase;
-  opacity: 0.7;
-  color: #000000;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.7;
+    color: #000000;
 }
 
 .footer {
-  background-color: #736970;
+    background-color: #736970;
 }
 
 .top-btn {
-  border: 3px solid #FCF347;
-  background: #FFFFFF;
-  box-sizing: border-box;
-  border-radius: 10px;
+    border: 3px solid #FCF347;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .top-arrow,
@@ -559,391 +568,450 @@ div a {
 .fa-lock,
 .fa-envelope,
 .social {
-  color: #CF79BB;
-  display: inline-block;
+    color: #CF79BB;
+    display: inline-block;
 }
 
 .top-txt,
 .register,
 .omb_authTitle {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: left;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .top-txt,
 .register {
-  color: #CF79BB;
+    color: #CF79BB;
 }
 
 .omb_authTitle {
-  color: #4d4d4d;
+    color: #4d4d4d;
 }
 
 .stage__stage-number {
-  font-family: Montserrat, sans-serif;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 88px;
-  letter-spacing: 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #CF79BB;
+    font-family: Montserrat, sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #CF79BB;
 }
 
 .stage__stage-txt {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: left;
-  text-transform: uppercase;
-  opacity: 0.7;
-  color: #000000;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: left;
+    text-transform: uppercase;
+    opacity: 0.7;
+    color: #000000;
 }
 
-.toggle {
-  display: inline-block;
-  cursor: pointer;
+
+.form_radio_btn {
+    display: inline-block;
 }
 
-.toggle__check {
-  display: none;
+.form_radio_btn input[type=radio] {
+    display: none;
 }
 
-.toggle__coaching,
-.toggle__reload {
-  width: 400px;
-  height: 55px;
-  overflow: hidden;
-  background: #FCF347;
-  padding: 10px;
-  display: inline-block;
-  position: relative;
+.form_radio_btn label {
+
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center;
+    width: 350px;
+    height: 55px;
+    display: inline-block;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: #666;
+    text-transform: uppercase;
+    overflow: hidden;
+    background: #FCF347;
+    position: relative;
+    cursor: pointer;
+    padding-top: 10px;
+    user-select: none;
 }
 
-.toggle__coaching {
-  border-radius: 100px 0 0 100px;
-  box-shadow: 15px 0 25px -5px rgba(0, 0, 0, 0.4);
-  overflow: hidden;
+.fm label {
+    border-radius: 100px 0 0 100px;
+    margin-right: -2px;
+    vertical-align: middle;
 }
 
-.toggle__coaching,
-.toggle__reload {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0;
-  text-align: center;
-  width: 350px;
-  height: 55px;
-  display: inline-block;
-  background-size: 30px;
-  background-repeat: no-repeat;
-  transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  color: #4d4d4d;
-  text-transform: uppercase;
+.sm label {
+    border-radius: 0 100px 100px 0;
+    margin-left: -2px;
+    vertical-align: middle;
 }
 
-.toggle__reload {
-  border-radius: 0 100px 100px 0;
-  box-shadow: -10px 0 20px 0 rgba(0, 0, 0, 0.4);
+@media screen and (max-device-width: 1000px) {
+    .form_radio_btn label {
+
+        font-size: 16px;
+        width: 250px;
+        height: 50px;
+        padding-top: 12px;
+
+    }
 }
 
-.toggle__coaching {
-  content: "Лайф-коучинг";
-  color: #737272;
-  text-transform: uppercase;
-  cursor: pointer;
+@media screen and (max-device-width: 770px) {
+    .form_radio_btn label {
+
+        font-size: 15px;
+        width: 200px;
+        height: 48px;
+
+
+    }
 }
 
-.toggle__reload {
-  content: "Тотальная перезагрузка";
-  text-align: center;
-  color: #737272;
-  white-space: nowrap;
-  text-transform: uppercase;
-  cursor: pointer;
+@media screen and (max-device-width: 470px) {
+    .form_radio_btn label {
+
+        font-size: 12px;
+        width: 170px;
+        height: 46px;
+
+
+    }
 }
 
-.first-radio, .second-radio {
-  opacity: 0;
-  z-index: -1;
-  position: relative;
+@media screen and (max-device-width: 420px) {
+    .form_radio_btn label {
+
+        font-size: 14px;
+        width: 150px;
+        height: 55px;
+        text-align: left;
+        padding-left: 26px;
+   }
+
+    .fm label {
+        padding-top: 18px;
+    }
+
+    .sm label {
+        padding-top: 8px;
+    }
 }
 
-.toggle__coaching > input:checked + span {
-  color: #4d4d4d;
-  cursor: pointer;
+@media screen and (max-device-width: 360px) {
+    .form_radio_btn label {
+
+        font-size: 13px;
+        width: 148px;
+        height: 55px;
+
+
+    }
 }
 
-.toggle__reload > input:checked + span {
-  color: #4d4d4d;
-  cursor: pointer;
+@media screen and (max-device-width: 320px) {
+    .form_radio_btn label {
+
+        font-size: 13px;
+        width: 128px;
+        height: 55px;
+
+
+    }
+}
+
+@media screen and (max-device-width: 330px) {
+    .form_radio_btn label {
+
+        font-size: 11px;
+        width: 108px;
+        height: 55px;
+
+
+    }
+}
+
+
+
+
+/* Hover */
+.form_radio_btn label:hover {
+    color: #666;
 }
 
 .footer__footer-copyright {
-  color: #FFFFFF;
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0;
-  opacity: 0.5;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0;
+    opacity: 0.5;
 }
 
 .secondary-navigation {
-  background-color: #CF79BB;
+    background-color: #CF79BB;
 }
 
 .about-coaching__question,
 .about-coaching__time,
 .life-coaching__program__module,
 .about-coaching__lesson {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: left;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .about-coaching__question,
 .life-coaching__program__module {
-  color: #000000;
+    color: #000000;
 }
 
 .about-coaching__time {
-  color: #CF79BB;
+    color: #CF79BB;
 }
 
 .life-coaching__program__title {
-  font-family: Oswald, sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .life-coaching__coaching-list__info,
 .life-coaching__coaching-list__date {
-  font-family: Roboto, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0;
-  text-align: left;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: left;
 }
 
 .life-coaching__program__article {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0;
-  text-align: left;
-  text-transform: uppercase;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .coach-module {
-  background-color: #F5E4F1;
-  border-radius: 40px;
+    background-color: #F5E4F1;
+    border-radius: 40px;
 }
 
 .video-block {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 .about-content {
-  font-family: Roboto Condensed, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0;
-  text-align: left;
-  border: 3px solid #FCF347;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: left;
+    border: 3px solid #FCF347;
 }
 
 @media (min-width: 768px) {
-  .omb_row-sm-offset-3 div:first-child[class*=col-] {
-    margin-left: 25%;
-  }
+    .omb_row-sm-offset-3 div:first-child[class*=col-] {
+        margin-left: 25%;
+    }
 }
+
 .omb_login .omb_authTitle {
-  text-align: center;
-  line-height: 300%;
+    text-align: center;
+    line-height: 300%;
 }
 
 .omb_login .omb_socialButtons a {
-  color: white;
-  opacity: 0.9;
+    color: white;
+    opacity: 0.9;
 }
 
 .omb_login .omb_socialButtons a:hover {
-  color: white;
-  opacity: 1;
+    color: white;
+    opacity: 1;
 }
 
 .omb_login .omb_loginOr {
-  position: relative;
-  font-size: 1.5em;
-  color: #000000;
-  opacity: 0.7;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+    position: relative;
+    font-size: 1.5em;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .omb_login .omb_loginOr .omb_hrOr {
-  background-color: #cdcdcd;
-  height: 1px;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .omb_login .omb_loginOr .omb_spanOr {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: -0.6em;
-  margin-left: -1.5em;
-  background-color: white;
-  width: 3em;
-  text-align: center;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -0.6em;
+    margin-left: -1.5em;
+    background-color: white;
+    width: 3em;
+    text-align: center;
 }
 
 .omb_login .omb_loginForm .input-group.i {
-  width: 2em;
+    width: 2em;
 }
 
 
 @media (min-width: 768px) {
-  .omb_login .omb_forgotPwd {
-    text-align: right;
-    margin-top: 10px;
-  }
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+        margin-top: 10px;
+    }
 }
+
 .video {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
 }
 
 .video__link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .video__media {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
 }
 
 .video__button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 1;
-  display: none;
-  padding: 0;
-  width: 68px;
-  height: 48px;
-  border: none;
-  background-color: transparent;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    display: none;
+    padding: 0;
+    width: 68px;
+    height: 48px;
+    border: none;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 .video__button-shape {
-  fill: #ffffff;
-  fill-opacity: 0.3;
-  width: 130px;
-  height: 130px;
+    fill: #ffffff;
+    fill-opacity: 0.3;
+    width: 130px;
+    height: 130px;
 }
 
 .video__button-icon {
-  fill: #ffffff;
-  border-radius: 4px;
+    fill: #ffffff;
+    border-radius: 4px;
 }
 
 .video__button:focus {
-  outline: none;
+    outline: none;
 }
 
 .video:hover .video__button-shape,
 .video__button:focus .video__button-shape {
-  fill: #CF79BB;
-  fill-opacity: 1;
+    fill: #CF79BB;
+    fill-opacity: 1;
 }
 
 /* Enabled */
 .video--enabled {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .video--enabled .video__button {
-  display: block;
+    display: block;
 }
 
 .page {
-  margin: 0;
+    margin: 0;
 }
 
 input .stage__stage-txt {
-  border-radius: 100px;
+    border-radius: 100px;
 }
 
 .main-content {
-  margin-bottom: 158px;
+    margin-bottom: 158px;
 }
 
 div label .checkbox {
-  padding-right: 8px !important;
+    padding-right: 8px !important;
 }
 
 @media screen and (max-device-width: 350px) {
-  .info-block__info-logo {
-    display: none;
-  }
+    .info-block__info-logo {
+        display: none;
+    }
 
-  .middle .box {
-    width: 100px;
-  }
+    .middle .box {
+        width: 100px;
+    }
 
-  .middle .box span {
-    position: absolute;
-    left: 0;
-    right: 0;
-    font-size: 12px;
-  }
+    .middle .box span {
+        position: absolute;
+        left: 0;
+        right: 0;
+        font-size: 12px;
+    }
 }
 
 

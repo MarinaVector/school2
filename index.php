@@ -84,32 +84,17 @@
                 <section class="school-product container-fluid py-md-5 px-md-5">
                     <div class="container my-md-5 mx-auto">
                         <h3 class="school-product__title mb-5">Курсы и продукты школы</h3>
-                        <div class="can-toggle text-center d-none d-lg-block d-xl-block">
 
-                            <label class="toggle__coaching">
-                                <input class="first-radio" type="radio" checked name="color" value="indigo">
-                                <span class="first-block">Лайф-коучинг</span>
-                            </label>
-                            <label class="toggle__reload ml-n1">
-                                <input class="second-radio" type="radio" name="color" value="indigo">
-                                <span class="second-block">Тотальная перезагрузка</span>
-                            </label>
-                        </div>
+                        <div class="can-toggle text-center ">
+                            <div class="form_radio_btn fm">
+                                <input id="radio-1" type="radio" name="radio" value="1" class="ajax-form1" checked>
+                                <label for="radio-1">Лайф-коучинг</label>
+                            </div>
 
-                        <div class="middle d-lg-none">
-                            <label>
-                                <input type="radio" name="radio" checked/>
-                                <div class="front-end box">
-                                    <span class="pl-3 pt-3">Лайф-коучинг</span>
-                                </div>
-                            </label>
-
-                            <label>
-                                <input type="radio" name="radio"/>
-                                <div class="back-end box">
-                                    <span class="ml-2 pt-1">Тотальная перезагрузка</span>
-                                </div>
-                            </label>
+                            <div class="form_radio_btn sm">
+                                <input id="radio-2" type="radio" name="radio" value="2" class="ajax-form2">
+                                <label for="radio-2">Тотальная перезагрузка</label>
+                            </div>
                         </div>
 
                         <div class="coaching-block my-md-5 px-0 container">
@@ -450,5 +435,22 @@
     </section>
     <?php include "general-components/footer.php"; ?>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(".ajax-form").click(function(e) {
+        let form = {};
+        form[$(this).attr('name')] = 1;
+        $.ajax({
+            url: '/ajax.php',
+            type: "POST",
+            data: $.param(form),
+            success: function(data) {
+                $('#ajax-content').html(data);
+            }
+        });
+        return false;
+        // e.preventDefault(); - либо так
+    });
+</script>
 </body>
 </html>
