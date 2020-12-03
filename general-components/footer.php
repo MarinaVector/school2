@@ -19,7 +19,6 @@
             <a class="main-nav__nav-button py-2 px-4">Личный кабинет</a>
         </div>
 
-
     </div>
 </footer>
 
