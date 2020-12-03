@@ -10,7 +10,7 @@
                 <div class="info-block">
                     <img class="info-block__info-logo mt-md-5" src="img/image-07-10-20-02-28-2%201.png" alt="">
                     <h1 class="info-block__coach-title">Life coach soul</h1>
-                    <h3 class="info-block__school-title mb-md-3">Онлайн школа</h3>
+                    <h3 class="info-block__school-title mb-3">Онлайн школа</h3>
                     <a class="info-block__call-btn mb-5 my-md-5 pt-md-3 px-3 py-3">приступить к обучению</a>
                 </div>
             </header>
@@ -482,7 +482,7 @@
 <a href="#top" id="top-btn"
    class="top-btn px-4 py-2">
     <img class="top-arrow mb-2 mr-1" src="img/Vector.svg"
-         alt="top-arrow"><span class="top-txt">Вверх</span></a>
+         alt="top-arrow"><span class="top-txt d-none d-lg-block">Вверх</span></a>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
     $(".ajax-form").click(function (e) {

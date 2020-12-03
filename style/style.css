@@ -11,7 +11,7 @@ body {
 
 #top-btn:active,
 #top-btn:focus {
-    border: 3px solid #FCF347 !important;
+    border: 3px solid #FCF347;
 }
 
 a:focus,
@@ -528,8 +528,7 @@ div a {
     line-height: 21px;
     letter-spacing: 0;
     text-align: left;
-    color: #000000;
-    opacity: 0.7;
+    color: rgba(0, 0, 0, 0.7);
     text-transform: uppercase;
 }
 
@@ -574,11 +573,31 @@ div a {
 }
 
 
+@media screen and (max-device-width: 1020px) {
+    #top-btn:active,
+    #top-btn:focus {
+        border: unset;
+    }
+
+    .top-btn {
+        border-radius: 3px;
+        background: #FCF347;
+        opacity: 0.5;
+    }
+
+    .top-arrow {
+        color:#FCF347 !important;
+    }
+
+}
+
 @media screen and (max-device-width: 1550px) {
     .top-btn {
         top: 92%;
         right: 0;
     }
+
+
 }
 
 .top-arrow,
@@ -735,8 +754,6 @@ div a {
         font-size: 13px;
         width: 128px;
         height: 55px;
-
-
     }
 }
 

@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="btn progress">
-      <change afterPath="$PROJECT_DIR$/img/Whatsapp.png" afterDir="false" />
+    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general-components/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <workItem from="1606559850183" duration="26476000" />
       <workItem from="1606819609294" duration="29204000" />
       <workItem from="1606909568930" duration="18696000" />
-      <workItem from="1606964260751" duration="25469000" />
+      <workItem from="1606964260751" duration="33912000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1606217831025</created>
@@ -333,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606993815335</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="progress">
+      <created>1606997025430</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1606997025430</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +380,8 @@
     <MESSAGE value="delete 2 empty folders" />
     <MESSAGE value="img right" />
     <MESSAGE value="btn progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="btn progress" />
+    <MESSAGE value="progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="progress" />
   </component>
   <component name="WindowStateProjectService">
     <state x="308" y="41" key="#Inspections" timestamp="1606851180367">
@@ -409,10 +418,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1383" y="328" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606222703474" />
-    <state x="489" y="176" key="Vcs.Push.Dialog.v2" timestamp="1606993818748">
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2" timestamp="1606997030995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1233" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606989691058" />
-    <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606993818748" />
+    <state x="489" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606997030995" />
   </component>
 </project>
