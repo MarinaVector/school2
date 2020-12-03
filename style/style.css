@@ -1,9 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import 'fonts.css';
 
 body {
     height: 100%;
@@ -11,6 +6,12 @@ body {
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
+    font-family: Roboto Condensed, sans-serif;
+}
+
+#top-btn:active,
+#top-btn:focus {
+    border: 3px solid #FCF347 !important;
 }
 
 a:focus,
@@ -565,6 +566,19 @@ div a {
     background: #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
+    margin: 0;
+    z-index: 2;
+    position: fixed;
+    top: 90%;
+    right: 12%;
+}
+
+
+@media screen and (max-device-width: 1550px) {
+    .top-btn {
+        top: 92%;
+        right: 0;
+    }
 }
 
 .top-arrow,

@@ -38,7 +38,8 @@
                                             <div class="col-1">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <div class="about-author__info col-md-10 col-11">Основатель Онлайн Школы "Life Coach
+                                            <div class="about-author__info col-md-10 col-11">Основатель Онлайн Школы
+                                                "Life Coach
                                                 Soul"
                                             </div>
                                         </div>
@@ -56,7 +57,8 @@
                                             <div class="col-1">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <div class="about-author__info d-inline col-md-10 col-11">Создатель авторских курсов и
+                                            <div class="about-author__info d-inline col-md-10 col-11">Создатель
+                                                авторских курсов и
                                                 практик <br> для личностного и духовного роста
                                             </div>
                                         </div>
@@ -208,9 +210,9 @@
 
                                 <h2 class="module__module-title">«Домашний Коуч»</h2>
                                 <div class="pull-right mt-md-n4">
-                                <p class="module__module-period">Длительность обучения:
-                                </p>
-                                <p class="module__module-period">1 месяц</p>
+                                    <p class="module__module-period">Длительность обучения:
+                                    </p>
+                                    <p class="module__module-period">1 месяц</p>
                                 </div>
                                 <ul class="module__module-paragraph">
                                     <li class="module__module-list my-3">
@@ -283,7 +285,6 @@
                                 </ul>
                                 <p class="module__module-info mt-5">Чат с участниками доступен для Вас Бессрочно!</p>
                             </div>
-
 
 
                             <div class="module p-3 p-lg-5">
@@ -396,12 +397,12 @@
                 <section class="stage p-lg-0">
                     <div class="container p-lg-0 mb-md-5 mb-2">
                         <div class="row p-lg-0">
-                            <div class="col-lg-10 col-12 p-lg-0">
-                                <div class="row p-lg-0">
-                                    <div class="col-lg-2 col-12 p-lg-0">
+                            <div class="col-lg-12 col-12">
+                                <div class="row">
+                                    <div class="col-lg-2 col-12">
                                         <div class="row">
-                                            <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">01</div>
-                                            <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-5 mt-md-0 ml-lg-4">
+                                            <div class="col-lg-12 col-4 text-center stage__stage-number">01</div>
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-5 mt-md-0 ml-lg-4">
                                                 Выбрать
                                                 коучинг
                                             </div>
@@ -417,10 +418,10 @@
                                                 src="img/arrow-sm.png"
                                                 alt="small-arrow">
                                     </div>
-                                    <div class="col-lg-2 col-12 p-lg-0">
+                                    <div class="col-lg-2 col-12">
                                         <div class="row">
-                                            <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">02</div>
-                                            <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-4 mt-md-0">Перейти к
+                                            <div class="col-lg-12 col-4 text-center stage__stage-number">02</div>
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-4 mt-md-0">Перейти к
                                                 оплате по
                                                 <a class="stage__stage-link">ссылке</a></div>
                                         </div>
@@ -436,10 +437,10 @@
                                                 alt="small-arrow">
                                     </div>
 
-                                    <div class="col-lg-2 col-12 p-lg-0">
+                                    <div class="col-lg-2 col-12">
                                         <div class="row">
-                                            <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number">03</div>
-                                            <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-3 mt-md-0">После
+                                            <div class="col-lg-12 col-4 text-center stage__stage-number">03</div>
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-3 mt-md-0">После
                                                 оплаты вы получaeте доступ к личному кабинету
                                             </div>
                                         </div>
@@ -454,12 +455,12 @@
                                                 src="img/arrow-sm.png"
                                                 alt="small-arrow">
                                     </div>
-                                    <div class="col-lg-3 col-12 p-lg-0">
+                                    <div class="col-lg-3 col-12">
                                         <div class="row">
-                                            <div class="col-lg-12 col-4 p-lg-0 text-center stage__stage-number ml-lg-n4">
+                                            <div class="col-lg-12 col-4 text-center stage__stage-number ml-lg-n4">
                                                 04
                                             </div>
-                                            <div class="col-lg-12 col-8 p-lg-0 stage__stage-txt mt-3 mt-md-0">Приступаете к
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-3 mt-md-0">Приступаете к
                                                 обучению в
                                                 личном кабинете
                                             </div>
@@ -468,12 +469,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-2 col-12 p-0 mt-md-5 mb-md-0 mb-2 mt-5">
-                                <a href="#top"
-                                   class="top-btn col-lg-1 col-8 offset-2 offset-lg-0 p-0 top-btn ml-md-2 ml-4 px-4 py-2 mt-5">
-                                    <img class="top-arrow mb-2 mr-1" src="img/Vector.svg"
-                                         alt="top-arrow"><span class="top-txt">Вверх</span></a>
-                            </div>
+
                         </div>
                     </div>
                 </section>
@@ -483,6 +479,10 @@
     </section>
     <?php include "general-components/footer.php"; ?>
 </div>
+<a href="#top" id="top-btn"
+   class="top-btn px-4 py-2">
+    <img class="top-arrow mb-2 mr-1" src="img/Vector.svg"
+         alt="top-arrow"><span class="top-txt">Вверх</span></a>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
     $(".ajax-form").click(function (e) {
