@@ -23,7 +23,7 @@
                                 <p class="about-author__title my-md-5 my-4">Об авторе</p>
                             </div>
                             <div class="col-lg-6 col-12 d-sm-none d-none d-lg-block">
-                                <img class="mt-n3" src="img/Photo.png"
+                                <img class="icon-img" src="img/Photo.png"
                                      alt="Lilit Vag photo">
                             </div>
                             <div class="col-12 mx-auto d-block d-lg-none small-bg">
@@ -220,7 +220,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Развитие личных качеств по расширению границ сознания</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Развитие личных качеств по расширению границ сознания</span>
                                         </div>
                                     </li>
                                     <li class="module__module-list my-3">
@@ -228,7 +228,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star "></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Прокачиваем мышление и сознание изобилия во всех сферах</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Прокачиваем мышление и сознание изобилия во всех сферах</span>
                                         </div>
                                     </li>
                                     <li class="module__module-list my-2">
@@ -236,7 +236,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Избавление от внутренних границ</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Избавление от внутренних границ</span>
                                         </div>
                                     </li>
                                     <li class="module__module-list my-3">
@@ -244,7 +244,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Проработка программ долга, жертвы, детские травмы и многое другое</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Проработка программ долга, жертвы, детские травмы и многое другое</span>
                                         </div>
                                     </li>
                                     <li class="module__module-list my-3">
@@ -252,7 +252,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Найти у себя причины развития неконструктивных событий и
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Найти у себя причины развития неконструктивных событий и
                                 решить их, с помощью специальных инструментов по расширению сознания.</span>
                                         </div>
                                     </li>
@@ -261,7 +261,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Инструменты проработки конкретных задач у человека и дальнейшее
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Инструменты проработки конкретных задач у человека и дальнейшее
                         кураторство в рамках курса</span>
                                         </div>
                                     </li>
@@ -270,7 +270,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Чат Коучей всех потоков, возможность работы в парах, для
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Чат Коучей всех потоков, возможность работы в парах, для
                         проработки личных целей</span>
                                         </div>
                                     </li>
@@ -279,7 +279,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">И многое многое другое</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">И многое многое другое</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -301,7 +301,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Все уроки и инструменты от первого модуля</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Все уроки и инструменты от первого модуля</span>
                                         </div>
                                     </li>
 
@@ -310,7 +310,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Обучение Навыкам онлайн продаж</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Обучение Навыкам онлайн продаж</span>
                                         </div>
                                     </li>
                                     <li class="module__module-list my-3">
@@ -318,7 +318,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Обучение продаж с вебинаров</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Обучение продаж с вебинаров</span>
                                         </div>
                                     </li>
                                     <li class="module__module-list my-3">
