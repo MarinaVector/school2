@@ -165,7 +165,7 @@ div a {
 
 .main-nav__nav-link {
     font-family: Roboto Condensed, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
@@ -554,6 +554,7 @@ div a {
     text-transform: uppercase;
     opacity: 0.7;
     color: #000000;
+    margin-top: 120px;
 }
 
 .footer {
@@ -810,6 +811,7 @@ div a {
     font-style: normal;
     font-weight: 700;
     line-height: 21px;
+    opacity: 0.7;
     letter-spacing: 0;
     text-align: left;
     text-transform: uppercase;
@@ -1025,6 +1027,40 @@ input .stage__stage-txt {
 
 div label .checkbox {
     padding-right: 8px !important;
+}
+
+@media screen and (max-device-width: 320px) {
+    .main-nav__nav-button,
+    .about-author__call-btn {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        padding: 0;
+        width: 229px;
+        height: 46px;
+    }
+    .about-author__info {
+        font-size: 10px;
+    }
+
+    .main-nav__nav-link {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-device-width: 670px) {
+    .secondary-navigation {
+        padding-bottom: 40px;
+    }
+
+    .about-coaching__title {
+        margin-top: 40px;
+    }
+
+    .about-coaching__name {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-device-width: 350px) {

@@ -76,12 +76,12 @@
                 </div>
 
                 <div class="col-lg-8 col-12 my-md-5 life-coaching__video">
-                    <div class="row mb-md-4 p-0">
-                        <div class="col-lg-5 col-6">
+                    <div class="row my-4 p-0">
+                        <div class="col-lg-5 col-12">
                             <h5 class="about-coaching__question">По всем вопросам касающихся обучения</h5>
                             <p class="about-coaching__time">чат открыт с 9:00 - 22:00 Мск</p>
                         </div>
-                        <div class="col-lg-5 offset-lg-1 col-6">
+                        <div class="col-lg-5 offset-lg-1 col-12">
                             <h5 class="about-coaching__question">Записи всех занятий сохраняются</h5>
                             <p class="about-coaching__time">1 год в Вашем доступе</p>
                         </div>

@@ -393,9 +393,9 @@
                         </div>
                     </div>
                 </section>
-                <h3 class="question my-5">Как приступить к обучению?</h3>
+                <h3 class="question mb-5">Как приступить к обучению?</h3>
                 <section class="stage p-lg-0">
-                    <div class="container p-lg-0 mb-md-5 mb-2">
+                    <div class="container p-lg-0">
                         <div class="row p-lg-0">
                             <div class="col-lg-12 col-12">
                                 <div class="row">
@@ -446,18 +446,18 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-1 p-0 d-sm-none d-none d-xl-block"><img
-                                                class="stage__arrow mt-5 ml-n4"
+                                                class="stage__arrow mt-5"
                                                 src="img/Arrow.svg"
                                                 alt="large-arrow">
                                     </div>
                                     <div class="col-lg-1 p-0 d-sm-none d-none d-xl-none d-lg-block"><img
-                                                class="stage__arrow mt-5 ml-n4"
+                                                class="stage__arrow mt-5"
                                                 src="img/arrow-sm.png"
                                                 alt="small-arrow">
                                     </div>
                                     <div class="col-lg-3 col-12">
                                         <div class="row">
-                                            <div class="col-lg-12 col-4 text-center stage__stage-number ml-lg-n4">
+                                            <div class="col-lg-12 col-4 text-center stage__stage-number">
                                                 04
                                             </div>
                                             <div class="col-lg-12 col-8 stage__stage-txt mt-3 mt-md-0">Приступаете к
@@ -481,8 +481,8 @@
 </div>
 <a href="#top" id="top-btn"
    class="top-btn px-4 py-2">
-    <img class="top-arrow mb-2 mr-1" src="img/Vector.svg"
-         alt="top-arrow"><span class="top-txt d-none d-lg-block">Вверх</span></a>
+    <img class="top-arrow mb-2 mr-1 d-inline" src="img/Vector.svg"
+         alt="top-arrow"><span class="top-txt d-none d-lg-block d-inline">Вверх</span></a>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
     $(".ajax-form").click(function (e) {
