@@ -425,7 +425,7 @@
                                     <div class="col-lg-2 col-12">
                                         <div class="row">
                                             <div class="col-lg-12 col-4 text-center stage__stage-number">01</div>
-                                            <div class="col-lg-12 col-8 stage__stage-txt mt-5 ml-lg-4">
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-4 ml-lg-4">
                                                 Выбрать
                                                 коучинг
                                             </div>
@@ -463,7 +463,7 @@
                                     <div class="col-lg-2 col-12">
                                         <div class="row">
                                             <div class="col-lg-12 col-4 text-center stage__stage-number">03</div>
-                                            <div class="col-lg-12 col-8 stage__stage-txt mt-3">После
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-4">После
                                                 оплаты вы получaeте доступ к личному кабинету
                                             </div>
                                         </div>
@@ -483,7 +483,7 @@
                                             <div class="col-lg-12 col-4 text-center stage__stage-number">
                                                 04
                                             </div>
-                                            <div class="col-lg-12 col-8 stage__stage-txt mt-3">Приступаете к
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-4">Приступаете к
                                                 обучению в
                                                 личном кабинете
                                             </div>
