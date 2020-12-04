@@ -88,33 +88,56 @@
 
                         <div class="can-toggle text-center">
                             <div class="form_radio_btn fm">
-                                <input id="radio-1" type="radio" name="radio" value="1" class="ajax-form1" checked>
+                                <input id="radio-1" type="radio" name="radio" value="1" onclick="show1()" checked>
                                 <label for="radio-1">Лайф-коучинг</label>
                             </div>
 
                             <div class="form_radio_btn sm">
-                                <input id="radio-2" type="radio" name="radio" value="2" class="ajax-form2">
+                                <input id="radio-2" type="radio" name="radio" value="2" onclick="show2()">
                                 <label for="radio-2">Тотальная перезагрузка</label>
                             </div>
                         </div>
 
                         <div class="coaching-block my-5 px-0 container">
-                            <div class="row">
-                                <div class="col-lg-3 col-12">
-                                    <h3 class="coaching-block__title">Старт коучинга:</h3>
-                                    <p class="coaching-block__info">1 декабря 2020 года</p>
+                            <div class="first">
+                                <div class="row">
+                                    <div class="col-lg-3 col-12">
+                                        <h3 class="coaching-block__title">Старт коучинга:</h3>
+                                        <p class="coaching-block__info">1 декабря 2020 года</p>
+                                    </div>
+                                    <div class="col-lg-3 col-12">
+                                        <h3 class="coaching-block__title">Длительность обучения:</h3>
+                                        <p class="coaching-block__info">2 месяца</p>
+                                    </div>
+                                    <div class="col-lg-3 col-12">
+                                        <h3 class="coaching-block__title">Формат обучения:</h3>
+                                        <p class="coaching-block__info">Онлайн</p>
+                                    </div>
+                                    <div class="col-lg-3 col-12">
+                                        <h3 class="coaching-block__title">Бонус:</h3>
+                                        <p class="coaching-block__info">Чат с участниками</p>
+                                    </div>
                                 </div>
-                                <div class="col-lg-3 col-12">
-                                    <h3 class="coaching-block__title">Длительность обучения:</h3>
-                                    <p class="coaching-block__info">2 месяца</p>
-                                </div>
-                                <div class="col-lg-3 col-12">
-                                    <h3 class="coaching-block__title">Формат обучения:</h3>
-                                    <p class="coaching-block__info">Онлайн</p>
-                                </div>
-                                <div class="col-lg-3 col-12">
-                                    <h3 class="coaching-block__title">Бонус:</h3>
-                                    <p class="coaching-block__info">Чат с участниками</p>
+                            </div>
+
+                            <div class="second hide">
+                                <div class="row">
+                                    <div class="col-lg-3 col-12">
+                                        <h3 class="coaching-block__title">Старт коучинга:</h3>
+                                        <p class="coaching-block__info">13 января 2021 года</p>
+                                    </div>
+                                    <div class="col-lg-3 col-12">
+                                        <h3 class="coaching-block__title">Длительность обучения:</h3>
+                                        <p class="coaching-block__info">1 месяц</p>
+                                    </div>
+                                    <div class="col-lg-3 col-12">
+                                        <h3 class="coaching-block__title">Формат обучения:</h3>
+                                        <p class="coaching-block__info">Онлайн</p>
+                                    </div>
+                                    <div class="col-lg-3 col-12">
+                                        <h3 class="coaching-block__title">Бонус:</h3>
+                                        <p class="coaching-block__info">Чат с участниками</p>
+                                    </div>
                                 </div>
                             </div>
                             <p class="lesson-txt mt-3">
@@ -481,6 +504,25 @@
     <img class="top-arrow mb-2 mr-1" src="img/Vector.svg" alt="top-arrow" style="vertical-align:middle">
     <span class="top-txt">Вверх</span>
 </a>
+<script>
+    function show1() {
+        let i;
+        let elems = document.getElementsByClassName('first');
+        for (i = 0; i < elems.length; i++) elems[i].style.display = 'block';
+        elems = document.getElementsByClassName('second');
+        for (i = 0; i < elems.length; i++) elems[i].style.display = 'none';
 
+    }
+
+    function show2() {
+
+        let i;
+        let elems2 = document.getElementsByClassName('second');
+        for (i = 0; i < elems2.length; i++) elems2[i].style.display = 'block';
+
+        elems2 = document.getElementsByClassName('first');
+        for (i = 0; i < elems2.length; i++) elems2[i].style.display = 'none';
+    }
+</script>
 </body>
 </html>
