@@ -30,7 +30,7 @@
                                 <img class="mt-1" src="img/sm-autor.png"
                                      alt="Lilit Vag photo">
                             </div>
-                            <div class="col-lg-6 col-12 mb-md-1 pt-4 pt-md-0">
+                            <div class="col-lg-6 col-12 mb-md-1 pt-4">
                                 <a class="about-author__name my-md-5 my-3" name="author" href="#">Лилит Ваг —</a>
                                 <ul class="about-author__list">
                                     <li class="about-author__block my-3">
@@ -349,7 +349,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">План составления продающих вебинаров и помощь в выборе и разборе тем</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">План составления продающих вебинаров и помощь в выборе и разборе тем</span>
                                         </div>
                                     </li>
                                     <li class="module__module-list my-3">
@@ -357,7 +357,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Навыки качественного позиционирования себя и своих услуг в
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Навыки качественного позиционирования себя и своих услуг в
                         социальных сетях (Инстаграм)</span>
                                         </div>
                                     </li>
@@ -366,7 +366,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Навыки По Личным и индивидуальным продажам</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Навыки По Личным и индивидуальным продажам</span>
                                         </div>
                                     </li>
                                     <li class="module__module-list my-3">
@@ -374,7 +374,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Навыки продаж на групповые Коучинговые услуги</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Навыки продаж на групповые Коучинговые услуги</span>
                                         </div>
                                     </li>
                                     <li class="module__module-list my-3">
@@ -382,7 +382,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Чат Коучей всех потоков, возможность работы в парах, для проработки
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Чат Коучей всех потоков, возможность работы в парах, для проработки
                         личных целей</span>
                                         </div>
                                     </li>
@@ -391,7 +391,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Предоставление моей аудитории, Ваших первых клиентов и первых
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Предоставление моей аудитории, Ваших первых клиентов и первых
                         доходов</span>
                                         </div>
                                     </li>
@@ -400,7 +400,7 @@
                                             <div class="col-1 mr-md-n4">
                                                 <i class="far fa-star pink-star"></i>
                                             </div>
-                                            <span class="about-author__info col-md-11 col-10 ml-md-n4">Диплом Лайф-Коуча</span>
+                                            <span class="about-author__info col-md-11 col-10 ml-lg-n4">Диплом Лайф-Коуча</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -425,7 +425,7 @@
                                     <div class="col-lg-2 col-12">
                                         <div class="row">
                                             <div class="col-lg-12 col-4 text-center stage__stage-number">01</div>
-                                            <div class="col-lg-12 col-8 stage__stage-txt mt-5 mt-md-0 ml-lg-4">
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-5 ml-lg-4">
                                                 Выбрать
                                                 коучинг
                                             </div>
@@ -444,7 +444,7 @@
                                     <div class="col-lg-2 col-12">
                                         <div class="row">
                                             <div class="col-lg-12 col-4 text-center stage__stage-number">02</div>
-                                            <div class="col-lg-12 col-8 stage__stage-txt mt-4 mt-md-0">Перейти к
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-4">Перейти к
                                                 оплате по
                                                 <a class="stage__stage-link">ссылке</a></div>
                                         </div>
@@ -463,7 +463,7 @@
                                     <div class="col-lg-2 col-12">
                                         <div class="row">
                                             <div class="col-lg-12 col-4 text-center stage__stage-number">03</div>
-                                            <div class="col-lg-12 col-8 stage__stage-txt mt-3 mt-md-0">После
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-3">После
                                                 оплаты вы получaeте доступ к личному кабинету
                                             </div>
                                         </div>
@@ -483,7 +483,7 @@
                                             <div class="col-lg-12 col-4 text-center stage__stage-number">
                                                 04
                                             </div>
-                                            <div class="col-lg-12 col-8 stage__stage-txt mt-3 mt-md-0">Приступаете к
+                                            <div class="col-lg-12 col-8 stage__stage-txt mt-3">Приступаете к
                                                 обучению в
                                                 личном кабинете
                                             </div>
