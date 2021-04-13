@@ -21,179 +21,186 @@
                 </div>
             </header>
 
-
-            <div class="text-content">
-
-                <section class="about-author container-fluid px-0">
-                    <div class="container">
-                        <div class="p-o">
+            <section class="container-fluid px-0">
+                <div class="container">
+                    <div class="p-o">
+                        <div class="row">
                             <div class="row bg-star">
-
-                                <div class="col-md-12 col-12">
-                                    <p class="about-author__title my-md-5 my-4">Об авторе</p>
-                                </div>
-                                <div class="col-md-6 col-12">
-                                    <img class="icon-img" src="img/Photo.png"
-                                         alt="Svetlana Svetailo photo">
-                                </div>
-                                <!-- small screen example
-                                <div class="col-12 mx-auto d-block d-lg-none small-bg">
-                                     <img class="mt-1" src="img/sm-autor.png"
-                                          alt="photo">
-                                 </div>
-                                    -->
-                                <div class="col-md-6 col-12 px-0">
-                                    <section class="pt-1">
-                                        <h2 class="about-author__name about-author__name__title mt-md-3"
-                                            >Светлана
-                                            Светайло</h2>
-                                        <p class="about-author__info">Бизнес-Монетизатор. Креативный-маркетолог.
-                                            Экономист
-                                        </p>
-                                        <h4 class="about-author__name about-author__name__info" >Я имею
-                                            высшее экономическое образование&mdash;</h4>
-                                        <ul class="about-author__list">
-                                            <li class="about-author__block">
-                                                <div class="row">
-                                                    <div class="col-1">
-                                                        <i class="fas fa-check green-check fa-2x"></i>
-                                                    </div>
-                                                    <span class="about-author__info d-inline col-md-11 col-11">С 1996 по 2009
+                            <div class="col-md-12 col-12">
+                                <p class="about-author__title my-md-5 my-4">Об авторе</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <img class="icon-img" src="img/Photo.png"
+                                     alt="Svetlana Svetailo photo">
+                            </div>
+                            <!-- small screen example
+                            <div class="col-12 mx-auto d-block d-lg-none small-bg">
+                                 <img class="mt-1" src="img/sm-autor.png"
+                                      alt="photo">
+                             </div>
+                                -->
+                            <div class="col-md-6 col-12 px-0">
+                                <section class="pt-1">
+                                    <h2 class="about-author__name about-author__name__title mt-md-3"
+                                    >Светлана
+                                        Светайло</h2>
+                                    <p class="about-author__info">Бизнес-Монетизатор. Креативный-маркетолог.
+                                        Экономист
+                                    </p>
+                                    <h4 class="about-author__name about-author__name__info">Я имею
+                                        высшее экономическое образование&mdash;</h4>
+                                    <ul class="about-author__list">
+                                        <li class="about-author__block">
+                                            <div class="row">
+                                                <div class="col-1">
+                                                    <i class="fas fa-check green-check fa-2x"></i>
+                                                </div>
+                                                <span class="about-author__info d-inline col-md-11 col-11">С 1996 по 2009
                                                 год работала с финансами, бухгалтерией в России</span>
+                                            </div>
+                                        </li>
+                                        <li class="about-author__block">
+                                            <div class="row">
+                                                <div class="col-1">
+                                                    <i class="fas fa-check green-check fa-2x"></i>
                                                 </div>
-                                            </li>
-                                            <li class="about-author__block">
-                                                <div class="row">
-                                                    <div class="col-1">
-                                                        <i class="fas fa-check green-check fa-2x"></i>
-                                                    </div>
-                                                    <div class="about-author__info d-inline col-md-11 col-11">С 2010
-                                                        года работаю
-                                                        в Норвегии, оказываю консультационные и бухгалтерские услуги
-                                                        предпринимателям из разных ниш
-                                                    </div>
+                                                <div class="about-author__info d-inline col-md-11 col-11">С 2010
+                                                    года работаю
+                                                    в Норвегии, оказываю консультационные и бухгалтерские услуги
+                                                    предпринимателям из разных ниш
                                                 </div>
-                                            </li>
-                                        </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
 
 
-                                        <p class="about-author__info">Креативный кросс-маркетинг
-                                            появился в моей жизни как инструмент помощи в развитии бизнеса для моих
-                                            клиентов.</p>
+                                    <p class="about-author__info">Креативный кросс-маркетинг
+                                        появился в моей жизни как инструмент помощи в развитии бизнеса для моих
+                                        клиентов.</p>
 
-                                        <p class="about-author__info my-1 px-3 py-1">Многолетний опыт работы
-                                            с предпринимателями также показал, что большинство бизнесменов получают
-                                            доход только
-                                            от продажи своих продуктов и оказании услуг. Они никак не монетизируют
-                                            собственный
-                                            ресурс. Даже если у собственника или у руководителя есть идеи и решения
-                                            по
-                                            монетизации ресурса, их никто не внедряет. Они так и остаются
-                                            идеями, повисшими в воздухе.</p>
-                                        <p class="about-author__info my-1 px-3 py-1 mb-5"> Так в моей жизни
-                                            появился еще один мощный инструмент
-                                            под названием Монетизатор, который помогает бизнесменам получить прибыль
-                                            от
-                                            монетизации ресурса,
-                                            часто превышающий доход от основного вида деятельности в несколько
-                                            раз.</p>
-                                        <h4 class="about-author__name about-author__name__info my-1" name="author"
-                                            href="#">
-                                            Я училась у лучших в
-                                            мире учителей.</h4>
-                                    </section>
-                                </div>
+                                    <p class="about-author__info my-1 px-3 py-1">Многолетний опыт работы
+                                        с предпринимателями также показал, что большинство бизнесменов получают
+                                        доход только
+                                        от продажи своих продуктов и оказании услуг. Они никак не монетизируют
+                                        собственный
+                                        ресурс. Даже если у собственника или у руководителя есть идеи и решения
+                                        по
+                                        монетизации ресурса, их никто не внедряет. Они так и остаются
+                                        идеями, повисшими в воздухе.</p>
+                                    <p class="about-author__info my-1 px-3 py-1 mb-5"> Так в моей жизни
+                                        появился еще один мощный инструмент
+                                        под названием Монетизатор, который помогает бизнесменам получить прибыль
+                                        от
+                                        монетизации ресурса,
+                                        часто превышающий доход от основного вида деятельности в несколько
+                                        раз.</p>
+                                    <h4 class="about-author__name about-author__name__info my-1" name="author"
+                                        href="#">
+                                        Я училась у лучших в
+                                        мире учителей.</h4>
+                                </section>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                                <section class="about-author container-fluid px-0 bg-page">
-                                    <div class="container">
-                                        <div class="col-md-6 offset-md-6">
-                                            <div class="school-product">
-                                                <p class="about-author__info">В копилке моих знаний, постоянно
-                                                    применяемых на практике:</p>
 
-                                                <ul class="about-author__list">
+            <section class="about-author container-fluid px-0 bg-page">
+                <div class="container">
+                    <div class="col-md-6 offset-md-6">
+                        <div class="school-product">
+                            <p class="about-author__info">В копилке моих знаний, постоянно
+                                применяемых на практике:</p>
 
-                                                    <li class="about-author__block my-1">
-                                                        <div class="row">
-                                                            <div class="col-1">
-                                                                <i class="fas fa-check green-check fa-2x"></i>
-                                                            </div>
-                                                            <span class="about-author__info d-inline col-md-10 col-11">
+                            <ul class="about-author__list">
+
+                                <li class="about-author__block my-1">
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <i class="fas fa-check green-check fa-2x"></i>
+                                        </div>
+                                        <span class="about-author__info d-inline col-md-10 col-11">
                                                                 Трансформационная программа Аркадия Осипова, эксперта
                                                                 в сфере применения Природоподобных Технологий
                                                             </span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="about-author__block my-1">
-                                                        <div class="row">
-                                                            <div class="col-1">
-                                                                <i class="fas fa-check green-check fa-2x"></i>
-                                                            </div>
-                                                            <div class="about-author__info d-inline col-md-10 col-11">
-                                                                Обучение
-                                                                кросс-маркетингу в школе Владислава Бермуды
-                                                            </div>
-                                                        </div>
-                                                    </li>
-
-                                                    <li class="about-author__block my-1">
-                                                        <div class="row">
-                                                            <div class="col-1">
-                                                                <i class="fas fa-check green-check fa-2x"></i>
-                                                            </div>
-                                                            <span class="about-author__info col-md-10 col-11">Обучение
-                                                                на Монетизатора для генерация прибыли в компании с
-                                                                созданием дополнительных источников дохода</span>
-                                                        </div>
-                                                    </li>
-
-                                                    <li class="about-author__block my-1">
-                                                        <div class="row">
-                                                            <div class="col-1">
-                                                                <i class="fas fa-check green-check fa-2x"></i>
-                                                            </div>
-                                                            <span class="about-author__info col-md-10 col-11">Повышение
-                                                                квалификации в школе партизанского интернет-маркетинга
-                                                                Алексеева Никиты</span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                    </div>
+                                </li>
+                                <li class="about-author__block my-1">
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <i class="fas fa-check green-check fa-2x"></i>
+                                        </div>
+                                        <div class="about-author__info d-inline col-md-10 col-11">
+                                            Обучение
+                                            кросс-маркетингу в школе Владислава Бермуды
                                         </div>
                                     </div>
+                                </li>
 
-
-                                    <section class="container">
-                                        <?php require "main-page-parts/cross_video.php"; ?>
-                                    </section>
-
-                                    <section class="container mb-5">
-                                        <?php require "main-page-parts/courses_tabs.php"; ?>
-                                    </section>
-
-                                    <section class="container mb-md-5">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <?php require "main-page-parts/nested-consalt.php"; ?>
-                                            </div>
+                                <li class="about-author__block my-1">
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <i class="fas fa-check green-check fa-2x"></i>
                                         </div>
-                                    </section>
+                                        <span class="about-author__info col-md-10 col-11">Обучение
+                                                                на Монетизатора для генерация прибыли в компании с
+                                                                созданием дополнительных источников дохода</span>
+                                    </div>
+                                </li>
 
-                                    <section class="container">
-                                        <?php require "main-page-parts/video_slider.php"; ?>
-                                    </section>
-                                </section>
-                           </div>
-                </section>
+                                <li class="about-author__block my-1">
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <i class="fas fa-check green-check fa-2x"></i>
+                                        </div>
+                                        <span class="about-author__info col-md-10 col-11">Повышение
+                                                                квалификации в школе партизанского интернет-маркетинга
+                                                                Алексеева Никиты</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-                <?php include "general-components/footer.php"; ?>
-            </div>
 
-            <script src="video.js"></script>
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-            <!-- Slider Slick -->
-            <script src="slick/slick.min.js"></script>
-            <script src="slick/script.js"></script>
+                    <div class="col-md-12">
+                        <section class="container">
+                            <?php require "main-page-parts/cross_video.php"; ?>
+                        </section>
+
+                        <section class="container mb-5">
+                            <?php require "main-page-parts/courses_tabs.php"; ?>
+                        </section>
+
+                        <section class="container mb-md-5">
+                            <div class="row">
+                                <div class="col-12">
+                                    <?php require "main-page-parts/nested-consalt.php"; ?>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="container">
+                            <?php require "main-page-parts/video_slider.php"; ?>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+
+    </section>
+
+    <?php include "general-components/footer.php"; ?>
+</div>
+
+
+<script src="video.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Slider Slick -->
+<script src="slick/slick.min.js"></script>
+<script src="slick/script.js"></script>
 
 
 </body>
