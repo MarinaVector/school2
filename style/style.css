@@ -107,6 +107,15 @@ footer {
     cursor: pointer;
 }
 
+.main-nav__nav-simple {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 98.69%;
+    color: #FFFFFF;
+}
+
 ul,
 li {
     list-style: none;
@@ -124,31 +133,21 @@ div a {
     text-decoration: none;
 }
 
-.info-block__call-btn:hover,
-.about-author__call-btn:hover,
-.pay-btn:hover,
-.top-btn:hover,
-.life-coaching__program__module:hover,
-.register:hover,
-.stage__stage-link:hover {
-    color: #CF79BB;
-    text-decoration: none;
-}
-
-.stage__stage-link {
-    color: #a468db;
-    text-decoration: underline;
-}
 
 .main-nav__nav-button:hover {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.main-header {
+.main-header,
+.main-header__bg-top,
+.main-header__bg-bottom {
     height: 612px;
     width: 100%;
-    background: url('../img/Bg-top.jpg') center center/cover no-repeat;
+}
+
+.main-header {
+        background: url('../img/Bg-photo.png') center center/cover no-repeat;
 }
 
 @media screen and (max-device-width: 1000px) {
@@ -164,7 +163,7 @@ div a {
 }
 
 .main-nav__nav-link {
-    font-family: Roboto Condensed, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -187,27 +186,13 @@ div a {
     font-size: 38px;
 }
 
-.main-nav__nav-button {
-    text-transform: uppercase;
-    color: #FCF347;
-    border: 3px solid #FCF347;
-    border-radius: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-sizing: border-box;
-    width: 171px;
-    height: 34px;
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0;
-    text-align: center;
-}
+.arrow-small {
+    color: #FFFFFF;
+   }
+
 
 .info-block {
-    text-align: center;
+
 }
 
 .info-block__info-logo {
@@ -216,15 +201,18 @@ div a {
 }
 
 .info-block__coach-title {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 40px;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
-    font-weight: 700;
-    letter-spacing: 0.155em;
-    text-align: center;
-    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 138.69%;
+    letter-spacing: 0.055em;
     text-transform: uppercase;
+    color: #FFFFFF;
+
 }
+
+
 
 @media screen and (min-device-width: 1000px) {
     .info-block__coach-title {
@@ -234,36 +222,75 @@ div a {
 }
 
 .info-block__school-title {
-    font-family: Roboto Condensed, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
+    font-weight: 500;
+    line-height: 22px;
     letter-spacing: 0;
-    text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.info-block__call-btn,
+
+.info-block__full-btn,
 .about-author__call-btn,
 .call-btn,
 .auth-btn,
 .pay-btn {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 18px;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0;
-    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
     text-transform: uppercase;
-    background-color: #FCF347;
-    color: #4d4d4d;
+    color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.3));
+    border-radius: 5px;
+        background: #FDCD00;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+        text-align: center;
     padding: 10px;
-    border-radius: 45px;
     display: inline-block;
 }
+
+.info-block__full-btn__video {
+    max-width: 485px;
+    height: 68px;
+}
+
+.info-block__empty-btn {
+
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+    width: 339px !important;
+    box-sizing: border-box;
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.3));
+
+}
+
+.info-block__empty-btn__yellow {
+    border: 2px solid #FDCD00;
+    color: #FDCD00;
+    font-size: 18px;
+    width: 339px;
+    height: 51px;
+}
+
+.info-block__empty-btn__green {
+    border: 2px solid #5E801E;
+    color: #5E801E;
+    font-size: 24px;
+}
+
 
 .info-block__call-btn,
 .call-btn,
@@ -281,9 +308,19 @@ div a {
     text-align: center;
 }
 
+.bg-star {
+    background-image: url(../img/Header-logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 @media screen and (min-device-width: 1000px) {
-    .about-author {
-        background-image: url(../img/Header-logo.png);
+    .about-author1 {
+
         background-repeat: no-repeat;
         background-position: center center;
         -webkit-background-size: cover;
@@ -296,7 +333,7 @@ div a {
 
 @media (min-width: 260px) and (max-width: 999px) {
     .small-bg {
-        background-image: url(../img/smal-star.png);
+        background-image: url(../img/arrow.png);
         background-repeat: no-repeat;
         background-position: center center;
         -webkit-background-size: cover;
@@ -309,28 +346,34 @@ div a {
 
 .about-author__title,
 .about-coaching__title {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 50px;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
-    font-weight: 700;
-    line-height: 59px;
-    letter-spacing: 0;
-    color: #4d4d4d;
-    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
     text-align: center;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .about-author__name,
 .about-coaching__name {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 24px;
+    font-family: Montserrat Condensed, sans-serif;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 29px;
     letter-spacing: 0;
     text-align: left;
-    color: #4d4d4d;
+    color: #000000;
     text-transform: uppercase;
+}
+
+.about-author__name__title {
+    font-size: 24px;
+}
+
+.about-author__name__info {
+    font-size: 18px;
 }
 
 .about-author__list {
@@ -353,8 +396,7 @@ div a {
     letter-spacing: 0;
     text-align: left;
     color: #000000;
-    opacity: 0.7;
-}
+   }
 
 .about-author__call-btn {
     width: 279px;
@@ -370,30 +412,41 @@ div a {
 
 @media screen and (min-device-width: 1000px) {
     .about-author__block {
-        white-space: nowrap;
+      /*  white-space: nowrap;*/
     }
 }
 
-.pink-star {
-    color: #CF79BB;
+.green-check {
+    color: #5E801E;
     display: inline-block;
     vertical-align: bottom;
 }
 
-.school-product {
-    background: #CF79BB;
+.text-content {
+    z-index: 10;
 }
 
 .school-product__title {
     font-family: Roboto Condensed, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 59px;
     letter-spacing: 0;
     text-align: center;
-    color: #FCF347;
+    color: #000000;
     text-transform: uppercase;
+}
+
+.section-product__title {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .coaching-block {
@@ -557,15 +610,16 @@ div a {
     margin-top: 120px;
 }
 
-.footer {
-    background-color: #736970;
+.footer,
+.header {
+    background-color: #5E801E;
 }
 
 .top-btn {
-    border: 3px solid #FCF347;
+    border: 2px solid #FDCD00;
     background: #FFFFFF;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 0;
     z-index: 2;
     position: fixed;
@@ -586,9 +640,7 @@ div a {
         opacity: 0.5;
     }
 
-    .top-arrow {
-        color:#FCF347 !important;
-    }
+
 
 }
 
@@ -622,10 +674,6 @@ div a {
     text-transform: uppercase;
 }
 
-.top-txt,
-.register {
-    color: #CF79BB;
-}
 
 .omb_authTitle {
     color: #4d4d4d;
@@ -656,151 +704,18 @@ div a {
     color: #000000;
 }
 
-.form_radio_btn {
-    display: inline-block;
-}
-
-.form_radio_btn input[type=radio] {
-    display: none;
-}
-
-.form_radio_btn label {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 0;
-    text-align: center;
-    width: 350px;
-    height: 55px;
-    display: inline-block;
-    background-size: 30px;
-    background-repeat: no-repeat;
-    transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    color: #666;
-    text-transform: uppercase;
-    overflow: hidden;
-    background: #FCF347;
-    position: relative;
-    cursor: pointer;
-    padding-top: 10px;
-    user-select: none;
-}
-
-.fm label {
-    border-radius: 100px 0 0 100px;
-    margin-right: -2px;
-    vertical-align: middle;
-}
-
-.sm label {
-    border-radius: 0 100px 100px 0;
-    margin-left: -2px;
-    vertical-align: middle;
-}
-
-@media screen and (max-device-width: 1000px) {
-    .form_radio_btn label {
-        font-size: 16px;
-        width: 250px;
-        height: 50px;
-        padding-top: 12px;
-    }
-}
-
-@media screen and (max-device-width: 770px) {
-    .form_radio_btn label {
-        font-size: 15px;
-        width: 200px;
-        height: 48px;
-   }
-}
-
-@media screen and (max-device-width: 470px) {
-    .form_radio_btn label {
-        font-size: 12px;
-        width: 170px;
-        height: 46px;
-    }
-}
-
-@media screen and (max-device-width: 420px) {
-    .form_radio_btn label {
-        font-size: 14px;
-        width: 150px;
-        height: 55px;
-        text-align: left;
-        padding-left: 26px;
-   }
-
-    .fm label {
-        padding-top: 18px;
-    }
-
-    .sm label {
-        padding-top: 8px;
-    }
-}
-
-@media screen and (max-device-width: 360px) {
-    .form_radio_btn label {
-        font-size: 13px;
-        width: 148px;
-        height: 55px;
-    }
-}
-
-@media screen and (max-device-width: 320px) {
-    .form_radio_btn label {
-        font-size: 13px;
-        width: 128px;
-        height: 55px;
-    }
-}
-
-@media screen and (max-device-width: 330px) {
-    .form_radio_btn label {
-        font-size: 11px;
-        width: 108px;
-        height: 55px;
-    }
-}
-
-/* Checked */
-.fm input[type=radio]:checked + label {
-    color: #4d4d4d;
-    z-index: 2;
-    -webkit-box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.4);
-    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.4);
-}
-
-.sm input[type=radio]:checked + label {
-    color: #4d4d4d;
-    -webkit-box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.4);
-    box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.4);
-}
-
-/* Hover */
-.form_radio_btn label:hover {
-    color: #666;
-}
 
 .footer__footer-copyright {
-    color: #FFFFFF;
     font-family: Roboto, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.7);
     opacity: 0.5;
 }
 
-.secondary-navigation {
-    background-color: #CF79BB;
-}
 
 .about-coaching__question,
 .about-coaching__time,
@@ -822,9 +737,6 @@ div a {
     color: #000000;
 }
 
-.about-coaching__time {
-    color: #CF79BB;
-}
 
 .life-coaching__program__title {
     font-family: Oswald, sans-serif;
@@ -860,25 +772,6 @@ div a {
     text-transform: uppercase;
 }
 
-.coach-module {
-    background-color: #F5E4F1;
-    border-radius: 40px;
-}
-
-.video-block {
-    border-radius: 10px;
-}
-
-.about-content {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0;
-    text-align: left;
-    border: 3px solid #FCF347;
-}
 
 @media (min-width: 768px) {
     .omb_row-sm-offset-3 div:first-child[class*=col-] {
@@ -964,7 +857,6 @@ div a {
     width: 100%;
     height: 100%;
     border: none;
-    border-radius: 10px;
 }
 
 .video__button {
@@ -991,7 +883,7 @@ div a {
 
 .video__button-icon {
     fill: #ffffff;
-    border-radius: 4px;
+    border-radius: 100px;
 }
 
 .video__button:focus {
@@ -1000,9 +892,10 @@ div a {
 
 .video:hover .video__button-shape,
 .video__button:focus .video__button-shape {
-    fill: #CF79BB;
+    fill: rgba(255, 255, 255, 0.3);
     fill-opacity: 1;
 }
+
 
 /* Enabled */
 .video--enabled {
@@ -1086,6 +979,104 @@ div label .checkbox {
  .first1 {
      display: block;
   }
+ .btn-couching {
+     width: 360px;
+     height: 53px;
+     margin: 0;
+     font-family: Montserrat, sans-serif;
+     font-style: normal;
+     font-weight: 800;
+     font-size: 15px;
+     text-transform: uppercase;
+     color: #FFFFFF;
+ }
+
+.btn-couching_1 {
+    background: rgba(94, 128, 30, 0.7);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-couching_2 {
+    background: rgba(94, 128, 30, 0.7);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+}
+
+.btn-couching_3 {
+    background: #5E801E;
+    border-radius: 0 5px 5px 0;
+}
+
+.btn-list {
+    display: flex;
+    justify-content: center;
+}
+
+.number {
+    width: 14px;
+    height: 28px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #5E801E;
+}
+.about-know {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.price {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #5E801E;
+}
+
+.example {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cross_info {
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.bg-page {
+    background: rgba(94, 128, 30, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

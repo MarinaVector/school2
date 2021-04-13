@@ -1,24 +1,28 @@
-<footer class="footer container-fluid py-4">
-    <div class="nav nav-fill">
-        <div class="nav-link mr-md-n5">
-            <img class="main-nav__nav-logo" src="img/Logo.png" alt="Логотип онлайн школы">
-        </div>
-        <div class="main-nav__nav-links nav-link mx-auto text-white mt-4">
-            <div class="d-block mb-3">
-            <i class="fab fa-whatsapp fab-icon"></i>
-            <i class="fab fa-vk ml-md-5 ml-3 fab-icon"></i>
-            <i class="fab fa-facebook-f ml-md-5 ml-3 fab-icon"></i>
-            <i class="fab fa-telegram-plane ml-md-5 ml-3 fab-icon"></i>
-            <i class="fab fa-odnoklassniki ml-md-5 ml-3 fab-icon"></i>
-            </div>
-            <div class="footer__footer-copyright d-block">
-                Все права защищены
-            </div>
-        </div>
-        <div class="main-nav__nav-links nav-link ml-md-n5 mt-4">
-            <a class="main-nav__nav-button py-2 px-4">Личный кабинет</a>
+<footer class="footer container-fluid py-3">
+    <nav class="nav nav-fill col-md-12">
+        <a class="nav-link" href="../index.php">
+            <img class="main-nav__nav-logo" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">
+        </a>
+        <div class="main-nav__nav-links mx-auto">
+            <a class="main-nav__nav-link nav-link" href="#">Об авторе</a>
+            <a class="main-nav__nav-link nav-link" href="/courses.php">Курсы</a>
+            <a class="main-nav__nav-link nav-link" href="#">Консультация</a>
+            <a class="main-nav__nav-link nav-link" href="#">Отзывы</a>
         </div>
 
+        <div class="main-nav__nav-links nav-link btn-link">
+            <div class="d-inline">
+                <img class="mr-1" src="../img/Whatsapp%20.png"
+                     alt="Sosial-icon">
+            </div>
+
+            <div class="d-inline">
+                <a class="main-nav__nav-simple py-2" href="auth.php">Задать вопрос</a>
+            </div>
+        </div>
+    </nav>
+    <div class="">
+        <p class="text-center footer__footer-copyright">Все права защищены</p>
     </div>
 </footer>
 
