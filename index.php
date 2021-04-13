@@ -226,6 +226,27 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+<script>function show1() {
+        let i;
+        let elems = document.getElementsByClassName('first');
+        for (i = 0; i < elems.length; i++) elems[i].style.display = 'block';
+        elems = document.getElementsByClassName('second');
+        for (i = 0; i < elems.length; i++) elems[i].style.display = 'none';
+        elems = document.getElementsByClassName('third');
+        for (i = 0; i < elems.length; i++) elems[i].style.display = 'none';
+    }
+
+    function show2() {
+
+        let i;
+        let elems2 = document.getElementsByClassName('second');
+        for (i = 0; i < elems2.length; i++) elems2[i].style.display = 'block';
+
+        elems2 = document.getElementsByClassName('first');
+        for (i = 0; i < elems2.length; i++) elems2[i].style.display = 'none';
+    } </script>
+
+
 
 </body>
 </html>

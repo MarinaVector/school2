@@ -16,6 +16,31 @@
         jQuery(function ($) {
             $("#tabs").tabs();
         });
+
+        jQuery(document).ready(function(){
+            $('.btn-1').click(function () {
+                $(this).toggleClass('btn-couching_3');
+                $('.btn-3').addClass('btn-couching_1').removeClass('btn-couching_3');
+                $('.btn-2').addClass('btn-couching_1').removeClass('btn-couching_3');
+            });
+        });
+
+        jQuery(document).ready(function(){
+            $('.btn-2').click(function () {
+                $(this).toggleClass('btn-couching_3');
+                $('.btn-3').addClass('btn-couching_1').removeClass('btn-couching_3');
+                $('.btn-1').addClass('btn-couching_1').removeClass('btn-couching_3');
+            });
+        });
+
+        jQuery(document).ready(function(){
+            $('.btn-3').click(function () {
+                $(this).toggleClass('btn-couching_3');
+                $('.btn-2').addClass('btn-couching_1').removeClass('btn-couching_3');
+                $('.btn-1').addClass('btn-couching_1').removeClass('btn-couching_3');
+            });
+        });
+
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
