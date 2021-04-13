@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row d-none d-sm-none d-md-block">
     <div class="col-12">
         <div class="wrap mb-5">
             <div class="slider">

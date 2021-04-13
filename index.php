@@ -39,7 +39,7 @@
                             </div>
 
                             <div class="col-12 mx-auto d-block d-md-none small-bg">
-                                <img class="mt-1" src="img/Photo_small.png"
+                                <img class="mt-1 ml-n5 ml-sm-0" src="img/Photo_small.png"
                                      alt="Svetlana Svetailo photo">
                             </div>
 
@@ -193,7 +193,7 @@
 
                         <section class="container">
                             <h3 class="section-product__title my-mt-5 text-center">Отзывы наших клиентов</h3>
-                            <div class="d-none d-sm-none d-md-block">
+                            <div class="">
                                 <?php require "main-page-parts/video_slider.php"; ?>
                             </div>
                             <div class="pb-4 d-md-none d-block">
