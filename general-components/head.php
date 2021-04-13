@@ -22,6 +22,7 @@
                 $(this).toggleClass('btn-couching_3');
                 $('.btn-3').addClass('btn-couching_1').removeClass('btn-couching_3');
                 $('.btn-2').addClass('btn-couching_1').removeClass('btn-couching_3');
+                $('.btn-1').addClass('btn-couching_3').removeClass('btn-couching_1');
             });
         });
 
@@ -30,6 +31,7 @@
                 $(this).toggleClass('btn-couching_3');
                 $('.btn-3').addClass('btn-couching_1').removeClass('btn-couching_3');
                 $('.btn-1').addClass('btn-couching_1').removeClass('btn-couching_3');
+                $('.btn-2').addClass('btn-couching_3').removeClass('btn-couching_2');
             });
         });
 
@@ -38,6 +40,7 @@
                 $(this).toggleClass('btn-couching_3');
                 $('.btn-2').addClass('btn-couching_1').removeClass('btn-couching_3');
                 $('.btn-1').addClass('btn-couching_1').removeClass('btn-couching_3');
+                $('.btn-3').addClass('btn-couching_3').removeClass('btn-couching_1');
             });
         });
 
