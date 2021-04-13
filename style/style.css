@@ -6,7 +6,6 @@ body {
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
-    font-family: Roboto Condensed, sans-serif;
 }
 
 #top-btn:active,
@@ -122,18 +121,13 @@ div a {
     }
 }
 
-.main-nav__whatsapp-icon {
-    color: #FFFFFF;
-    font-size: 38px;
-}
-
 .arrow-small {
     color: #FFFFFF;
    }
 
 
 .info-block {
-
+margin-top: 70px;
 }
 
 .info-block__info-logo {
@@ -152,8 +146,6 @@ div a {
     color: #FFFFFF;
 
 }
-
-
 
 @media screen and (min-device-width: 1000px) {
     .info-block__coach-title {
@@ -196,9 +188,23 @@ div a {
     display: inline-block;
 }
 
+.info-block__full-btn:hover,
+.info-block__empty-btn:hover {
+    color:rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
 .info-block__full-btn__video {
     max-width: 485px;
     height: 68px;
+}
+
+.info-block__btn {
+    width: 339px !important;
+    height: 51px !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
 }
 
 .info-block__empty-btn {
@@ -231,10 +237,6 @@ div a {
 .info-block__empty-btn__yellow:active {
     color: rgba(0, 0, 0, 0.7);
 }
-
-
-
-
 
 .info-block__empty-btn__green {
     border: 2px solid #5E801E;
@@ -941,6 +943,12 @@ div label .checkbox {
      color: #FFFFFF;
      border: none;
      }
+
+
+.btn-couching:focus {
+    outline: none;
+}
+
 
 ul .col-btn {
     padding-left: 0 !important;

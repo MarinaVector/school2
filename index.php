@@ -9,13 +9,13 @@
                 <div class="bg-bottom">
                     <div class="bg-top">
                         <?php require "general-components/nav.php"; ?>
-                        <div class="info-block col-md-8 offset-md-2 pb-3 mt-3 mt-md-5">
-                            <h3 class="info-block__school-title mb-1">Светлана Светайло</h3>
+                        <div class="info-block col-md-8 offset-md-2 pb-3 mt-3 my-md-5 py-md-4">
+                            <h3 class="info-block__school-title mb-1 mt-md-5">Светлана Светайло</h3>
                             <h1 class="info-block__coach-title">Бизнес монетизатор</h1>
 
-                            <a class="info-block__full-btn info-block__yellow-btn mb-5 my-md-5 pt-md-3 px-3 py-3 mr-2">приступить к
+                            <a class="info-block__btn info-block__full-btn info-block__yellow-btn mb-5 my-md-5 mr-2">приступить к
                                 обучению</a>
-                            <a class="info-block__empty-btn info-block__empty-btn__yellow info-block__yellow-btn py-3 px-5">консультация</a>
+                            <a class="info-block__btn info-block__empty-btn info-block__empty-btn__yellow info-block__yellow-btn px-5">консультация</a>
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                             <div class="d-none d-sm-none d-md-block">
                                 <?php require "main-page-parts/video_slider.php"; ?>
                             </div>
-                            <div class="pb-4">
+                            <div class="pb-4 d-md-none d-block">
                                 <?php require "main-page-parts/video_slider_small.php"; ?>
                             </div>
                         </section>

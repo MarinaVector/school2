@@ -12,8 +12,7 @@
                     </button>
                 </a></li>
             <li class="d-md-inline col-12 col-md-4 col-btn my-3 my-md-0"><a href="#tabs-2">
-                    <button class="btn-couching
-                                    btn-couching_2 py-0"><span class="m-0">Курс по написанию экспертно-
+                    <button class="btn-couching btn-couching_2 py-0"><span class="m-0">Курс по написанию экспертно-
                                                     информационного пособия</span></button>
                 </a></li>
             <li class="d-md-inline mx-0 col-12 col-md-4 col-btn"><a href="#tabs-3">

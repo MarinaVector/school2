@@ -31,8 +31,8 @@ jQuery(function($) {
 			},
 			{
 
-				breakpoint: 450,
-				settings: "unslick" // destroys slick
+				//breakpoint: 450,
+				//settings: "unslick" // destroys slick
 
 			}
 		]
