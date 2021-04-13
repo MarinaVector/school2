@@ -751,6 +751,10 @@ div label .checkbox {
 
 @media screen and (max-device-width: 670px) {
 
+    .btn-couching {
+        width: 330px !important;
+    }
+
     .secondary-navigation {
         padding-bottom: 40px;
     }

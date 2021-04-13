@@ -23,9 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="Progress jquery">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page-parts/nested-course-1.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-page-parts/nested-course-1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,14 +120,7 @@
       <workItem from="1618047641766" duration="13214000" />
       <workItem from="1618111550717" duration="32109000" />
       <workItem from="1618185439260" duration="13466000" />
-      <workItem from="1618276205011" duration="52268000" />
-    </task>
-    <task id="LOCAL-00004" summary="frontend progress">
-      <created>1606314548777</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1606314548777</updated>
+      <workItem from="1618276205011" duration="52766000" />
     </task>
     <task id="LOCAL-00005" summary="frontend progress img autor">
       <created>1606319315307</created>
@@ -468,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618337106104</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Progress jquery">
+      <created>1618343340073</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1618343340074</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
