@@ -9,13 +9,13 @@
                 <div class="bg-bottom">
                     <div class="bg-top">
                         <?php require "general-components/nav.php"; ?>
-                        <div class="info-block col-md-8 offset-md-2 pb-3 mt-5">
+                        <div class="info-block col-md-8 offset-md-2 pb-3 mt-3 mt-md-5">
                             <h3 class="info-block__school-title mb-1">Светлана Светайло</h3>
                             <h1 class="info-block__coach-title">Бизнес монетизатор</h1>
 
-                            <a class="info-block__full-btn mb-5 my-md-5 pt-md-3 px-3 py-3 mr-2">приступить к
+                            <a class="info-block__full-btn info-block__yellow-btn mb-5 my-md-5 pt-md-3 px-3 py-3 mr-2">приступить к
                                 обучению</a>
-                            <a class="info-block__empty-btn info-block__empty-btn__yellow py-3 px-5">консультация</a>
+                            <a class="info-block__empty-btn info-block__empty-btn__yellow info-block__yellow-btn py-3 px-5">консультация</a>
                         </div>
                     </div>
                 </div>
@@ -39,9 +39,9 @@
                             </div>
 
                             <div class="col-12 mx-auto d-block d-md-none small-bg">
-                                 <img class="mt-1" src="img/Photo_small.png"
-                                      alt="Svetlana Svetailo photo">
-                             </div>
+                                <img class="mt-1" src="img/Photo_small.png"
+                                     alt="Svetlana Svetailo photo">
+                            </div>
 
                             <div class="col-md-6 col-12 px-0">
                                 <section class="pt-1 mx-3 mx-md-none">
@@ -51,23 +51,25 @@
                                         Экономист
                                     </p>
                                     <h4 class="about-author__name about-author__name__info">Я имею
-                                        высшее экономическое образование&mdash;</h4>
+                                        высшее экономическое образование</h4>
                                     <ul class="about-author__list">
                                         <li class="about-author__block">
                                             <div class="row">
                                                 <div class="col-1">
-                                                    <i class="fas fa-check green-check fa-2x"></i>
+                                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                                 </div>
-                                                <span class="about-author__info d-inline col-md-11 col-11">С 1996 по 2009
+                                                <span class="about-author__info d-inline col-md-11 col-10">С 1996 по 2009
                                                 год работала с финансами, бухгалтерией в России</span>
                                             </div>
                                         </li>
                                         <li class="about-author__block">
                                             <div class="row">
                                                 <div class="col-1">
-                                                    <i class="fas fa-check green-check fa-2x"></i>
+                                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                                 </div>
-                                                <div class="about-author__info d-inline col-md-11 col-11">С 2010
+                                                <div class="about-author__info d-inline col-md-11 col-10">С 2010
                                                     года работаю
                                                     в Норвегии, оказываю консультационные и бухгалтерские услуги
                                                     предпринимателям из разных ниш
@@ -122,9 +124,10 @@
                                 <li class="about-author__block my-1">
                                     <div class="row">
                                         <div class="col-1">
-                                            <i class="fas fa-check green-check fa-2x"></i>
+                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                         </div>
-                                        <span class="about-author__info d-inline col-md-10 col-11">
+                                        <span class="about-author__info d-inline col-md-10 col-10">
                                                                 Трансформационная программа Аркадия Осипова, эксперта
                                                                 в сфере применения Природоподобных Технологий
                                                             </span>
@@ -133,9 +136,10 @@
                                 <li class="about-author__block my-1">
                                     <div class="row">
                                         <div class="col-1">
-                                            <i class="fas fa-check green-check fa-2x"></i>
+                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                         </div>
-                                        <div class="about-author__info d-inline col-md-10 col-11">
+                                        <div class="about-author__info d-inline col-md-10 col-10">
                                             Обучение
                                             кросс-маркетингу в школе Владислава Бермуды
                                         </div>
@@ -145,9 +149,10 @@
                                 <li class="about-author__block my-1">
                                     <div class="row">
                                         <div class="col-1">
-                                            <i class="fas fa-check green-check fa-2x"></i>
+                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                         </div>
-                                        <span class="about-author__info col-md-10 col-11">Обучение
+                                        <span class="about-author__info col-md-10 col-10">Обучение
                                                                 на Монетизатора для генерация прибыли в компании с
                                                                 созданием дополнительных источников дохода</span>
                                     </div>
@@ -156,9 +161,10 @@
                                 <li class="about-author__block my-1">
                                     <div class="row">
                                         <div class="col-1">
-                                            <i class="fas fa-check green-check fa-2x"></i>
+                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                         </div>
-                                        <span class="about-author__info col-md-10 col-11">Повышение
+                                        <span class="about-author__info col-md-10 col-10">Повышение
                                                                 квалификации в школе партизанского интернет-маркетинга
                                                                 Алексеева Никиты</span>
                                     </div>
@@ -186,7 +192,13 @@
                         </section>
 
                         <section class="container">
-                            <?php require "main-page-parts/video_slider.php"; ?>
+                            <h3 class="section-product__title my-mt-5 text-center">Отзывы наших клиентов</h3>
+                            <div class="d-none d-sm-none d-md-block">
+                                <?php require "main-page-parts/video_slider.php"; ?>
+                            </div>
+                            <div class="pb-4">
+                                <?php require "main-page-parts/video_slider_small.php"; ?>
+                            </div>
                         </section>
                     </div>
                 </div>
@@ -204,6 +216,15 @@
 <!-- Slider Slick -->
 <script src="slick/slick.min.js"></script>
 <script src="slick/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 
 </body>

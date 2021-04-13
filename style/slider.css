@@ -10,6 +10,13 @@
     .wrap{padding: 50px 10px;}
 }
 
+@media (max-width:450px){
+   div.slider__item {
+        width: 350px !important;
+    }
+}
+
+
 /* Основные стили */
 
 /* Слайдер */

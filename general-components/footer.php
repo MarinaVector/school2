@@ -3,11 +3,12 @@
         <a class="nav-link" href="../index.php">
             <img class="main-nav__nav-logo" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">
         </a>
-        <div class="main-nav__nav-links mx-auto">
-            <a class="main-nav__nav-link nav-link" href="#">Об авторе</a>
-            <a class="main-nav__nav-link nav-link" href="/courses.php">Курсы</a>
-            <a class="main-nav__nav-link nav-link" href="#">Консультация</a>
-            <a class="main-nav__nav-link nav-link" href="#">Отзывы</a>
+
+        <div class="main-nav__nav-links mx-auto mb-3 nb-md-0 mt-md-4">
+            <a class="main-nav__nav-link nav-link nav_small" href="#">Об авторе</a>
+            <a class="main-nav__nav-link nav-link nav_small" href="/courses.php">Курсы</a>
+            <a class="main-nav__nav-link nav-link nav_small" href="#">Консультация</a>
+            <a class="main-nav__nav-link nav-link nav_small" href="#">Отзывы</a>
         </div>
 
         <div class="main-nav__nav-links nav-link btn-link">
@@ -17,7 +18,7 @@
             </div>
 
             <div class="d-inline">
-                <a class="main-nav__nav-simple py-2" href="auth.php">Задать вопрос</a>
+                <a class="main-nav__nav-simple py-2 mb-2 mb-md-0" href="auth.php">Задать вопрос</a>
             </div>
         </div>
     </nav>

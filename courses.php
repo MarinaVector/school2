@@ -8,7 +8,7 @@
 
 <main class="bg-page">
     <section class="about-coaching container-fluid px-0">
-        <div class="container">
+        <div class="container my-4 my-md-0">
             <div class="row p-0">
                 <div class="col-lg-12 col-12">
                     <h2 class="about-author__name about-author__name__title col-8 offset-2 text-center my-md-5"
@@ -31,7 +31,8 @@
                         <li class="about-author__block">
                             <div class="row">
                                 <div class="col-1">
-                                    <i class="fas fa-check green-check fa-2x"></i>
+                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                 </div>
                                 <span class="about-author__info d-inline col-md-11 col-11">увеличение чека</span>
                             </div>
@@ -39,7 +40,8 @@
                         <li class="about-author__block">
                             <div class="row">
                                 <div class="col-1">
-                                    <i class="fas fa-check green-check fa-2x"></i>
+                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                 </div>
                                 <div class="about-author__info d-inline col-md-11 col-11">увеличение трафика
                                 </div>
@@ -52,26 +54,29 @@
                         <li class="about-author__block">
                             <div class="row">
                                 <div class="col-1">
-                                    <i class="fas fa-check green-check fa-2x"></i>
+                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                 </div>
-                                <span class="about-author__info d-inline col-md-11 col-11">правильный смежник</span>
+                                <span class="about-author__info d-inline col-md-11 col-10">правильный смежник</span>
                             </div>
                         </li>
                         <li class="about-author__block">
                             <div class="row">
                                 <div class="col-1">
-                                    <i class="fas fa-check green-check fa-2x"></i>
+                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                 </div>
-                                <div class="about-author__info d-inline col-md-11 col-11">правильный подарок
+                                <div class="about-author__info d-inline col-md-11 col-10">правильный подарок
                                 </div>
                             </div>
                         </li>
                         <li class="about-author__block">
                             <div class="row">
                                 <div class="col-1">
-                                    <i class="fas fa-check green-check fa-2x"></i>
+                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
+                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                 </div>
-                                <div class="about-author__info d-inline col-md-11 col-11">обработка клиента
+                                <div class="about-author__info d-inline col-md-11 col-10">обработка клиента
                                 </div>
                             </div>
                         </li>

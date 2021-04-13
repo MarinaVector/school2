@@ -4,16 +4,18 @@ jQuery(function($) {
 	$('.slider').slick({
 		arrows:true,
 		centerMode: true,
-		centerPadding: '30px',
 		dots:false,
 		slidesToShow:3,
+		slidesToScroll:3,
 
 		responsive:[
 			{
-				breakpoint: 768,
+				breakpoint: 968,
 				settings: {
 					slidesToShow:1,
 					centerMode: false,
+					slidesToScroll: 1
+
 				}
 			},
 			{
@@ -22,7 +24,16 @@ jQuery(function($) {
 					slidesToShow:1,
 					arrows:false,
 					centerMode: false,
-				}
+					slidesToScroll: 1
+
+				},
+
+			},
+			{
+
+				breakpoint: 450,
+				settings: "unslick" // destroys slick
+
 			}
 		]
 	});

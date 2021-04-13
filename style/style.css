@@ -11,7 +11,7 @@ body {
 
 #top-btn:active,
 #top-btn:focus {
-    border: 3px solid #FCF347;
+    border: 3px solid #FDCD00;
 }
 
 a:focus,
@@ -41,66 +41,6 @@ footer {
     text-align: center;
 }
 
-.middle input[type=radio] {
-    display: none;
-}
-
-.middle input[type=radio]:checked + .box span {
-    color: #CF79BB;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-.middle input[type=radio]:checked + .box span:before {
-    opacity: 1;
-}
-
-.middle .box {
-    width: 146px;
-    height: 55px;
-    background-color: #FCF347;
-    will-change: transition;
-    text-align: center;
-    cursor: pointer;
-    position: relative;
-    font-family: Roboto Condensed, serif;
-    font-weight: 700;
-}
-
-.middle .box span {
-    position: absolute;
-    left: 0;
-    right: 0;
-    font-size: 16px;
-    user-select: none;
-    text-transform: uppercase;
-}
-
-.middle .box span:before {
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: FontAwesome, sans-serif;
-    display: block;
-    opacity: 0;
-    font-weight: normal;
-    color: white;
-}
-
-.middle .front-end {
-    border-radius: 100px 0 0 100px;
-}
-
-.middle .front-end span:before {
-    display: inline-block;
-}
-
-.middle .back-end {
-    border-radius: 0 100px 100px 0;
-}
-
-.middle .back-end span:before {
-    display: inline-block;
-}
 
 .main-nav__nav-logo,
 .fab-icon {
@@ -128,8 +68,9 @@ div a {
     cursor: pointer;
 }
 
-.main-nav__nav-link:hover {
-    color: #FCF347;
+.main-nav__nav-link:hover,
+.main-nav__nav-simple:hover {
+    color: #FDCD00;
     text-decoration: none;
 }
 
@@ -248,7 +189,7 @@ div a {
     box-sizing: border-box;
     filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.3));
     border-radius: 5px;
-        background: #FDCD00;
+    background: #FDCD00;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
         text-align: center;
     padding: 10px;
@@ -271,19 +212,29 @@ div a {
     text-align: center;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.7);
-    width: 339px !important;
     box-sizing: border-box;
     filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.3));
-
 }
 
 .info-block__empty-btn__yellow {
     border: 2px solid #FDCD00;
     color: #FDCD00;
     font-size: 18px;
-    width: 339px;
     height: 51px;
 }
+
+.info-block__empty-btn__yellow:hover {
+    background: #FDCD00;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.info-block__empty-btn__yellow:active {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
 
 .info-block__empty-btn__green {
     border: 2px solid #5E801E;
@@ -643,8 +594,6 @@ div a {
         opacity: 0.5;
     }
 
-
-
 }
 
 @media screen and (max-device-width: 1550px) {
@@ -653,7 +602,6 @@ div a {
         right: 0;
     }
 
-
 }
 
 @media screen and (min-device-width: 1140px) {
@@ -661,7 +609,6 @@ div a {
         display: flex;
         justify-content: center;
     }
-
 
 }
 
@@ -797,6 +744,10 @@ div a {
         text-align: right;
         margin-top: 10px;
     }
+
+    .video__button-shape {
+        display: none !important;
+    }
 }
 
 .video {
@@ -897,6 +848,7 @@ div label .checkbox {
         width: 229px;
         height: 46px;
     }
+
     .about-author__info {
         font-size: 10px;
     }
@@ -907,13 +859,22 @@ div label .checkbox {
 }
 
 @media screen and (max-device-width: 670px) {
+
     .secondary-navigation {
         padding-bottom: 40px;
     }
 
-    .info-block__full-btn {
-        font-size: 13px;
+    .info-block__full-btn__video {
+        height: 78px !important;
+    }
+
+    .info-block__full-btn, .info-block__empty-btn__yellow  {
+        font-size: 16px;
         margin-top: 20px;
+    }
+
+    div a .info-block__yellow-btn {
+        width: 245px !important;
     }
 
     .about-coaching__title {
@@ -935,6 +896,10 @@ div label .checkbox {
     }
      .nav-link {
     padding: .3rem 0 !important;
+     }
+
+     .section-product__title {
+         font-size: 36px;
      }
 
 }
@@ -963,6 +928,7 @@ div label .checkbox {
  .first1 {
      display: block;
   }
+
  .btn-couching {
      width: 380px;
      height: 53px;
@@ -987,7 +953,6 @@ ul .col-btn {
     border-radius: 5px 0 0 5px;
 }
 
-
 .btn-couching_2 {
     background: rgba(94, 128, 30, 0.7);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
@@ -998,8 +963,6 @@ ul .col-btn {
     background: #5E801E;
     border-radius: 0 5px 5px 0;
 }
-
-
 
 .number {
     width: 14px;

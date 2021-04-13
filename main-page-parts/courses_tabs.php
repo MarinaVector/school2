@@ -4,7 +4,7 @@
     </div>
 
     <div id="tabs">
-        <ul class="btn-list">
+        <ul class="btn-list text-center">
             <li class="d-md-inline col-12 col-md-4 col-btn"><a href="#tabs-1">
                     <button class="btn-couching
                                     btn-couching_1">
