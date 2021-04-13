@@ -152,7 +152,7 @@ div a {
 
 @media screen and (max-device-width: 1000px) {
     .main-header {
-        background: url('../img/Bg-top-md.jpg') center center/cover no-repeat;
+        background: url('../img/Bg-top-md.png') center center/cover no-repeat;
     }
 }
 
@@ -333,7 +333,6 @@ div a {
 
 @media (min-width: 260px) and (max-width: 999px) {
     .small-bg {
-        background-image: url(../img/arrow.png);
         background-repeat: no-repeat;
         background-position: center center;
         -webkit-background-size: cover;
@@ -634,6 +633,10 @@ div a {
         border: unset;
     }
 
+    .btn-couching {
+        width: 320px !important;
+    }
+
     .top-btn {
         border-radius: 3px;
         background: #FCF347;
@@ -653,57 +656,18 @@ div a {
 
 }
 
-.top-arrow,
-.fa-user,
-.fa-lock,
-.fa-envelope,
-.social {
-    color: #CF79BB;
-    display: inline-block;
-}
+@media screen and (min-device-width: 1140px) {
+    .btn-list {
+        display: flex;
+        justify-content: center;
+    }
 
-.top-txt,
-.register,
-.omb_authTitle {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: left;
-    text-transform: uppercase;
-}
 
+}
 
 .omb_authTitle {
     color: #4d4d4d;
 }
-
-.stage__stage-number {
-    font-family: Montserrat, sans-serif;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 88px;
-    letter-spacing: 0;
-    text-align: center;
-    text-transform: uppercase;
-    color: #CF79BB;
-}
-
-.stage__stage-txt {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0;
-    text-align: left;
-    text-transform: uppercase;
-    opacity: 0.7;
-    color: #000000;
-}
-
 
 .footer__footer-copyright {
     font-family: Roboto, sans-serif;
@@ -947,6 +911,11 @@ div label .checkbox {
         padding-bottom: 40px;
     }
 
+    .info-block__full-btn {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
     .about-coaching__title {
         margin-top: 40px;
     }
@@ -954,6 +923,20 @@ div label .checkbox {
     .about-coaching__name {
         margin-bottom: 20px;
     }
+
+    .info-block__coach-title {
+        font-size: 38px;
+    }
+
+    .main-nav__nav-link.nav_small {
+        font-size: 12px;
+        padding-left: .25rem!important;
+        padding-right: .25rem!important;
+    }
+     .nav-link {
+    padding: .3rem 0 !important;
+     }
+
 }
 
 @media screen and (max-device-width: 350px) {
@@ -972,6 +955,7 @@ div label .checkbox {
         font-size: 12px;
     }
 }
+
   .hide {
      display: none;
  }
@@ -980,7 +964,7 @@ div label .checkbox {
      display: block;
   }
  .btn-couching {
-     width: 360px;
+     width: 380px;
      height: 53px;
      margin: 0;
      font-family: Montserrat, sans-serif;
@@ -989,13 +973,20 @@ div label .checkbox {
      font-size: 15px;
      text-transform: uppercase;
      color: #FFFFFF;
- }
+     border: none;
+     }
+
+ul .col-btn {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
 .btn-couching_1 {
     background: rgba(94, 128, 30, 0.7);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     border-radius: 5px 0 0 5px;
 }
+
 
 .btn-couching_2 {
     background: rgba(94, 128, 30, 0.7);
@@ -1008,10 +999,7 @@ div label .checkbox {
     border-radius: 0 5px 5px 0;
 }
 
-.btn-list {
-    display: flex;
-    justify-content: center;
-}
+
 
 .number {
     width: 14px;

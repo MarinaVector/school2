@@ -36,9 +36,16 @@
 .slick-slide.slick-current{}
 /* Слайд по центру */
 .slick-slide.slick-center{
-    -webkit-transform: scale(1.25);
-    -moz-transform: scale(1.25);
-    transform: scale(1.25);
+
+}
+
+@media (min-device-width: 800px) {
+
+    .slick-slide.slick-center{
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        transform: scale(1.25);
+    }
 }
 
 /* Стрелка */

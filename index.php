@@ -15,7 +15,7 @@
 
                             <a class="info-block__full-btn mb-5 my-md-5 pt-md-3 px-3 py-3 mr-2">приступить к
                                 обучению</a>
-                            <a class="info-block__empty-btn info-block__empty-btn__yellow py-md-3 px-5">консультация</a>
+                            <a class="info-block__empty-btn info-block__empty-btn__yellow py-3 px-5">консультация</a>
                         </div>
                     </div>
                 </div>
@@ -24,26 +24,29 @@
             <section class="container-fluid px-0">
                 <div class="container">
                     <div class="p-o">
-                        <div class="row">
-                            <div class="row bg-star">
+                        <div class="row position-relative">
+                            <div class="bg-star1 position-absolute d-md-block d-none">
+                                <img style="padding-left: 20px; padding-top: 10px;"
+                                     src="/img/Header-logo.png"
+                                     border="0" height="1100" width="1140"/>
+                            </div>
                             <div class="col-md-12 col-12">
                                 <p class="about-author__title my-md-5 my-4">Об авторе</p>
                             </div>
-                            <div class="col-md-6 col-12">
+                            <div class="col-md-6 col-12 d-md-block d-none">
                                 <img class="icon-img" src="img/Photo.png"
                                      alt="Svetlana Svetailo photo">
                             </div>
-                            <!-- small screen example
-                            <div class="col-12 mx-auto d-block d-lg-none small-bg">
-                                 <img class="mt-1" src="img/sm-autor.png"
-                                      alt="photo">
+
+                            <div class="col-12 mx-auto d-block d-md-none small-bg">
+                                 <img class="mt-1" src="img/Photo_small.png"
+                                      alt="Svetlana Svetailo photo">
                              </div>
-                                -->
+
                             <div class="col-md-6 col-12 px-0">
-                                <section class="pt-1">
-                                    <h2 class="about-author__name about-author__name__title mt-md-3"
-                                    >Светлана
-                                        Светайло</h2>
+                                <section class="pt-1 mx-3 mx-md-none">
+                                    <h2 class="about-author__name about-author__name__title mt-md-3 text-center my-3 my-md-none"
+                                    >Светлана Светайло</h2>
                                     <p class="about-author__info">Бизнес-Монетизатор. Креативный-маркетолог.
                                         Экономист
                                     </p>
@@ -100,7 +103,7 @@
                                         мире учителей.</h4>
                                 </section>
                             </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>

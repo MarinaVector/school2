@@ -4,7 +4,7 @@ jQuery(function($) {
 	$('.slider').slick({
 		arrows:true,
 		centerMode: true,
-		centerPadding: '80px',
+		centerPadding: '30px',
 		dots:false,
 		slidesToShow:3,
 
@@ -12,13 +12,16 @@ jQuery(function($) {
 			{
 				breakpoint: 768,
 				settings: {
-					slidesToShow:2
+					slidesToShow:1,
+					centerMode: false,
 				}
 			},
 			{
 				breakpoint: 550,
 				settings: {
-					slidesToShow:1
+					slidesToShow:1,
+					arrows:false,
+					centerMode: false,
 				}
 			}
 		]
