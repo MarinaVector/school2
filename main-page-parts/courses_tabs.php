@@ -23,15 +23,12 @@
                 </a></li>
         </ul>
         <div id="tabs-1">
-            <p>1.</p>
             <?php require "main-page-parts/nested-course-1.php"; ?>
         </div>
         <div id="tabs-2">
-            <p>2.</p>
             <?php require "main-page-parts/nested-course-1.php"; ?>
         </div>
         <div id="tabs-3">
-            <p>3.</p>
             <?php require "main-page-parts/nested-course-1.php"; ?>
         </div>
     </div>
