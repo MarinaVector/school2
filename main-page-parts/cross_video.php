@@ -9,8 +9,7 @@
                             type="image/webp">
                     <img class="video__media"
                          src="https://i.ytimg.com/vi/JaTKpkQ_9v8/maxresdefault.jpg"
-                         alt="1 урок — инструмент «Диагностика по чакрам»
-                                и «Диагностика по древу рода»">
+                         alt="#">
                 </picture>
             </a>
             <button class="video__button" aria-label="Запустить видео">

@@ -11,7 +11,7 @@
             <a class="main-nav__nav-link nav-link nav_small" href="#">Отзывы</a>
         </div>
 
-        <div class="main-nav__nav-links nav-link btn-link">
+        <div class="main-nav__nav-links nav-link btn-link mt-3">
             <div class="d-inline">
                 <img class="mr-1" src="../img/Whatsapp%20.png"
                      alt="Sosial-icon">
