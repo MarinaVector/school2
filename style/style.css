@@ -200,7 +200,7 @@ margin-top: 70px;
 }
 
 .info-block__btn {
-    width: 339px !important;
+    width: 339px;
     height: 51px !important;
     display: inline-flex;
     align-items: center;
@@ -261,14 +261,11 @@ margin-top: 70px;
     text-align: center;
 }
 
-.bg-star {
-    background-image: url(../img/Header-logo.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+@media screen and (max-device-width: 860px) {
+
+    .bg-star {
+    display: none;
+    }
 }
 
 @media screen and (min-device-width: 1000px) {
@@ -440,102 +437,6 @@ margin-top: 70px;
     color: #FFFFFF;
 }
 
-.skill-title {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FCF347;
-}
-
-.yellow-star {
-    color: #FCF347;
-}
-
-@media screen and (min-device-width: 1000px) {
-    .module__module-period {
-        font-size: 18px;
-        line-height: 21px;
-        margin-top: -10px;
-    }
-}
-
-.module__module-period {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 17px;
-    letter-spacing: 0;
-    text-align: right;
-    color: #4d4d4d;
-    opacity: 0.7;
-    text-transform: uppercase;
-}
-
-.module__module-title {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 21px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #4d4d4d;
-    opacity: 0.7;
-    text-transform: uppercase;
-}
-
-.module__module-list {
-    font-family: Roboto, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    color: #000000;
-    opacity: 0.7;
-}
-
-.module__module-info {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0;
-    text-align: left;
-    color: rgba(0, 0, 0, 0.7);
-    text-transform: uppercase;
-}
-
-.question-txt {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    text-transform: uppercase;
-    text-align: left;
-    color: #FCF347;
-}
-
-.question {
-    font-family: Roboto Condensed, sans-serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 59px;
-    letter-spacing: 0;
-    text-align: center;
-    text-transform: uppercase;
-    opacity: 0.7;
-    color: #000000;
-    margin-top: 120px;
-}
 
 .footer,
 .header {
@@ -560,8 +461,6 @@ margin-top: 70px;
     #top-btn:focus {
         border: unset;
     }
-
-
 }
 
 @media screen and (max-device-width: 1550px) {
@@ -717,6 +616,30 @@ margin-top: 70px;
         display: none !important;
     }
 }
+
+
+
+@media (max-width: 1100px) {
+
+     .btn-1,
+     .btn-2,
+     .btn-3 {
+        border-radius: 0 !important;
+    }
+
+     .info-block__btn {
+        width: 300px;
+    }
+
+    .btn-couching {
+        width: 320px;
+    }
+}
+
+.video__button-shape {
+        display: none !important;
+    }
+
 
 .video {
     position: relative;
@@ -924,52 +847,29 @@ ul .col-btn {
 .btn-couching_1 {
     background: rgba(94, 128, 30, 0.7);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    border-radius: 5px 0 0 5px;
 }
 
 .btn-couching_2 {
     background: rgba(94, 128, 30, 0.7);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 0;
 }
 
 .btn-couching_3 {
     background: #5E801E;
+}
+
+.btn-1 {
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-2 {
+    border-radius: 0;
+}
+
+.btn-3 {
     border-radius: 0 5px 5px 0;
 }
 
-.form_radio_btn {
-    display: inline-block;
-}
-
-.form_radio_btn input[type=radio] {
-    display: none;
-}
-
-
-.fm label {
-    border-radius: 100px 0 0 100px;
-    margin-right: -2px;
-    vertical-align: middle;
-}
-
-
-
-/* Checked */
-.fm input[type=radio]:checked + label {
-    color: red;
-
-}
-
-.sm input[type=radio]:checked + label {
-    color: red;
-
-}
-
-/* Hover */
-.form_radio_btn label:hover {
-    color: #666;
-}
 
 .number {
     width: 14px;

@@ -9,11 +9,11 @@
                 <div class="bg-bottom">
                     <div class="bg-top">
                         <?php require "general-components/nav.php"; ?>
-                        <div class="info-block col-md-8 offset-md-2 pb-3 mt-3 my-md-5 py-md-4">
+                        <div class="info-block col-md-8 offset-md-2 col-10 offset-1 pb-3 mt-3 my-md-5 py-md-4">
                             <h3 class="info-block__school-title mb-1 mt-md-5">Светлана Светайло</h3>
                             <h1 class="info-block__coach-title">Бизнес монетизатор</h1>
 
-                            <a class="info-block__btn info-block__full-btn info-block__yellow-btn mb-5 my-md-5 mr-2">приступить к
+                            <a class="info-block__btn info-block__full-btn info-block__yellow-btn mb-md-5 mb-md-0 my-xl-5 mr-2">приступить к
                                 обучению</a>
                             <a class="info-block__btn info-block__empty-btn info-block__empty-btn__yellow info-block__yellow-btn px-5">консультация</a>
                         </div>
@@ -25,13 +25,13 @@
                 <div class="container">
                     <div class="p-o">
                         <div class="row position-relative">
-                            <div class="bg-star1 position-absolute d-md-block d-none">
-                                <img style="padding-left: 20px; padding-top: 10px;"
+                            <div class="position-absolute d-md-block d-none">
+                                <img class="bg-star" style="padding-left: 0; padding-top: 10px;"
                                      src="/img/Header-logo.png"
                                      border="0" height="1100" width="1140"/>
                             </div>
                             <div class="col-md-12 col-12">
-                                <p class="about-author__title my-md-5 my-4">Об авторе</p>
+                                <p class="about-author__title my-lg-5 my-md-2 my-4">Об авторе</p>
                             </div>
                             <div class="col-md-6 col-12 d-md-block d-none">
                                 <img class="icon-img" src="img/Photo.png"
@@ -39,11 +39,11 @@
                             </div>
 
                             <div class="col-12 mx-auto d-block d-md-none small-bg">
-                                <img class="mt-1 ml-n5 ml-sm-0" src="img/Photo_small.png"
+                                <img class="mt-1 ml-sm-0" src="img/Photo_small.png"
                                      alt="Svetlana Svetailo photo">
                             </div>
 
-                            <div class="col-md-6 col-12 px-0">
+                            <div class="col-md-6 col-12 px-0 col-11 offset-1 offset-md-0">
                                 <section class="pt-1 mx-3 mx-md-none">
                                     <h2 class="about-author__name about-author__name__title mt-md-3 text-center my-3 my-md-none"
                                     >Светлана Светайло</h2>
@@ -112,7 +112,7 @@
             </section>
 
 
-            <section class="about-author container-fluid px-0 bg-page">
+            <section class="about-author container-fluid px-0 bg-page pb-3">
                 <div class="container">
                     <div class="col-md-6 offset-md-6">
                         <div class="school-product">
@@ -225,28 +225,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
-<script>function show1() {
-        let i;
-        let elems = document.getElementsByClassName('first');
-        for (i = 0; i < elems.length; i++) elems[i].style.display = 'block';
-        elems = document.getElementsByClassName('second');
-        for (i = 0; i < elems.length; i++) elems[i].style.display = 'none';
-        elems = document.getElementsByClassName('third');
-        for (i = 0; i < elems.length; i++) elems[i].style.display = 'none';
-    }
-
-    function show2() {
-
-        let i;
-        let elems2 = document.getElementsByClassName('second');
-        for (i = 0; i < elems2.length; i++) elems2[i].style.display = 'block';
-
-        elems2 = document.getElementsByClassName('first');
-        for (i = 0; i < elems2.length; i++) elems2[i].style.display = 'none';
-    } </script>
-
-
 
 </body>
 </html>
