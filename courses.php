@@ -33,7 +33,7 @@
                                             <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
                                             <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                         </div>
-                                        <span class="about-author__info d-inline col-md-11 col-11">увеличение чека</span>
+                                        <span class="about-author__info d-inline col-md-11 col-10">увеличение чека</span>
                                     </div>
                                 </li>
                                 <li class="about-author__block">
@@ -42,7 +42,7 @@
                                             <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
                                             <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                         </div>
-                                        <div class="about-author__info d-inline col-md-11 col-11">увеличение трафика
+                                        <div class="about-author__info d-inline col-md-11 col-10">увеличение трафика
                                         </div>
                                     </div>
                                 </li>
