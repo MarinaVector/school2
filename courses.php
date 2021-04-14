@@ -10,7 +10,10 @@
         <main class="bg-page">
             <section class="about-coaching container-fluid px-0">
                 <div class="container my-4 my-md-0">
-                    <div class="row p-0">
+                    <div class="row p-0 position-relative">
+                        <div class="position-absolute d-md-block d-none">
+                            <img class="bg-star" style="padding-top: 100px;" src="/img/Header-logo.png" border="0" height="1100" width="1140"  alt="star-logo"/>
+                        </div>
                         <div class="col-lg-12 col-12">
                             <h2 class="about-author__name about-author__name__title col-8 offset-2 text-center my-md-5">Инструкция по
                         созданию колобораций для вашего бизнеса</h2>

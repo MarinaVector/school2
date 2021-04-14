@@ -2,7 +2,6 @@
     <div class="col-12 text-center">
         <h3 class="section-product__title mb-md-5 mb-4">Курсы и продукты</h3>
     </div>
-
     <div id="tabs">
         <ul class="btn-list text-center">
             <li class="d-md-inline col-12 col-md-4 col-btn"><a href="#tabs-1">

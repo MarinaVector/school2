@@ -27,7 +27,7 @@
                             <div class="p-o">
                                 <div class="row position-relative">
                                     <div class="position-absolute d-md-block d-none">
-                                        <img class="bg-star" style="padding-left: 0; padding-top: 10px;" src="/img/Header-logo.png" border="0" height="1100" width="1140" />
+                                        <img class="bg-star" style="padding-left: 0; padding-top: 10px;" src="/img/Header-logo.png" border="0" height="1100" width="1140"  alt="star-logo"/>
                                     </div>
                                     <div class="col-md-12 col-12">
                                         <p class="about-author__title my-lg-5 my-md-2 my-4">Об авторе</p>
@@ -82,7 +82,6 @@
                                         мире учителей.</h4>
                                         </section>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
