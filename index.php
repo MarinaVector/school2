@@ -6,11 +6,11 @@
         <div class="wrapper">
             <section class="fullscreen">
                 <div class="fullscreen__body">
-                    <header class="main-header pb-5">
+                    <header class="main-header pb-5 pb-md-0 pb-lg-5">
                         <div class="bg-bottom">
-                            <div class="bg-top">
+                            <div class="bg-top pt-md-3">
                                 <?php require "general-components/nav.php"; ?>
-                                    <div class="info-block col-md-8 offset-md-2 col-10 pb-3 mt-3 my-md-5 py-md-4">
+                                    <div class="info-block col-md-8 offset-md-2 col-10 pb-3 mt-3 mt-md-0 my-lg-5 py-lg-4">
                                         <h3 class="info-block__school-title mb-1 mt-md-5">Светлана Светайло</h3>
                                         <h1 class="info-block__coach-title">Бизнес монетизатор</h1>
 
@@ -42,7 +42,8 @@
 
                                     <div class="col-lg-6 col-12 px-3 px-md-0 offset-md-0">
                                         <section class="pt-1 mx-3 mx-md-none">
-                                            <h2 class="about-author__name about-author__name__title mt-md-3 text-center my-3 my-md-none">Светлана Светайло</h2>
+                                            <h2 class="about-author__name about-author__name__title mt-md-3 text-center
+                                             my-3 my-md-none">Светлана Светайло</h2>
                                             <p class="about-author__info">Бизнес-Монетизатор. Креативный-маркетолог. Экономист
                                             </p>
                                             <h4 class="about-author__name about-author__name__info">Я имею
