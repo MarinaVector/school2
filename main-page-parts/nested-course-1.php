@@ -141,5 +141,5 @@
 
 </div>
 <div class="price mb-md-2 mb-4">Стоимость курса</div>
-<a class="info-block__empty-btn info-block__empty-btn__green px-3 py-2 mr-5">14 900 руб.</a>
+<a class="info-block__empty-btn info-block__empty-btn__green px-3 py-2 mr-sm-5">14 900 руб.</a>
 <a class="info-block__full-btn px-5">Перейти к оплате</a>
