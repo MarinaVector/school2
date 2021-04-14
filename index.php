@@ -32,15 +32,15 @@
                                     <div class="col-md-12 col-12">
                                         <p class="about-author__title my-lg-5 my-md-2 my-4">Об авторе</p>
                                     </div>
-                                    <div class="col-lg-6 col-12 d-md-block d-none">
-                                        <img class="icon-img" src="img/Photo.png" alt="Svetlana Svetailo photo">
+                                    <div class="position-absolute d-md-block d-none">
+                                        <img class="icon-img" style="padding-left: 70px; padding-top: 200px;" src="img/Photo.png" alt="Svetlana Svetailo photo">
                                     </div>
 
                                     <div class="col-12 mx-auto d-block d-md-none small-bg">
                                         <img class="mt-1 ml-sm-0" src="img/Photo_small.png" alt="Svetlana Svetailo photo">
                                     </div>
 
-                                    <div class="col-lg-6 col-12 px-3 px-md-0 offset-md-0">
+                                    <div class="col-lg-6 offset-lg-6 col-12 px-3 px-md-0 offset-md-0">
                                         <section class="pt-1 mx-3 mx-md-none">
                                             <h2 class="about-author__name about-author__name__title mt-md-3 text-center
                                              my-3 my-md-none">Светлана Светайло</h2>
