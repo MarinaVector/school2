@@ -108,7 +108,7 @@
         </main>
 
         <?php include "general-components/footer.php"; ?>
-            <script src="video.js"></script>
+            <script src="slick/video.js"></script>
     </body>
 
 </html>

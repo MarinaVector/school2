@@ -804,7 +804,7 @@ div label .checkbox {
 }
 
 @media screen and (max-device-width: 375px) {
-    
+
     .info-block__full-btn, .info-block__empty-btn__yellow {
         font-size: 14px;
     }
@@ -960,6 +960,7 @@ ul .col-btn {
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-size: 18px;
+    font-weight: 600;
     text-transform: uppercase;
     color: #5E801E;
 }
@@ -988,7 +989,39 @@ ul .col-btn {
 
 @media only screen and (min-width : 992px) and (max-width : 1139px) {
 
+    .btn-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-couching {
+        width: 280px;
+        font-size: 12px;
+        }
+    }
+
+@media only screen and (min-width : 375px) and (max-width : 420px) {
+
+    .info-block__full-btn {
+        line-height: 22px;
+            }
 }
+
+@media screen and (min-device-width: 1200px) {
+
+    .author-img {
+        position: absolute;
+        padding-left: 70px;
+        padding-top: 200px;
+    }
+
+
+
+
+}
+
+
+
 
 
 

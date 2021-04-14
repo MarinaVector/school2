@@ -35,6 +35,10 @@
     align-items: flex-start;
 }
 
+.slick-cloned1 {
+    visibility: hidden;
+}
+
 /* Слайд */
 .slick-slide{}
 /* Слайд активный */

@@ -1,5 +1,5 @@
 <h4 class="about-author__name about-author__name__info"
-    >Кому подходит этот курс:</h4>
+>Кому подходит этот курс:</h4>
 <p class="about-author__info">Предпринимателям и владельцам бизнеса, партнерам и
     маркетологам.</p>
 <p class="about-author__info">Из этого курса вы узнаете об источнике дополнительного
@@ -130,16 +130,17 @@
             <div class="row">
 
                 <span class="about-author__info col-md-11 col-10">И многое другое...
-</span>
+               </span>
             </div>
         </li>
 
     </ul>
 
-       <h4 class="about-know mb-5 col-11"> Примени знания и увеличь прибыль за 2 месяца!</h4>
+    <h4 class="about-know mb-5 col-11"> Примени знания и увеличь прибыль за 2 месяца!</h4>
 
 
 </div>
 <div class="price mb-md-2 mb-4">Стоимость курса</div>
 <a class="info-block__empty-btn info-block__empty-btn__green px-3 py-2 mr-sm-5">14 900 руб.</a>
 <a class="info-block__full-btn px-5">Перейти к оплате</a>
+
