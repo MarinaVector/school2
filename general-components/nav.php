@@ -1,5 +1,5 @@
-<div class="container-fluid mb-5">
-    <nav class="nav nav-fill col-lg-10 offset-lg-1 mb-5 mt-md-1">
+<div class="container-fluid mb-5 mb-lg-0">
+    <nav class="nav nav-fill col-lg-10 offset-lg-1 mb-5 mb-lg-0 mt-md-1">
         <a class="nav-link" href="../index.php">
             <img class="main-nav__nav-logo my-4 my-md-0" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">
         </a>
