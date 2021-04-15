@@ -25,9 +25,12 @@
 }
 /* Ограничивающая оболочка */
 .slick-list {
-    overflow: hidden;
+   /* overflow: hidden;
     padding:45px 60px !important;
     margin-left:30px !important;
+    */
+    overflow: hidden;
+    margin: 0 -40px;
 }
 /* Лента слайдов */
 .slick-track{
@@ -141,6 +144,16 @@
 .slider__item img{
     max-width: 100%;
 }
+
+.slick-slide {
+    padding: 20px 40px;
+   /* transition: transform 300ms 300ms ease-out;*/
+}
+
+.slick-slide.slick-current {
+   /* transform: scale(1.25); */
+}
+
 .slider__item.slick-center{
 
 }
