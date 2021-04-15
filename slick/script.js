@@ -6,8 +6,7 @@ jQuery(function($) {
 		centerMode: true,
 		dots:false,
 		slidesToShow:3,
-		infinite: false,
-
+		lazyLoad: 'ondemand',
 
 		responsive:[
 			{
