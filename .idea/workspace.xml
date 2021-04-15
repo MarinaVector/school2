@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="nav">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-components/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Small-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Small-logo.png" afterDir="false" />
+    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="star logo place">
+      <change afterPath="$PROJECT_DIR$/img/Photo_min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Small-logo1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +130,7 @@
       <workItem from="1618411954946" duration="617000" />
       <workItem from="1618413482372" duration="454000" />
       <workItem from="1618418059242" duration="14527000" />
-      <workItem from="1618454762904" duration="1573000" />
-    </task>
-    <task id="LOCAL-00014" summary="frontend progress coaching page and video">
-      <created>1606660995309</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1606660995310</updated>
+      <workItem from="1618454762904" duration="1904000" />
     </task>
     <task id="LOCAL-00015" summary="shadow">
       <created>1606809261212</created>
@@ -476,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618455737430</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="star logo place">
+      <created>1618469752633</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1618469752634</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +494,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="frontend nav bar" />
     <MESSAGE value="frontend table del" />
     <MESSAGE value="frontend toggle progress" />
     <MESSAGE value="frontend footer and btns" />
@@ -520,6 +518,7 @@
     <MESSAGE value="Star" />
     <MESSAGE value="JR" />
     <MESSAGE value="nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav" />
+    <MESSAGE value="star logo place" />
+    <option name="LAST_COMMIT_MESSAGE" value="star logo place" />
   </component>
 </project>
