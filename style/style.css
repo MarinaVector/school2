@@ -874,7 +874,11 @@ div label .checkbox {
 @media screen and (max-device-width: 420px) {
       
     .section-product__title {
-         font-size: 30px;
+         font-size: 28px;
+    }
+
+    .info-block {
+        margin-left: 30px;
     }
    }
 
