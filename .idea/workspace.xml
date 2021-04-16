@@ -22,9 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="star logo place">
-      <change afterPath="$PROJECT_DIR$/img/Photo_min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Small-logo1.png" afterDir="false" />
+    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="Slider">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general-components/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../school1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../new" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -130,35 +132,8 @@
       <workItem from="1618411954946" duration="617000" />
       <workItem from="1618413482372" duration="454000" />
       <workItem from="1618418059242" duration="14527000" />
-      <workItem from="1618454762904" duration="1904000" />
-    </task>
-    <task id="LOCAL-00015" summary="shadow">
-      <created>1606809261212</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1606809261212</updated>
-    </task>
-    <task id="LOCAL-00016" summary="shadow">
-      <created>1606821940454</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1606821940455</updated>
-    </task>
-    <task id="LOCAL-00017" summary="btn and adaptiv">
-      <created>1606826667209</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1606826667209</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Video">
-      <created>1606831761247</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1606831761247</updated>
+      <workItem from="1618454762904" duration="11183000" />
+      <workItem from="1618561565009" duration="3331000" />
     </task>
     <task id="LOCAL-00019" summary="Registration">
       <created>1606833061691</created>
@@ -475,7 +450,35 @@
       <option name="project" value="LOCAL" />
       <updated>1618469752634</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="img">
+      <created>1618470042432</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1618470042432</updated>
+    </task>
+    <task id="LOCAL-00065" summary="star top lg">
+      <created>1618482502004</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1618482502005</updated>
+    </task>
+    <task id="LOCAL-00066" summary="border video 5px">
+      <created>1618495496348</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1618495496349</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Slider">
+      <created>1618510433543</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1618510433544</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,10 +497,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="frontend table del" />
-    <MESSAGE value="frontend toggle progress" />
-    <MESSAGE value="frontend footer and btns" />
-    <MESSAGE value="frontend progress list" />
     <MESSAGE value="frontend progress coaching page" />
     <MESSAGE value="frontend progress coaching page and video" />
     <MESSAGE value="shadow" />
@@ -519,6 +518,10 @@
     <MESSAGE value="JR" />
     <MESSAGE value="nav" />
     <MESSAGE value="star logo place" />
-    <option name="LAST_COMMIT_MESSAGE" value="star logo place" />
+    <MESSAGE value="img" />
+    <MESSAGE value="star top lg" />
+    <MESSAGE value="border video 5px" />
+    <MESSAGE value="Slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider" />
   </component>
 </project>

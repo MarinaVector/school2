@@ -99,7 +99,7 @@
 
                                         <li class="about-author__block my-1">
                                             <div class="row">
-                                                <div class="col-1">
+                                                <div class="col-1 col-md-2 col-xl-1">
                                                     <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
                                                     <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                                 </div>
@@ -111,7 +111,7 @@
                                         </li>
                                         <li class="about-author__block my-1">
                                             <div class="row">
-                                                <div class="col-1">
+                                                <div class="col-1 col-md-2 col-xl-1">
                                                     <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
                                                     <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                                 </div>
@@ -123,7 +123,7 @@
 
                                         <li class="about-author__block my-1">
                                             <div class="row">
-                                                <div class="col-1">
+                                                <div class="col-1 col-md-2 col-xl-1">
                                                     <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
                                                     <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                                 </div>
@@ -135,12 +135,13 @@
 
                                         <li class="about-author__block my-1">
                                             <div class="row">
-                                                <div class="col-1">
+                                                <div class="col-1 col-md-2 col-xl-1">
                                                     <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
                                                     <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
                                                 </div>
-                                                <span class="about-author__info col-md-10 col-10">Повышение                                            квалификации в школе партизанского интернет-маркетинга
-                                                                Алексеева Никиты</span>
+                                                <span class="about-author__info col-md-10 col-10">Повышение квалификации
+                                                                               в школе партизанского интернет-маркетинга
+                                                                               Алексеева Никиты</span>
                                             </div>
                                         </li>
                                     </ul>
