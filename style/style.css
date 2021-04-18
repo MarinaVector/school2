@@ -123,6 +123,7 @@ div a {
 
 .arrow-small {
     color: #FFFFFF;
+    display: none;
    }
 
 
@@ -1105,7 +1106,18 @@ ul .col-btn {
     }
 }
 
-@media screen and (max-device-width: 1243px)  {
+@media screen and (max-device-width: 1243px) and (max-device-width: 1080px)  {
+
+    .main-nav__nav-link {
+        font-size: 14px;
+    }
+
+    .main-nav__nav-simple {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-device-width: 1076px)  {
 
     .main-nav__nav-link {
         font-size: 12px;
@@ -1113,17 +1125,6 @@ ul .col-btn {
 
     .main-nav__nav-simple {
         font-size: 14px;
-    }
-}
-
-@media screen and (max-device-width: 1076px)  {
-
-    .main-nav__nav-link {
-        font-size: 10px;
-    }
-
-    .main-nav__nav-simple {
-        font-size: 12px;
     }
 }
 

@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-12 text-center">
+    <div class="col-sm-12 text-center">
         <h3 class="section-product__title mb-md-5 mb-4">Кросс-маркетинг</h3>
 
         <div class="video">

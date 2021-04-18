@@ -116,11 +116,7 @@
                                 </section>
 
                                 <section class="container mb-md-5">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <?php require "main-page-parts/nested-consalt.php"; ?>
-                                        </div>
-                                    </div>
+                                    <?php require "main-page-parts/nested-consalt.php"; ?>
                                 </section>
 
                                 <section class="container">
