@@ -17,7 +17,7 @@
             </div>
 
             <div class="d-inline">
-                <a class="py-2 main-nav__nav-simple" href="#">Русский</a>
+                <a class="main-nav__nav-simple" href="#">Русский</a>
                 <span class="arrow-small"><i class="fas fa-chevron-down"></i></span>
             </div>
         </div>
