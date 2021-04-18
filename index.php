@@ -26,11 +26,12 @@
                         <div class="container">
                             <div class="p-o">
                                 <div class="row position-relative">
-                                    <div class="position-absolute d-xl-block d-none">
-                                        <img class="bg-star" style="padding-left: 0; padding-top: 10px;" src="/img/Header-logo.png" border="0" height="1100" width="1140"  alt="star-logo"/>
+                                    <div class="position-absolute d-xl-block d-none pt-4">
+                                        <img class="bg-star" style="padding-top: 0;" src="/img/Header-logo.png"
+                                             border="0" height="1100" width="1140"  alt="star-logo"/>
                                     </div>
-                                    <div class="col-md-12 col-12">
-                                        <p class="about-author__title my-lg-5 my-md-2 my-4">Об авторе</p>
+                                    <div class="col-md-12 col-12 my-lg-1 mx-auto pt-4">
+                                        <p class="about-author__title my-lg-5 my-md-2">Об авторе</p>
                                     </div>
                                     <div class="author-img d-md-block d-none">
                                         <img class="icon-img"  src="img/Photo.png" alt="Svetlana Svetailo photo">
@@ -41,42 +42,30 @@
                                     </div>
 
                                     <div class="col-xl-6 offset-xl-6 col-12 px-3 px-md-0 offset-md-0">
-                                        <section class="pt-1 mx-3 mx-md-none">
-                                            <h2 class="about-author__name about-author__name__title mt-md-3 text-center
-                                             my-3 my-md-none">Светлана Светайло</h2>
+                                        <section class="pt-1 mx-3 mx-md-none ml-lg-1">
+                                            <h2 class="about-author__name about-author__name__title mt-md-3
+                                             my-1 my-md-none">Светлана Светайло</h2>
                                             <p class="about-author__info">Бизнес-Монетизатор. Креативный-маркетолог. Экономист
                                             </p>
                                             <h4 class="about-author__name about-author__name__info">Я имею
                                         высшее экономическое образование</h4>
-                                            <ul class="about-author__list">
-                                                <li class="about-author__block">
-                                                    <div class="row">
-                                                        <div class="col-1">
-                                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                                        </div>
-                                                        <span class="about-author__info d-inline col-md-11 col-10">С 1996 по 2009
-                                                год работала с финансами, бухгалтерией в России</span>
-                                                    </div>
-                                                </li>
-                                                <li class="about-author__block">
-                                                    <div class="row">
-                                                        <div class="col-1">
-                                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                                        </div>
-                                                        <div class="about-author__info d-inline col-md-11 col-10">С 2010 года работаю в Норвегии, оказываю консультационные и бухгалтерские услуги предпринимателям из разных ниш
-                                                        </div>
-                                                    </div>
-                                                </li>
+
+                                            <ul class="fa-ul about-author__list mr-lg-n5">
+                                                <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png" alt="arrow_green"></span>С 1996 по 2009
+                                                    год работала с финансами, бухгалтерией в России</li>
+                                                <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png" alt="arrow_green"></span>С 2010
+                                                    года работаю в Норвегии, оказываю консультационные и
+                                                    бухгалтерские услуги предпринимателям из разных ниш</li>
                                             </ul>
 
 
                                             <p class="about-author__info">Креативный кросс-маркетинг появился в моей жизни как инструмент помощи в развитии бизнеса для моих клиентов.
                                             </p>
 
-                                            <p class="about-author__info my-1 px-3 py-1">Многолетний опыт работы с предпринимателями также показал, что большинство бизнесменов получают доход только от продажи своих продуктов и оказании услуг. Они никак не монетизируют собственный ресурс. Даже если у собственника или у руководителя есть идеи и решения по монетизации ресурса, их никто не внедряет. Они так и остаются идеями, повисшими в воздухе.</p>
-                                            <p class="about-author__info my-1 px-3 py-1 mb-5"> Так в моей жизни появился еще один мощный инструмент под названием Монетизатор, который помогает бизнесменам получить прибыль от монетизации ресурса, часто превышающий доход от основного вида деятельности в несколько раз.
+                                            <p class="about-author__info my-1 px-lg-0 py-1">Многолетний опыт работы с предпринимателями также показал, что большинство бизнесменов получают доход только от продажи своих продуктов и оказании услуг. Они никак не монетизируют собственный ресурс. Даже если у собственника или у руководителя есть идеи и решения по монетизации ресурса, их никто не внедряет. Они так и остаются идеями, повисшими в воздухе.</p>
+                                            <p class="about-author__info my-1 px-lg-0 py-1 mb-5 mr-n4">Так в моей жизни появился еще один мощный инструмент под названием Монетизатор, который помогает бизнесменам получить прибыль от монетизации ресурса, часто превышающий доход от основного вида деятельности в несколько раз.
                                             </p>
                                             <h4 class="about-author__name about-author__name__info my-1" name="author" href="#">
                                         Я училась у лучших в
@@ -91,59 +80,27 @@
 
                     <section class="about-author container-fluid px-0 bg-page pb-3">
                         <div class="container">
-                            <div class="col-md-6 offset-md-6">
+                            <div class="offset-xl-6 pl-xl-1">
                                 <div class="school-product">
                                     <p class="about-author__info">В копилке моих знаний, постоянно применяемых на практике:</p>
 
-                                    <ul class="about-author__list">
-
-                                        <li class="about-author__block my-1">
-                                            <div class="row">
-                                                <div class="col-1 col-md-2 col-xl-1">
-                                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                                </div>
-                                                <span class="about-author__info d-inline col-md-10 col-10">
-                                                            Трансформационная программа Аркадия Осипова, эксперта
-                                                                в сфере применения Природоподобных Технологий
-                                                            </span>
-                                            </div>
-                                        </li>
-                                        <li class="about-author__block my-1">
-                                            <div class="row">
-                                                <div class="col-1 col-md-2 col-xl-1">
-                                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                                </div>
-                                                <div class="about-author__info d-inline col-md-10 col-10">
-                                                    Обучение кросс-маркетингу в школе Владислава Бермуды
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="about-author__block my-1">
-                                            <div class="row">
-                                                <div class="col-1 col-md-2 col-xl-1">
-                                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                                </div>
-                                                <span class="about-author__info col-md-10 col-10">Обучение
-                                                                на Монетизатора для генерация прибыли в компании с
-                                                                созданием дополнительных источников дохода</span>
-                                            </div>
-                                        </li>
-
-                                        <li class="about-author__block my-1">
-                                            <div class="row">
-                                                <div class="col-1 col-md-2 col-xl-1">
-                                                    <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                                    <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                                </div>
-                                                <span class="about-author__info col-md-10 col-10">Повышение квалификации
-                                                                               в школе партизанского интернет-маркетинга
-                                                                               Алексеева Никиты</span>
-                                            </div>
-                                        </li>
+                                    <ul class="fa-ul about-author__list mr-n5">
+                                        <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png" alt="arrow_green"></span> Трансформационная программа Аркадия Осипова, эксперта
+                                            в сфере применения Природоподобных Технологий</li>
+                                        <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png" alt="arrow_green">
+                                            </span>Обучение кросс-маркетингу в школе Владислава Бермуды</li>
+                                        <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png" alt="arrow_green">
+                                            </span>Обучение
+                                            на Монетизатора для генерация прибыли в компании с
+                                            созданием дополнительных источников дохода</li>
+                                        <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png" alt="arrow_green">
+                                            </span>Повышение квалификации
+                                            в школе партизанского интернет-маркетинга
+                                            Алексеева Никиты</li>
                                     </ul>
                                 </div>
                             </div>

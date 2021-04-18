@@ -147,11 +147,9 @@
 
 .slick-slide {
     padding: 20px 40px;
-   /* transition: transform 300ms 300ms ease-out;*/
 }
 
 .slick-slide.slick-current {
-   /* transform: scale(1.25); */
 }
 
 .slider__item.slick-center{
