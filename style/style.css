@@ -739,8 +739,9 @@ div label .checkbox {
         height: 46px;
     }
 
-    .about-author__info {
-        font-size: 10px;
+    .about-author__info,
+    .about-author__list {
+        font-size: 12px;
     }
 
     .main-nav__nav-link {
@@ -1045,6 +1046,24 @@ ul .col-btn {
 
     .btn-couching {
         width: 360px;
+    }
+}
+
+@media screen and (min-device-width: 700px)  {
+
+    .fa-big {
+        list-style-type: none;
+        margin-left: 2.5em;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-device-width: 699px)  {
+
+    .fa-small {
+        list-style-type: none;
+        margin-left: 2.5em;
+        padding-left: 0;
     }
 }
 
