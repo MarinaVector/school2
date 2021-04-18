@@ -10,7 +10,7 @@
                         <div class="bg-bottom">
                             <div class="bg-top pt-md-3">
                                 <?php require "general-components/nav.php"; ?>
-                                    <div class="info-block col-md-8 offset-md-2 col-10 pb-3 mt-3 mt-md-0 my-lg-5 py-lg-4">
+                                    <div class="info-block col-lg-10 col-xl-8 offset-lg-1 pl-md-5 offset-xl-2 col-12 pb-3 mt-3 mt-md-0 my-lg-5 py-lg-4">
                                         <h3 class="info-block__school-title mb-1 mt-md-5">Светлана Светайло</h3>
                                         <h1 class="info-block__coach-title">Бизнес монетизатор</h1>
 
@@ -80,11 +80,11 @@
 
                     <section class="about-author container-fluid px-0 bg-page pb-3">
                         <div class="container">
-                            <div class="offset-xl-6 pl-xl-1">
+                            <div class="offset-xl-6 pl-xl-1 pl-3">
                                 <div class="school-product">
                                     <p class="about-author__info">В копилке моих знаний, постоянно применяемых на практике:</p>
 
-                                    <ul class="fa-ul about-author__list mr-n5">
+                                    <ul class="fa-ul about-author__list">
                                         <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
                                                         <img class="arrow" src="/img/arrow_green.png" alt="arrow_green"></span> Трансформационная программа Аркадия Осипова, эксперта
                                             в сфере применения Природоподобных Технологий</li>

@@ -617,6 +617,19 @@ margin-top: 70px;
     }
 }
 
+@media (max-width:770px) {
+
+    .info-block__full-btn,
+    .info-block__empty-btn {
+        font-size: 16px;
+    }
+
+      .info-block__btn {
+        width: 280px;
+    }
+}
+
+
 @media (max-width: 991px) {
 
      .btn-1,
@@ -631,6 +644,10 @@ margin-top: 70px;
 
     .btn-couching {
         width: 320px;
+    }
+
+    .info-block__coach-title {
+        font-size: 56px;
     }
 }
 
@@ -752,10 +769,24 @@ div label .checkbox {
         font-size: 15px;
     }
 
+}
 
+@media screen and (max-device-width: 670px) and (min-device-width: 580px) {
+
+.main-nav__nav-link.nav_small {
+    font-size: 14px;
+    /*padding-left: .25rem !important;
+    padding-right: .25rem !important;*/
+}
 }
 
 @media screen and (max-device-width: 670px) {
+
+    .main-nav__nav-link.nav_small {
+
+        padding-left: .20rem !important;
+        padding-right: .20rem !important;
+    }
 
     .btn-couching {
         width: 330px !important;
@@ -790,11 +821,7 @@ div label .checkbox {
         font-size: 34px;
     }
 
-    .main-nav__nav-link.nav_small {
-        font-size: 12px;
-        padding-left: .25rem!important;
-        padding-right: .25rem!important;
-    }
+
      .nav-link {
     padding: .3rem 0 !important;
      }
@@ -1066,6 +1093,42 @@ ul .col-btn {
         padding-left: 0;
     }
 }
+
+@media screen and (max-device-width: 1273px)  {
+
+    .main-nav__nav-link {
+        font-size: 14px;
+    }
+
+    .main-nav__nav-simple {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-device-width: 1243px)  {
+
+    .main-nav__nav-link {
+        font-size: 12px;
+    }
+
+    .main-nav__nav-simple {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-device-width: 1076px)  {
+
+    .main-nav__nav-link {
+        font-size: 10px;
+    }
+
+    .main-nav__nav-simple {
+        font-size: 12px;
+    }
+}
+
+
+
 
 
 
