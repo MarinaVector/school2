@@ -20,68 +20,39 @@
 
                             <h4 class="cross-info__title d-inline">Уникальность схемы Кросс-маркетинга &mdash;</h4>
                             <span class="about-author__info d-inline">это выгода для всех участников процесса!!!</span>
-                            <p class="example mt-3">Например:</p>
+                            <p class="example mt-3 mb-xl-1">Например:</p>
                             <p class="about-author__info mb-5">Человек кушает в ресторане и ему говорят &quot;Покушай не на 1000 руб, а на 1500 руб. и получи сертификат на 1500 руб. в СПА салон&quot; Те. в этой ситуации выигрывают трое: Ресторан (поднял свой чек), СПА салон (привлек к себе трафик) и Клиент (сделал 100% кэшбек).</p>
 
-                            <h4 class="cross-info__title mt-5 col-xl-5">С помощью кросса можно решить 2 основные
+                            <h4 class="cross-info__title mt-5 col-xl-5 pl-xl-0">С помощью кросса можно решить 2 основные
                         задачи:</h4>
 
-                            <ul class="about-author__list mb-5">
-                                <li class="about-author__block">
-                                    <div class="row">
-                                        <div class="col-1">
-                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                        </div>
-                                        <span class="about-author__info d-inline col-md-11 col-10">увеличение чека</span>
-                                    </div>
-                                </li>
-                                <li class="about-author__block">
-                                    <div class="row">
-                                        <div class="col-1">
-                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                        </div>
-                                        <div class="about-author__info d-inline col-md-11 col-10">увеличение трафика
-                                        </div>
-                                    </div>
-                                </li>
+
+                            <ul class="fa-ul about-author__list mr-lg-n5  mb-5">
+                            <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png"
+                                                             alt="arrow_green"></span>увеличение чека</li>
+                            <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png" alt="arrow_green">
+                                </span>увеличение трафика</li>
                             </ul>
+
 
                             <h4 class="cross-info__title">Для правильного кросса необходимы:</h4>
-                            <ul class="about-author__list">
-                                <li class="about-author__block">
-                                    <div class="row">
-                                        <div class="col-1">
-                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                        </div>
-                                        <span class="about-author__info d-inline col-md-11 col-10">правильный смежник</span>
-                                    </div>
-                                </li>
-                                <li class="about-author__block">
-                                    <div class="row">
-                                        <div class="col-1">
-                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                        </div>
-                                        <div class="about-author__info d-inline col-md-11 col-10">правильный подарок
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="about-author__block">
-                                    <div class="row">
-                                        <div class="col-1">
-                                            <i class="fas fa-check green-check fa-2x d-none d-md-block"></i>
-                                            <i class="fas fa-check green-check fa-lg d-md-none d-block"></i>
-                                        </div>
-                                        <div class="about-author__info d-inline col-md-11 col-10">обработка клиента
-                                        </div>
-                                    </div>
-                                </li>
+
+                            <ul class="fa-ul about-author__list mr-lg-n5 mb-3">
+                                <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png"
+                                                             alt="arrow_green"></span>правильный смежник</li>
+                                <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png" alt="arrow_green">
+                                </span>правильный подарок</li>
+                                <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
+                                                        <img class="arrow" src="/img/arrow_green.png" alt="arrow_green">
+                                </span>обработка клиента</li>
                             </ul>
 
-                            <h6 class="partner-info cross_info my-5">Правильный смежник (партнер) &mdash;</h6>
+
+                            <h6 class="partner-info cross_info mt-5 mb-3">Правильный смежник (партнер) &mdash;</h6>
 
                             <p class="about-author__info">это тот смежник, куда ещё ходят ваши клиенты и в большом количестве. Очень важно чтобы у смежника был не только большой объем нашей ЦА, но чтобы был еще гармоничный подарок с нашей услугой (товаром).</p>
 
@@ -96,7 +67,7 @@
 
                             <article class="cross_info mb-5">Попробуй самостоятельно составить подарки и выбрать правильных смежников. Ну, а если не получится &ndash; скачай Чек-лист &laquo;230 коллабораций с высокомаржинальными товарами и услугами&raquo;, изучи курс по кросс-маркетингу и увеличь свой доход в несколько раз без дополнительных затрат!</article>
 
-                            <p class="about-author__info col-md-2">С доверием к Вам, Светлана Светайло</p>
+                            <p class="about-author__info col-xl-3 pr-xl-5">С доверием к Вам, Светлана Светайло</p>
                             <div class="text-center my-5">
                                 <a class="info-block__full-btn px-5 mb-3">Скачать чек-лист</a>
                             </div>
