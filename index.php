@@ -12,12 +12,11 @@
                                 <?php require "general-components/nav.php"; ?>
                                     <div class="info-block container
                                      pb-3 mt-3 mt-md-0 my-lg-5 py-lg-4">
-                                        <div class="p-0 pl-xl-3">
+                                        <div class="p-0">
                                         <h3 class="info-block__school-title mb-1 mt-md-5">Светлана Светайло</h3>
                                         <h1 class="info-block__coach-title">Бизнес монетизатор</h1>
 
-                                        <a class="info-block__btn info-block__full-btn info-block__yellow-btn mb-md-5
-                                         mb-md-0 my-xl-5 mr-2">приступить к
+                                        <a class="info-block__btn info-block__full-btn info-block__yellow-btn mb-sm-5 my-xl-5 mr-2">приступить к
                                 обучению</a>
                                         <a class="info-block__btn info-block__empty-btn info-block__empty-btn__yellow
                                         info-block__yellow-btn px-5">консультация</a>

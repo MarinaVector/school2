@@ -1220,6 +1220,16 @@ ul .col-btn {
     }
 }
 
+@media screen and (max-device-width: 767px)  {
+
+    .main-nav__nav__append {
+
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
+}
+
 
 
 

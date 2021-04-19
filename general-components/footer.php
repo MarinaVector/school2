@@ -1,10 +1,11 @@
-<footer class="footer container-fluid py-3">
+<footer class="footer container-fluid pt-3 pb-5">
+    <div class="container">
     <nav class="nav nav-fill col-md-12">
         <a class="nav-link" href="../index.php">
             <img class="main-nav__nav-logo" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">
         </a>
 
-        <div class="main-nav__nav-links mx-auto mb-3 nb-md-0 mt-4">
+        <div class="main-nav__nav-links mb-3 mt-4">
             <a class="main-nav__nav-link nav-link nav_small" href="#">Об авторе</a>
             <a class="main-nav__nav-link nav-link nav_small" href="/courses.php">Курсы</a>
             <a class="main-nav__nav-link nav-link nav_small" href="#">Консультация</a>
@@ -22,8 +23,9 @@
             </div>
         </div>
     </nav>
-    <div class="">
+    <div class="mt-1">
         <p class="text-center footer__footer-copyright">Все права защищены</p>
+    </div>
     </div>
 </footer>
 
