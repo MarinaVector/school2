@@ -1,5 +1,5 @@
 <h4 class="about-course__small about-author__name__info mt-5 mx-auto"
->Курс Экспертно-информационное пособие — инструмент для наикрутейших продаж.</h4>
+>в экспресс курсе монетизатор вы узнаете:</h4>
 
 <h2 class="about-course__title mt-md-3 text-center my-md-5">Курс состоит из уроков:</h2>
 
@@ -10,7 +10,7 @@
                 <div class="col-1 text-right">
                     <div class="number">1</div>
                 </div>
-                <span class="about-author__info col-md-11 col-10 ml-md-n2">Как стать Экспертом за 2 недели.</span>
+                <span class="about-author__info col-md-11 col-10 ml-md-n2">Кто ты: Монетизатор или Стратег?</span>
             </div>
         </li>
         <li class="skill-title__list mb-3">
@@ -18,7 +18,8 @@
                 <div class="col-1">
                     <div class="number">2</div>
                 </div>
-                <span class="about-author__info col-md-11 col-10 ml-md-n2">Продавать не продавая.</span>
+                <span class="about-author__info col-md-11 col-10 ml-md-n2">Инструменты, которые помогают заключать
+                    миллионные контракты</span>
             </div>
         </li>
         <li class="skill-title__list mb-3">
@@ -26,26 +27,8 @@
                 <div class="col-1">
                     <div class="number">3</div>
                 </div>
-                <span class="about-author__info col-md-11 col-10 ml-md-n2">13 Примеров создания «цепляющих» названий
-                    для Пособия из разных ниш бизнеса.</span>
-            </div>
-        </li>
-        <li class="skill-title__list mb-3">
-            <div class="row">
-                <div class="col-1">
-                    <div class="number">4</div>
-                </div>
-                <span class="about-author__info col-md-11 col-10 ml-md-n2">Как бесплатно протестировать название и не
-                    слить бюджет. </span>
-            </div>
-        </li>
-        <li class="skill-title__list mb-3">
-            <div class="row">
-                <div class="col-1">
-                    <div class="number">5</div>
-                </div>
-                <span class="about-author__info col-md-11 col-10 ml-md-n2">4 метода откуда брать контент для написания
-                    Пособия, даже если вы не Эксперт.</span>
+                <span class="about-author__info col-md-11 col-10 ml-md-n2">Кейс: «Как Фитнес-клуб заработал 600 000руб.
+                    продав в 4 раза дешевле»</span>
             </div>
         </li>
     </ul>
@@ -54,37 +37,32 @@
         <li class="skill-title__list mb-3">
             <div class="row">
                 <div class="col-1 text-right">
+                    <div class="number">4</div>
+                </div>
+                <span class="about-author__info col-md-11 col-10 ml-md-n2">Как использовать записную книжку и получать
+                    дополнительный доход</span>
+            </div>
+        </li>
+        <li class="skill-title__list mb-3">
+            <div class="row">
+                <div class="col-1">
+                    <div class="number">5</div>
+                </div>
+                <span class="about-author__info col-md-11 col-10 ml-md-n2">Кейс: «Как фирма по ремонту квартир получила
+                    увеличение дохода, предоставив клиенту большую скидку»</span>
+            </div>
+        </li>
+        <li class="skill-title__list mb-3">
+            <div class="row">
+                <div class="col-1">
                     <div class="number">6</div>
                 </div>
-                <span class="about-author__info col-md-11 col-10 ml-md-n2">Как монетизировать Пособие ДО его издания и
-                    не тратить деньги на копирайтинг и редактуру.</span>
+                <span class="about-author__info col-md-11 col-10 ml-md-n2">Как получать 7 миллионов в год с помощью
+                    безлимитного кофе
+</span>
             </div>
         </li>
-        <li class="skill-title__list mb-3">
-            <div class="row">
-                <div class="col-1">
-                    <div class="number">7</div>
-                </div>
-                <span class="about-author__info col-md-11 col-10 ml-md-n2">6 простых, но эффективных способов по его тиражированию среди клиентов.</span>
-            </div>
-        </li>
-        <li class="skill-title__list mb-3">
-            <div class="row">
-                <div class="col-1">
-                    <div class="number">8</div>
-                </div>
-                <span class="about-author__info col-md-11 col-10 ml-md-n2">Как повысить ценность Пособия
-                    и распространять его только среди VIP клиентов.</span>
-            </div>
-        </li>
-        <li class="skill-title__list mb-3">
-            <div class="row">
-                <div class="col-1">
-                    <div class="number">9</div>
-                </div>
-                <span class="about-author__info col-md-11 col-10 ml-md-n2">Способы получения дополнительного дохода с помощью Пособия.</span>
-            </div>
-        </li>
+
         <li class="skill-title__list mb-3">
             <div class="row">
 

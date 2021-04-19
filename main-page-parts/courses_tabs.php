@@ -22,13 +22,13 @@
                 </a></li>
         </ul>
         <div id="tabs-1">
-            <?php require "main-page-parts/nested-course-tutorial.php"; ?>
+            <?php require_once "main-page-parts/nested-course-monetize.php"; ?>
         </div>
         <div id="tabs-2">
-            <?php require "main-page-parts/nested-course-cross.php"; ?>
+            <?php require_once "main-page-parts/nested-course-tutorial.php"; ?>
         </div>
         <div id="tabs-3">
-            <?php require "main-page-parts/nested-course-monetize.php"; ?>
+            <?php require_once "main-page-parts/nested-course-cross.php"; ?>
         </div>
     </div>
 </div>
