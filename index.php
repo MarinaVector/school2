@@ -97,7 +97,7 @@
 
                     <section class="about-author container-fluid px-0 bg-page pb-3">
                         <div class="container">
-                            <div class="offset-xl-6 pl-xl-1 pl-3">
+                            <div class="offset-xl-6 pl-xl-1 pl-3 mb-5">
                                 <div class="school-product">
                                     <p class="about-author__info">В копилке моих знаний, постоянно применяемых на практике:</p>
 
@@ -125,8 +125,8 @@
                             </div>
 
 
-                            <div class="col-md-12">
-                                <section class="container">
+                            <div class="col-md-12 mt-lg-5">
+                                <section class="container mt-lg-5">
                                     <?php require "main-page-parts/cross_video.php"; ?>
                                 </section>
 
