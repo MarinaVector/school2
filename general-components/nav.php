@@ -1,8 +1,8 @@
 <div class="container-fluid mb-5 mb-lg-0">
     <div class="container px-0">
     <nav class="nav mb-5 mb-lg-0 mt-md-1 pb-lg-3">
-        <a class="nav-link px-0" href="../index.php">
-            <img class="main-nav__nav-logo mb-sm-4 mt-4 my-md-n3 my-xl-n2 mt-sm-1" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">
+        <a class="nav-link px-0 nav-star" href="../index.php">
+            <img class="main-nav__nav-logo mt-4 my-md-n3 my-xl-n2 mt-sm-1" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">
         </a>
         <div class="main-nav__nav-links mx-xl-auto mb-3 mb-md-0 mt-4 mt-lg-4">
             <a class="main-nav__nav-link nav-link nav_small" href="#">Об авторе</a>
@@ -30,7 +30,7 @@
             </div>
 
             <div class="d-inline">
-                <a class="main-nav__nav-simple py-2" href="#">Задать вопрос</a>
+                <a class="main-nav__nav-simple" href="#">Задать вопрос</a>
             </div>
         </div>
     </nav>
