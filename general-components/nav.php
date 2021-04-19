@@ -2,16 +2,16 @@
     <div class="container px-0">
     <nav class="nav mb-5 mb-lg-0 mt-md-1 pb-lg-3">
         <a class="nav-link px-0" href="../index.php">
-            <img class="main-nav__nav-logo my-4 my-md-n3 my-xl-n2" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">
+            <img class="main-nav__nav-logo mb-sm-4 mt-4 my-md-n3 my-xl-n2 mt-sm-1" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">
         </a>
-        <div class="main-nav__nav-links mx-auto mb-3 mb-md-0 mt-lg-4">
+        <div class="main-nav__nav-links mx-xl-auto mb-3 mb-md-0 mt-4 mt-lg-4">
             <a class="main-nav__nav-link nav-link nav_small" href="#">Об авторе</a>
             <a class="main-nav__nav-link nav-link nav_small" href="/courses.php">Курсы</a>
             <a class="main-nav__nav-link nav-link nav_small" href="#">Консультация</a>
             <a class="main-nav__nav-link nav-link nav_small" href="#">Отзывы</a>
         </div>
 
-        <div class="main-nav__nav-links nav-link btn-link mt-lg-4">
+        <div class="main-nav__nav-links nav-link btn-link mt-4">
             <div class="d-inline">
                 <img class="" src="../img/Russ.png"
                      alt="Sosial-icon">
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <div class="main-nav__nav-links nav-link btn-link mt-lg-4">
+        <div class="main-nav__nav-links nav-link btn-link mt-4">
             <div class="d-inline">
                 <img class="mr-1" src="../img/Whatsapp%20.png"
                      alt="Sosial-icon">
