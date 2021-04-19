@@ -23,9 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="progress">
+      <change afterPath="$PROJECT_DIR$/main-page-parts/nested-course-cross.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-page-parts/nested-course-monetize.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-components/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page-parts/courses_tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-page-parts/courses_tabs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page-parts/nested-course-1.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-page-parts/nested-course-tutorial.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +69,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../new" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main-page-parts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,6 +82,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\school2\main-page-parts" />
       <recent name="D:\OpenServer\domains\school2\slick" />
       <recent name="D:\OpenServer\domains\school2\img" />
       <recent name="D:\OpenServer\domains\school1\fonts" />
@@ -135,14 +138,7 @@
       <workItem from="1618454762904" duration="11183000" />
       <workItem from="1618561565009" duration="12773000" />
       <workItem from="1618724778763" duration="24680000" />
-      <workItem from="1618795950854" duration="17359000" />
-    </task>
-    <task id="LOCAL-00030" summary="img right">
-      <created>1606935282253</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1606935282253</updated>
+      <workItem from="1618795950854" duration="20803000" />
     </task>
     <task id="LOCAL-00031" summary="img right">
       <created>1606937479330</created>
@@ -480,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618822649584</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="progress">
+      <created>1618823863953</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1618823863953</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

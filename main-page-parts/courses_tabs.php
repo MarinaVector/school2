@@ -7,7 +7,7 @@
             <li class="d-md-inline col-12 col-md-4 col-btn"><a href="#tabs-1">
                     <button class="btn-couching btn-1
                                     btn-couching_1">
-                        Экспресс курс
+                        Экспресс курс монетизатор
                     </button>
                 </a></li>
             <li class="d-md-inline col-12 col-md-4 col-btn my-3 my-md-0"><a href="#tabs-2">
@@ -22,13 +22,13 @@
                 </a></li>
         </ul>
         <div id="tabs-1">
-            <?php require "main-page-parts/nested-course-1.php"; ?>
+            <?php require "main-page-parts/nested-course-tutorial.php"; ?>
         </div>
         <div id="tabs-2">
-            <?php require "main-page-parts/nested-course-1.php"; ?>
+            <?php require "main-page-parts/nested-course-cross.php"; ?>
         </div>
         <div id="tabs-3">
-            <?php require "main-page-parts/nested-course-1.php"; ?>
+            <?php require "main-page-parts/nested-course-monetize.php"; ?>
         </div>
     </div>
 </div>

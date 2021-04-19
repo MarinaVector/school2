@@ -1,4 +1,4 @@
-<h4 class="about-author__name about-author__name__info"
+<h4 class="about-course__small about-author__name__info mt-5"
 >Кому подходит этот курс:</h4>
 <p class="about-author__info">Предпринимателям и владельцам бизнеса, партнерам и
     маркетологам.</p>
@@ -6,7 +6,7 @@
     дохода и получении новых клиентов без дополнительных вложений, увеличение
     повторных продаж, основах внедрения и выбора партнера для создания коллабораций.
 </p>
-<h2 class="about-author__name about-author__name__title mt-md-3 text-center my-md-5">В
+<h2 class="about-course__title mt-md-3 text-center my-md-5">В
     этом курсе вы узнаете:</h2>
 
 <div class="row">
