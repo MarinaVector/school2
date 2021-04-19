@@ -145,7 +145,39 @@ margin-top: 70px;
     letter-spacing: 0.055em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
 
+.col-business__title {
+
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.cross-info__title {
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.partner-info {
+
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
 }
 
 @media screen and (min-device-width: 1000px) {
@@ -881,8 +913,6 @@ div label .checkbox {
 
     .main-nav__nav-link.nav_small {
         font-size: 9px;
-        padding-left: .12rem!important;
-        padding-right: .12rem!important;
     }
 
     .middle .box {

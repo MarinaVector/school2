@@ -15,15 +15,15 @@
                             <img class="bg-star" style="padding-top: 100px;" src="/img/Header-logo.png" border="0" height="1100" width="1140"  alt="star-logo"/>
                         </div>
                         <div class="col-lg-12 col-12">
-                            <h2 class="about-author__name about-author__name__title col-8 offset-2 text-center my-md-5">Инструкция по
+                            <h2 class="col-business__title col-xl-7 offset-xl-3 text-center my-md-5">Инструкция по
                         созданию колобораций для вашего бизнеса</h2>
 
-                            <h4 class="about-author__name about-author__name__info d-inline">Уникальность схемы Кросс-маркетинга &mdash;</h4>
+                            <h4 class="cross-info__title d-inline">Уникальность схемы Кросс-маркетинга &mdash;</h4>
                             <span class="about-author__info d-inline">это выгода для всех участников процесса!!!</span>
                             <p class="example mt-3">Например:</p>
                             <p class="about-author__info mb-5">Человек кушает в ресторане и ему говорят &quot;Покушай не на 1000 руб, а на 1500 руб. и получи сертификат на 1500 руб. в СПА салон&quot; Те. в этой ситуации выигрывают трое: Ресторан (поднял свой чек), СПА салон (привлек к себе трафик) и Клиент (сделал 100% кэшбек).</p>
 
-                            <h4 class="about-author__name about-author__name__info mt-5">С помощью кросса можно решить 2 основные
+                            <h4 class="cross-info__title mt-5 col-xl-5">С помощью кросса можно решить 2 основные
                         задачи:</h4>
 
                             <ul class="about-author__list mb-5">
@@ -48,7 +48,7 @@
                                 </li>
                             </ul>
 
-                            <h4 class="about-author__name about-author__name__info">Для правильного кросса необходимы:</h4>
+                            <h4 class="cross-info__title">Для правильного кросса необходимы:</h4>
                             <ul class="about-author__list">
                                 <li class="about-author__block">
                                     <div class="row">
@@ -81,13 +81,13 @@
                                 </li>
                             </ul>
 
-                            <h6 class="about-author__name about-author__name__info cross_info my-5">Правильный смежник (партнер) &mdash;</h6>
+                            <h6 class="partner-info cross_info my-5">Правильный смежник (партнер) &mdash;</h6>
 
                             <p class="about-author__info">это тот смежник, куда ещё ходят ваши клиенты и в большом количестве. Очень важно чтобы у смежника был не только большой объем нашей ЦА, но чтобы был еще гармоничный подарок с нашей услугой (товаром).</p>
 
                             <p class="about-author__info mb-5">К сожалению, очень часто предприниматели не видят всю ЦА и теряют на этом деньги. Ведь чем больше вариантов правильных смежников у нас будет, тем больше мы сможем сделать коллабораций. Чем больше коллабораций - тем больше трафика, подарков и выше чек!</p>
 
-                            <h4 class="about-author__name about-author__name__info">Теперь о подарке:</h4>
+                            <h4 class="cross-info__title">Теперь о подарке:</h4>
 
                             <p class="about-author__info">Подарок должен быть частью целого, чтобы его легко было допродавать. Он должен быть высокомаржинальный. Правильный подарок &mdash; это подарок, который будет ВЫГОДЕН для всех партнеров.
                             </p>
