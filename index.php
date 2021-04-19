@@ -10,7 +10,7 @@
                         <div class="bg-bottom">
                             <div class="bg-top pt-md-3">
                                 <?php require "general-components/nav.php"; ?>
-                                    <div class="info-block col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 pl-md-5 col-12
+                                    <div class="info-block container
                                      pb-3 mt-3 mt-md-0 my-lg-5 py-lg-4">
                                         <div class="p-0 pl-xl-3">
                                         <h3 class="info-block__school-title mb-1 mt-md-5">Светлана Светайло</h3>

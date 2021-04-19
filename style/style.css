@@ -1122,7 +1122,8 @@ ul .col-btn {
     }
 }
 
-@media screen and (max-device-width: 1273px)  {
+
+@media screen and (max-device-width: 1273px) and (min-device-width: 990px)  {
 
     .main-nav__nav-link {
         font-size: 14px;
@@ -1133,27 +1134,6 @@ ul .col-btn {
     }
 }
 
-@media screen and (max-device-width: 1243px) and (max-device-width: 1080px)  {
-
-    .main-nav__nav-link {
-        font-size: 14px;
-    }
-
-    .main-nav__nav-simple {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-device-width: 1076px)  {
-
-    .main-nav__nav-link {
-        font-size: 12px;
-    }
-
-    .main-nav__nav-simple {
-        font-size: 14px;
-    }
-}
 
 @media screen and (max-device-width: 310px)  {
 
