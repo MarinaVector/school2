@@ -8,7 +8,7 @@
                 <div class="fullscreen__body">
                     <header class="main-header pb-5 pb-md-0 pb-lg-5">
                         <div class="bg-bottom">
-                            <div class="bg-top pt-md-3">
+                            <div class="bg-top pt-3">
                                 <?php require "general-components/nav.php"; ?>
                                     <div class="info-block container
                                      pb-3 mt-3 mt-md-0 my-lg-5 py-lg-4">

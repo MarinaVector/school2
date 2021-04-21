@@ -62,7 +62,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main-page-parts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -133,6 +133,7 @@
       <workItem from="1618724778763" duration="24680000" />
       <workItem from="1618795950854" duration="38652000" />
       <workItem from="1618905717820" duration="584000" />
+      <workItem from="1619029442631" duration="317000" />
     </task>
     <task id="LOCAL-00036" summary="progress">
       <created>1606997025430</created>
