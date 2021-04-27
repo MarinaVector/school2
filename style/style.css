@@ -297,13 +297,6 @@ margin-top: 70px;
     text-align: center;
 }
 
-@media screen and (max-device-width: 860px) {
-
-    .bg-star {
-    display: none;
-    }
-}
-
 @media screen and (min-device-width: 1000px) {
     .about-author1 {
 
@@ -1045,6 +1038,10 @@ ul .col-btn {
 
 .bg-page {
     background: rgba(94, 128, 30, 0.3);
+}
+
+.author-img {
+    z-index: 10;
 }
 
 @media only screen and (min-width : 992px) and (max-width : 1139px) {

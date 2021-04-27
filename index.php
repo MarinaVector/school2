@@ -16,7 +16,7 @@
                                         <h3 class="info-block__school-title mb-1 mt-md-5">Светлана Светайло</h3>
                                         <h1 class="info-block__coach-title">Бизнес монетизатор</h1>
 
-                                        <a class="info-block__btn info-block__full-btn info-block__yellow-btn mb-sm-5 my-xl-5 mr-2">приступить к
+                                        <a class="info-block__btn info-block__full-btn info-block__yellow-btn mb-sm-3 my-xl-5 mr-2">приступить к
                                 обучению</a>
                                         <a class="info-block__btn info-block__empty-btn info-block__empty-btn__yellow
                                         info-block__yellow-btn px-5">консультация</a>
@@ -33,29 +33,53 @@
                                         <img class="bg-star" style="padding-top: 0;" src="/img/Header-logo.png"
                                              border="0" height="1100" width="1140"  alt="star-logo"/>
                                     </div>
+                                    <div class="position-absolute d-lg-block d-none d-xl-none pt-4">
+                                        <img class="bg-star" style="padding-top: 0;" src="/img/lg_Header-logo.png"
+                                             border="0" height="869" width="900"  alt="star-logo"/>
+                                    </div>
+                                    <div class="position-absolute d-md-block d-none d-lg-none pt-4">
+                                        <img class="bg-star" style="padding-top: 0;" src="/img/md_Header-logo%20.png"
+                                             border="0" height="676" width="700"  alt="star-logo"/>
+                                    </div>
+                                    <div class="position-absolute d-sm-block d-none d-md-none pt-4">
+                                        <img class="bg-star" style="padding-top: 0;" src="/img/sm_Header-logo%20.png"
+                                             border="0" height="502" width="520"  alt="star-logo"/>
+                                    </div>
+                                    <div class="position-absolute d-block d-sm-none col-6 offset-4 mt-5">
+                                        <img class="bg-star" style="padding-top: 0;" src="/img/super_sm_Header-logo%20.png"
+                                             border="0" height="338" width="350"  alt="star-logo"/>
+                                    </div>
                                     <div class="col-md-12 col-12 my-lg-1 mx-auto pt-4">
                                         <p class="about-author__title my-lg-5 my-md-2">Об авторе</p>
                                     </div>
-                                    <div class="author-img d-md-block d-none">
+                                    <div class="author-img d-xl-block d-none">
                                         <img class="icon-img"  src="img/Photo.png" alt="Svetlana Svetailo photo">
                                     </div>
-
-                                    <div class="col-12 mx-auto d-none d-sm-block d-md-none small-bg">
+                                    <div class="author-img d-lg-block ml-lg-3 d-xl-none d-none">
+                                        <img class="icon-img"  src="img/Photo_small.png" alt="Svetlana Svetailo photo">
+                                    </div>
+                                    <div class="d-md-block col-md-6 pl-md-5 d-lg-none d-none small-foto">
                                         <img class="mt-1 ml-sm-0" src="img/Photo_min.png" alt="Svetlana Svetailo photo">
                                     </div>
-
-                                    <div class="col-12 mx-auto d-block d-sm-none small-foto">
+                                    <div class="d-sm-block col-sm-6 d-md-none d-none small-foto">
                                         <img class="mt-1 ml-sm-0" src="img/m_Photo_min.png" alt="Svetlana Svetailo photo">
                                     </div>
 
-                                    <div class="col-xl-6 offset-xl-6 col-12 px-3 px-md-0 offset-md-0">
-                                        <section class="pt-1 mx-3 mx-md-none ml-lg-1">
-                                            <h2 class="about-author__name about-author__name__title mt-md-3
+                                    <div class="col-10 offset-2 mx-auto d-block d-sm-none small-bg">
+                                        <img class="ml-sm-0" src="img/m_Photo_min.png" alt="Svetlana Svetailo photo">
+                                    </div>
+
+
+
+                                    <div class="col-sm-6 pl-sm-0 pr-sm-0 col-md-6 pr-md-0 pl-md-2 pl-lg-0 offset-xl-6 col-12">
+                                        <section class="pt-1 mx-3 mx-sm-0 pl-md-0 ml-lg-1">
+                                            <h2 class="about-author__name about-author__name__title mt-sm-3
                                              my-1 my-md-none">Светлана Светайло</h2>
                                             <p class="about-author__info">Бизнес-Монетизатор. Креативный-маркетолог. Экономист
                                             </p>
                                             <h4 class="about-author__name about-author__name__info">Я имею
                                         высшее экономическое образование</h4>
+
 
                                             <ul class="fa-ul about-author__list mr-lg-n5">
                                                 <li class="about-author__block pl-2 my-3"><span class="fa-li about-author__info">
@@ -79,7 +103,7 @@
                                                 монетизируют собственный ресурс. Даже если у собственника или у
                                                 руководителя есть идеи и решения по монетизации ресурса, их никто не
                                                 внедряет. Они так и остаются идеями, повисшими в воздухе.</p>
-                                            <p class="about-author__info my-1 px-lg-0 py-1 mb-5 mr-n4">Так в моей жизни
+                                            <p class="about-author__info my-1 px-lg-0 py-1 mb-lg-5 mr-n4">Так в моей жизни
                                                 появился еще один мощный инструмент под названием Монетизатор, который
                                                 помогает бизнесменам получить прибыль от монетизации ресурса, часто
                                                 превышающий доход от основного вида деятельности в несколько раз.
