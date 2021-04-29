@@ -2,7 +2,7 @@
     <div class="container px-0">
         <nav class="container px-0">
             <div class="row">
-                <a class="col-lg-2 mx-lg-0 col-12 text-center" href="../index.php">
+                <a class="col-lg-2 mx-lg-0 col-12 text-center logo-nav" href="../index.php">
                     <img class="main-nav__nav-logo" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">
                 </a>
 

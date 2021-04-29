@@ -2,7 +2,7 @@
     <div class="col-sm-12 text-center">
         <h3 class="section-product__title mb-md-5 mb-4">Кросс-маркетинг</h3>
 
-        <div class="video">
+        <div class="video mb-3 mb-lg-0">
             <a class="video__link" href="https://youtu.be/neHA4MJwpnY">
                 <picture class="video-block">
                     <source srcset="https://i.ytimg.com/vi_webp/JaTKpkQ_9v8/maxresdefault.webp"
@@ -20,12 +20,12 @@
                 </svg>
             </button>
         </div>
-
+<div class="video-btn">
         <a class="info-block__full-btn mb-5 my-md-5 info-block__full-btn__video"
-           href="courses.php">перейти
+           href="../courses.php">перейти
             к Инструкции по созданию
             колобораций для вашего бизнеса</a>
-
+</div>
 
     </div>
 </div>

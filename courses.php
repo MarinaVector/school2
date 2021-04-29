@@ -84,7 +84,7 @@
 
                             <p class="about-author__info col-xl-3 pr-xl-5 pl-0">С доверием к Вам, Светлана Светайло</p>
                             <div class="text-center my-5">
-                                <a class="info-block__full-btn px-5 mb-3">Скачать чек-лист</a>
+                                <a class="info-block__full-btn__list px-5 py-3 mb-3">Скачать чек-лист</a>
                             </div>
                         </div>
                     </div>

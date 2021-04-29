@@ -21,8 +21,11 @@
 </p>
 
 
-
-
 <div class="price mb-md-2 mb-4">Стоимость <br> консультации</div>
-<a class="info-block__empty-btn info-block__empty-btn__green px-3 py-2 mr-sm-5">10 000 руб.</a>
-<a class="info-block__full-btn px-5 mb-3 mb-md-0">Перейти к оплате</a>
+<div class="price mb-md-2 mb-4 fixed-panel">
+    <a class="info-block__empty-btn info-block__empty-btn__green px-3 mr-2 mr-sm-5 fixed-btn">10 000 руб.</a>
+    <a class="info-block__full-btn fixed-btn px-5 px-3 px-sm-5">Перейти к оплате</a>
+</div>
+
+
+
