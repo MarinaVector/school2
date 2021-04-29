@@ -22,19 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="no download!!!">
-      <change afterPath="$PROJECT_DIR$/main-page-parts/author_list.php" afterDir="false" />
+    <list default="true" id="86570c90-869d-478f-a9e5-75e32e023345" name="Default Changelist" comment="much">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses.php" beforeDir="false" afterPath="$PROJECT_DIR$/courses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general-components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general-components/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/general-components/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-page-parts/cross_video.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-page-parts/cross_video.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page-parts/nested-consalt.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-page-parts/nested-consalt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page-parts/nested-course-cross.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-page-parts/nested-course-cross.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page-parts/nested-course-monetize.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-page-parts/nested-course-monetize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page-parts/nested-course-tutorial.php" beforeDir="false" afterPath="$PROJECT_DIR$/main-page-parts/nested-course-tutorial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,21 +144,7 @@
       <workItem from="1619528323363" duration="3757000" />
       <workItem from="1619560988381" duration="13588000" />
       <workItem from="1619627329624" duration="6881000" />
-      <workItem from="1619690085019" duration="8590000" />
-    </task>
-    <task id="LOCAL-00037" summary="progress">
-      <created>1607006944220</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1607006944220</updated>
-    </task>
-    <task id="LOCAL-00038" summary="progress">
-      <created>1607008989397</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1607008989397</updated>
+      <workItem from="1619690085019" duration="9627000" />
     </task>
     <task id="LOCAL-00039" summary="progress">
       <created>1607016917811</created>
@@ -498,7 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619566662875</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="much">
+      <created>1619714040677</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1619714040682</updated>
+    </task>
+    <task id="LOCAL-00087" summary="much">
+      <created>1619714069342</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1619714069342</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +508,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shadow" />
     <MESSAGE value="btn and adaptiv" />
     <MESSAGE value="Video" />
     <MESSAGE value="Registration" />
@@ -542,6 +532,7 @@
     <MESSAGE value="new" />
     <MESSAGE value="progress" />
     <MESSAGE value="no download!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="no download!!!" />
+    <MESSAGE value="much" />
+    <option name="LAST_COMMIT_MESSAGE" value="much" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 <div class="container-fluid mb-5 mb-lg-0">
     <div class="container px-0">
-        <nav class="container px-0">
+        <nav class="container px-0 pt-2 pb-4">
             <div class="row">
                 <a class="col-lg-2 mx-lg-0 col-12 text-center logo-nav" href="../index.php">
                     <img class="main-nav__nav-logo" src="img/Small-logo.png" alt="Логотип бизнес монетизатор">

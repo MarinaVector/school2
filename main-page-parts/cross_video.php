@@ -21,7 +21,7 @@
             </button>
         </div>
 <div class="video-btn">
-        <a class="info-block__full-btn mb-5 my-md-5 info-block__full-btn__video"
+        <a class="info-block__full-btn mb-5 my-md-5 info-block__full-btn__video px-2 px-sm-3"
            href="../courses.php">перейти
             к Инструкции по созданию
             колобораций для вашего бизнеса</a>
